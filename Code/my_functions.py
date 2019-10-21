@@ -60,7 +60,11 @@ def ingredients_list(mylist, stopwords):
         b = textcleaner(item, stopwords)
         if ',' in b:
             comma_index = b.index(',')
-            to_append = b[comma_index-3:comma_index]
+            if comma_index <3:
+                dummy = 0
+            else:
+                dummy = comma_index-3
+            to_append = b[dummy:comma_index]
             a.append([i for i in to_append if not re.search('[0-9]',i)])
         else:
             to_append = b[-3:]
