@@ -105,6 +105,8 @@ MATCH (u1:user {name:$target})-[r1:hasrated]->(i:item)<-[r2:hasrated]-(u2:user)
 WITH count(DISTINCT u2) as countn
 RETURN countn;
 
+########## NOT DONE YET ############
+
 //#######################################
 //# User-based CF using cosine similarity
 //#######################################
