@@ -105,7 +105,16 @@ MATCH (u1:user {name:$target})-[r1:hasrated]->(i:item)<-[r2:hasrated]-(u2:user)
 WITH count(DISTINCT u2) as countn
 RETURN countn;
 
-########## NOT DONE YET ############
+//get shared ingredients
+match (rec:recipes {name:"Babka I"}) --(ing:ingredients)--(rec2:recipes)
+with rec2, count(*) as c
+where c>2
+match (rec:recipes {name:"Babka I"}) --(ing2:ingredients)--(rec2:recipes)
+return rec, ing2, rec2
+
+//###################################################
+//# CODE BELOW IS NOT UPDATED YET
+//###################################################
 
 //#######################################
 //# User-based CF using cosine similarity
