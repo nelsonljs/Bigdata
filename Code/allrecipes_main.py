@@ -2,7 +2,7 @@ import json
 import my_functions
 import pandas as pd
 
-N = 50 #read first 50 lines to sandbox
+N = 100 #read first 50 lines to sandbox
 with open('allrecipes-recipes.json') as json_file:
     head = [next(json_file) for x in range(N)]
 
@@ -23,6 +23,7 @@ methodslist = []
 recipelist = []
 reviewslist = []
 reviewscountlist = []
+totaltimelist= []
 
 for item in mydata:
     firstlist = my_functions.ingredients_list(item['ingredients'],measurement_corpus)
@@ -40,7 +41,8 @@ for item in mydata:
     
     recipelist.append(item['title'])
     reviewslist.append(item['rating_stars'])
-    reviewscountlist.append(item['review_count'])   
+    reviewscountlist.append(item['review_count'])  
+    totaltimelist.append(item['cook_time_minutes']+item['prep_time_minutes'])
 
 ingredientsdf = pd.DataFrame(ingredientslist)
 ingredientsdf = ingredientsdf.rename(columns = lambda x : 'ingredient_' + str(x))
@@ -51,10 +53,27 @@ methodsdf = methodsdf.rename(columns = lambda x : 'method_' + str(x))
 #Assemble a data frame with for each item
 mydf = pd.DataFrame({'Recipe':recipelist,
                      'Average Review': reviewslist,
-                     'Review Count': reviewscountlist})
+                     'Review Count': reviewscountlist,
+                     'Prep Time': totaltimelist})
     
 mydf = pd.concat([mydf, ingredientsdf, methodsdf], axis=1)
-mydf.to_csv('sampledf.csv')    
+mydf1 = mydf[['Recipe','Average Review','Review Count','Prep Time']]
+mydf1.to_csv('Recipe_identifier.csv')
+
+mydf2 = mydf.iloc[:,[0]+list(range(4,4+len(ingredientsdf.columns)-1))]
+mydf2 = mydf2.melt(id_vars=['Recipe'], value_name = 'Ingredients')
+mydf2 = mydf2.iloc[:,[0,2]]
+mydf2 = mydf2[mydf2['Ingredients'].notnull()]
+mydf2.to_csv('Recipe_Ingredients_Graph.csv')
+
+mydf3 = mydf.iloc[:,[0]+list(range(4+len(ingredientsdf.columns),4+len(ingredientsdf.columns)+len(methodsdf.columns)-1))]
+mydf3 = mydf3.melt(id_vars=['Recipe'], value_name = 'Methods')
+mydf3 = mydf3.iloc[:,[0,2]]
+mydf3 = mydf3[mydf3['Methods'].notnull()]
+mydf3.to_csv('Recipe_Methods_Graph.csv')
+
+
+#mydf.to_csv('sampledf.csv')    
 #writing into multiple lines
 ######Creating smaller jsons for github.
 #with open('allrecipes_small.json', 'w') as outfile:
