@@ -112,6 +112,16 @@ where c>2
 match (rec:recipes {name:"Babka I"}) --(ing2:ingredients)--(rec2:recipes)
 return rec, ing2, rec2
 
+#####26 October 2019 
+//To obtain recipes that fits the following condition
+MATCH(r1:recipes)--(i1:ingredients {name:"salt"})
+MATCH(r1:recipes)--(i2:ingredients {name:"butter"})
+MATCH(r1:recipes)--(i3:ingredients {name:"egg"})
+MATCH(r1:recipes)--(i4:ingredients {name:"white sugar"})
+MATCH(r1:recipes)--(ingredients)
+// ** if we want to check out the type of flours used, add this WHERE ingredients.name CONTAINS("flour")
+RETURN r1,ingredients
+
 //###################################################
 //# CODE BELOW IS NOT UPDATED YET
 //###################################################
