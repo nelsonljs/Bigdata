@@ -14,13 +14,13 @@ abc = dbReadTable(con, "acoustic_features")
 def = dbReadTable(con, "albums")
 head(abc)
 # You can fetch all results:
-res <- dbSendQuery(con, "SELECT * FROM mtcars WHERE cyl = 4")
+res <- dbSendQuery(con, "SELECT * FROM acoustic_features WHERE acousticness = 0.0555")
 dbFetch(res)
 
 dbClearResult(res)
 
 # Or a chunk at a time
-res <- dbSendQuery(con, "SELECT * FROM mtcars WHERE cyl = 4")
+res <- dbSendQuery(con, "SELECT * FROM acoustic_features WHERE acousticness = 0.0555")
 while(!dbHasCompleted(res)){
   chunk <- dbFetch(res, n = 5)
   print(nrow(chunk))
