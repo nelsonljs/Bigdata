@@ -31,19 +31,3 @@ dbClearResult(res)
 
 # Disconnect from the database
 dbDisconnect(con)
-
-#reading csvs
-abc = read.csv("ratings_Toys_and_Games.csv", as.is = TRUE)
-
-#reading json
-result = paste(readLines("amazon_games_reviews.json", n=3000), collapse = ",")
-result = sprintf("[%s]", result)
-result <- fromJSON(result)
-result = cbind(select(result,-helpful), helpful = do.call(rbind,result$helpful))
-#write.csv(result, file = "amazon-video-game-sample-3000.csv")
-
-result2 = readLines("meta_Video_Games.json", n=50)
-result2 = str_replace_all(result2, "\\'","\"")
-data_raw <- sapply(result2, fromJSON)
-data3 = rjson::fromJSON(result2[[2]])
-result2 <- fromJSON(result2)
