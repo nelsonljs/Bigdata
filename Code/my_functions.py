@@ -84,8 +84,9 @@ def textcleaner2(mytext, includewords):
 #    mytext = mytext.lower()
 #    mytext_nopunc_tokens = mytokenizer.tokenize(mytext)
     
-     #This tokenizer retains brackets
+     #This tokenizer retains brackets and :
     mytext=re.sub(u"\\(.*?\\)", "", mytext)
+    mytext= re.sub(u":", "", mytext)
      #This tokenizer retains punctuation
     mytext = mytext.lower()
     mytext_nopunc_tokens = word_tokenize(mytext)
