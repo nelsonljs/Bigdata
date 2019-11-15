@@ -3,7 +3,7 @@ import my_functions
 import pandas as pd
 
 N = 100 #read first 50 lines to sandbox
-with open('allrecipes-recipes.json') as json_file:
+with open('data/allrecipes_small.json') as json_file:
     head = [next(json_file) for x in range(N)]
 
 with open('measurements.txt') as file:

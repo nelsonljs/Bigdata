@@ -28,6 +28,8 @@ def textcleaner(mytext, stopwords):
     
     #This tokenizer retains punctuation
     mytext = mytext.lower()
+    #This tokenizer retains brackets
+    mytext=re.sub(u"\\(.*?\\)", "", mytext)
     mytext_nopunc_tokens = word_tokenize(mytext)
 
     #lemmatize
@@ -82,7 +84,9 @@ def textcleaner2(mytext, includewords):
 #    mytext = mytext.lower()
 #    mytext_nopunc_tokens = mytokenizer.tokenize(mytext)
     
-    #This tokenizer retains punctuation
+     #This tokenizer retains brackets
+    mytext=re.sub(u"\\(.*?\\)", "", mytext)
+     #This tokenizer retains punctuation
     mytext = mytext.lower()
     mytext_nopunc_tokens = word_tokenize(mytext)
 
