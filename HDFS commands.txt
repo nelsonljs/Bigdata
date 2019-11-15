@@ -1,0 +1,76 @@
+#Shell / Terminal
+#Start HDFS and Yarn
+start-dfs.sh
+start-yarn.sh
+
+#If needed: Stop yarn
+stop-dfs.sh
+
+#In Shell: Install Jupyter Notebook
+sudo apt-get install -y python-dev
+sudo pip install --upgrade pip
+sudo pip install jupyter
+sudo apt-get install -y python-seaborn python-pandas
+sudo apt-get install -y ttf-bitstream-vera
+sudo pip3 install jupyter
+sudo ipython3 kernelspec install-self
+
+#Configure Jupyter Notebook
+jupyter notebook --generate-config
+#Navigate to config file (/home/pi/.jupyter/)
+#Add the following
+c.NotebookApp.allow_origin = '*'
+c.NotebookApp.ip = '0.0.0.0'
+
+#Install UFW firewall
+sudo apt-get install ufw
+sudo ufw status
+sudo ufw enable
+sudo ufw status verbose
+sudo ufw allow ssh
+sudo ufw status
+sudo ufw allow #port:#port
+
+#Launch Jupyter Notebook
+jupyter notebook
+
+#In Shell
+#Make directory
+hadoop fs -mkdir /tmp
+
+#Upload file
+hadoop fs -put /home/pi/Desktop/Recipe_Ingredients_Graph.csv /tmp/
+
+#List directory and check if file exists in directory
+hadoop fs -ls /tmp
+
+#View content
+hdfs dfs -cat /tmp/Recipe_Ingredients_Graph.csv
+
+############################################################################
+#Python
+
+#Load HDFS files
+pip3 install pydoop
+import pydoop.hdfs as hdfs
+hdfs.load('#dir')
+
+#Load HDFS files
+pip3 install hdfs[avro,dataframe,kerberos]
+from hdfs import Config
+from hdfs.ext.dataframe import read_dataframe, write_dataframe
+import pandas as pd
+
+
+############################################################################
+#Spark
+#Find namenode director
+hdfs getconf -confKey fs.defaultFS
+
+#Load txt
+val input = sc.textFile("hdfs://localhost:9000/hello.txt")
+
+#Load csv
+spark.read.
+  option("header","true").
+  csv("hdfs://localhost:9000/RI.csv").show
