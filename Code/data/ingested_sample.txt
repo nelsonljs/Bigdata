@@ -1,0 +1,1000 @@
+{"recipe": "Basil, Roasted Peppers and Monterey Jack Cornbread", "ingredient": ["unsalted butter", "onion", "cornmeal", "all-purpose flour", "white sugar", "powder", "salt", "soda", "buttermilk", "eggs", "pepperjack cheese", "frozen corn kernels", "red bell peppers", "fresh basil"]}
+{"recipe": "Crispy Cheese Twists", "ingredient": ["Parmesan cheese", "ground black pepper", "garlic powder", "frozen puff pastry", "egg white"]}
+{"recipe": "Mom's Yeast Rolls", "ingredient": ["hot water", "margarine", "white sugar", "salt", "cold water", "active dry yeast", "all-purpose flour", "eggs"]}
+{"recipe": "Sweet Potato Bread I", "ingredient": ["white sugar", "vegetable oil", "eggs", "all-purpose flour", "soda", "salt", "ground cinnamon", "ground nutmeg", "water", "sweet potatoes", "chopped pecans"]}
+{"recipe": "Orange Buns", "ingredient": ["butter", "white sugar", "hot milk", "active dry yeast", "flour", "white sugar", "eggs", "orange juice", "orange zest", "salt"]}
+{"recipe": "Cornish Splits", "ingredient": ["active dry yeast", "lukewarm milk", "white sugar", "unbleached all-purpose flour", "salt", "butter"]}
+{"recipe": "Jalapeno Cheese Bread", "ingredient": ["all-purpose flour", "Cheddar cheese", "jalapeno peppers", "white sugar", "salt", "hot water", "active dry yeast", "vegetable oil"]}
+{"recipe": "Dee's Health Bread", "ingredient": ["active dry yeast", "white sugar", "warm water", "warm water", "honey", "molasses", "vegetable oil", "eggs", "lemon juice", "whole wheat flour", "flax seed", "wheat", "sunflower seeds", "salt", "flour"]}
+{"recipe": "Oatmeal Bread I", "ingredient": ["oats", "molasses", "vegetable oil", "salt", "boiling water", "active dry yeast", "lukewarm water", "whole wheat flour", "flour", "eggs"]}
+{"recipe": "Strawberry Bread I", "ingredient": ["all-purpose flour", "white sugar", "ground cinnamon", "salt", "soda", "eggs", "vegetable oil", "chopped pecans", "frozen strawberries"]}
+{"recipe": "Sun Dried Tomato and Asiago Cheese Bread", "ingredient": ["water", "extra virgin olive oil", "lemon juice", "white sugar", "instant milk", "salt", "flour", "amaranth flour", "sun-dried tomatoes", "cheese", "basil", "ground black pepper", "active dry yeast"]}
+{"recipe": "Hawaiian Sweet Bread", "ingredient": ["warm water", "white sugar", "all-purpose flour", "salt", "dry milk powder", "dry potato flakes", "active dry yeast", "vanilla extract", "lemon extract", "eggs", "margarine"]}
+{"recipe": "The Best Corn Bread You'll Ever Eat", "ingredient": ["egg", "milk", "vegetable oil", "self-rising corn meal mix", "cream-style corn", "sour cream"]}
+{"recipe": "No Knead Refrigerator Rolls", "ingredient": ["active dry yeast", "warm water", "white sugar", "salt", "shortening", "all-purpose flour", "egg"]}
+{"recipe": "Sourdough Starter I", "ingredient": ["instant potato flakes", "white sugar", "warm water", "active dry yeast"]}
+{"recipe": "Sourdough Bread I", "ingredient": ["sourdough starter", "warm water", "salt", "white sugar", "corn oil", "flour"]}
+{"recipe": "Dilly Bread", "ingredient": ["active dry yeast", "warm water", "white sugar", "cottage cheese", "margarine", "white sugar", "dill seed", "minced onion", "salt", "soda", "egg", "all-purpose flour", "margarine", "kosher salt"]}
+{"recipe": "Pumpkin Bread I", "ingredient": ["all-purpose flour", "soda", "salt", "powder", "white sugar", "ground cinnamon", "pumpkin pie spice", "applesauce", "eggs", "pumpkin", "water", "walnuts"]}
+{"recipe": "Sy's Challah", "ingredient": ["white sugar", "salt", "vegetable oil", "warm water", "active dry yeast", "eggs", "all-purpose flour", "egg", "poppy seeds"]}
+{"recipe": "Onion Bread I", "ingredient": ["active dry yeast", "warm water", "milk", "white sugar", "salt", "margarine", "all-purpose flour", "dry onion soup mix"]}
+{"recipe": "Grandma VanDoren's White Bread", "ingredient": ["warm water", "active dry yeast", "salt", "vegetable oil", "white sugar", "flour"]}
+{"recipe": "Italian Bread I", "ingredient": ["sun-dried tomatoes", "all-purpose flour", "white sugar", "powder", "soda", "salt", "rosemary", "parsley", "sharp Cheddar cheese", "green onions", "egg", "buttermilk", "olive oil", "garlic"]}
+{"recipe": "Sunday Dinner Rolls", "ingredient": ["active dry yeast", "warm water", "white sugar", "white sugar", "eggs", "warm water", "vegetable oil", "salt", "all-purpose flour"]}
+{"recipe": "Banana Wheat Bread", "ingredient": ["whole wheat flour", "wheat germ", "salt", "soda", "bananas", "vegetable oil", "honey", "eggs", "vanilla extract", "chopped pecans"]}
+{"recipe": "Banana Bread", "ingredient": ["all-purpose flour", "soda", "salt", "white sugar", "eggs", "butter", "bananas"]}
+{"recipe": "Candied Fruit Bread", "ingredient": ["all-purpose flour", "powder", "salt", "ground cinnamon", "white sugar", "citron", "currants", "candied cherries", "candied lemon peel", "almonds", "chopped pecans", "milk", "eggs", "butter"]}
+{"recipe": "Nut and Fruit Bread", "ingredient": ["all-purpose flour", "powder", "salt", "white sugar", "walnuts", "raisins", "orange zest", "egg", "milk", "butter"]}
+{"recipe": "Mother's Banana Bread", "ingredient": ["all-purpose flour", "powder", "soda", "salt", "white sugar", "butter", "eggs", "banana", "walnuts"]}
+{"recipe": "Pumpernickel Bread I", "ingredient": ["warm milk", "vegetable oil", "molasses", "flour", "flour", "cornmeal", "salt", "active dry yeast", "unsweetened cocoa powder"]}
+{"recipe": "Buttermilk Bread I", "ingredient": ["buttermilk", "margarine", "white sugar", "salt", "flour", "whole wheat flour", "active dry yeast"]}
+{"recipe": "Sun Dried Tomato Focaccia", "ingredient": ["water", "flour", "dry milk powder", "white sugar", "salt", "margarine", "active dry yeast", "sun-dried tomatoes", "olive oil", "Parmesan cheese", "rosemary", "garlic salt", "mozzarella cheese"]}
+{"recipe": "Michell Jenny's Challah", "ingredient": ["water", "salt", "honey", "eggs", "butter", "all-purpose flour", "active dry yeast"]}
+{"recipe": "Potato Bread I", "ingredient": ["water", "instant potato flakes", "egg", "margarine", "white sugar", "dry milk powder", "salt", "flour", "active dry yeast"]}
+{"recipe": "Delicious Pumpkin Bread", "ingredient": ["all-purpose flour", "white sugar", "soda", "salt", "ground nutmeg", "ground cinnamon", "solid pack pumpkin puree", "water", "vegetable oil", "eggs", "walnuts"]}
+{"recipe": "Mom's Zucchini Bread", "ingredient": ["all-purpose flour", "salt", "soda", "powder", "ground cinnamon", "eggs", "vegetable oil", "white sugar", "vanilla extract", "zucchini", "walnuts"]}
+{"recipe": "Cinnamon Cranraisin Bread", "ingredient": ["warm water", "egg", "margarine", "all-purpose flour", "dry milk powder", "white sugar", "ground cinnamon", "vanilla extract", "salt", "active dry yeast", "dried cranberries"]}
+{"recipe": "Molasses-Oat Bran Bread", "ingredient": ["active dry yeast", "white sugar", "warm water", "butter", "molasses", "oat bran", "whole wheat flour", "salt", "oat bran"]}
+{"recipe": "Fabulous Homemade Bread", "ingredient": ["warm water", "active dry yeast", "flour", "white sugar", "quick cooking oats", "whole wheat flour", "warm water", "salt", "brown sugar", "vegetable oil", "flour"]}
+{"recipe": "Persimmon Bread I", "ingredient": ["eggs", "all-purpose flour", "white sugar", "salt", "vegetable oil", "ground cinnamon", "persimmon pulp", "walnuts", "soda", "raisins"]}
+{"recipe": "Cinnamon Carrot Bread", "ingredient": ["white sugar", "brown sugar", "seed oil", "all-purpose flour", "powder", "soda", "ground cinnamon", "eggs", "salt", "carrots", "chopped pecans", "vanilla extract"]}
+{"recipe": "Strawberry Bread II", "ingredient": ["butter", "white sugar", "eggs", "all-purpose flour", "powder", "soda", "almond extract", "frozen strawberries juice"]}
+{"recipe": "Alienated Blueberry Muffins", "ingredient": ["fresh blueberries", "all-purpose flour", "all-purpose flour", "powder", "salt", "margarine", "white sugar", "eggs", "vanilla extract", "milk"]}
+{"recipe": "Yummy Lemon Bread", "ingredient": ["butter", "white sugar", "milk", "eggs", "all-purpose flour", "powder", "lemon zest", "walnuts", "lemon juice", "confectioners sugar"]}
+{"recipe": "Nick's Favorite Cherry Pecan Bread", "ingredient": ["margarine", "white sugar", "eggs", "buttermilk", "soda", "salt", "vanilla extract", "all-purpose flour", "maraschino cherries", "chopped pecans"]}
+{"recipe": "Swedish Rye Bread I", "ingredient": ["cakes fresh yeast", "warm water", "warm milk", "salt", "flour", "molasses", "brown sugar", "shortening", "flour"]}
+{"recipe": "Bran Muffins I", "ingredient": ["raisin bran cereal", "whole bran cereal", "boiling water", "shortening", "white sugar", "eggs", "buttermilk", "all-purpose flour", "soda", "salt"]}
+{"recipe": "Zucchini Walnut Bread", "ingredient": ["walnuts", "eggs", "white sugar", "vegetable oil", "all-purpose flour", "soda", "salt", "ground cinnamon", "powder", "zucchini", "raisins", "vanilla extract"]}
+{"recipe": "Apricot Nut Bread", "ingredient": ["apricot halves", "shortening", "white sugar", "eggs", "all-purpose flour", "powder", "soda", "salt", "walnuts"]}
+{"recipe": "Babka I", "ingredient": ["milk", "unsalted butter room temperature", "cake yeast", "warm water", "eggs room temperature", "egg yolks room temperature", "white sugar", "salt", "vanilla extract", "orange liqueur", "orange zest", "lemon zest", "all-purpose flour", "currants", "raisins", "golden raisins", "almonds", "Topping", "all-purpose flour", "brown sugar", "ground cinnamon", "butter", "eggs", "water"]}
+{"recipe": "Brazilian Banana Bread", "ingredient": ["margarine", "white sugar", "egg yolks", "all-purpose flour", "powder", "milk", "egg whites", "bananas", "white sugar", "ground cinnamon"]}
+{"recipe": "Easy Banana Bread", "ingredient": ["ripe bananas", "eggs", "shortening", "white sugar", "vanilla extract", "all-purpose flour", "soda", "salt"]}
+{"recipe": "Banana Oat Muffins", "ingredient": ["unbleached all-purpose flour", "oats", "white sugar", "powder", "soda", "salt", "egg", "milk", "vegetable oil", "vanilla extract", "bananas"]}
+{"recipe": "Canadian Doughnuts", "ingredient": ["white sugar", "warm water", "active dry yeast", "vegetable oil", "warm water", "salt", "white sugar", "all-purpose flour", "whole wheat flour", "lemon juice", "white sugar", "ground cinnamon"]}
+{"recipe": "Beer Bread I", "ingredient": ["beer", "self-rising flour", "white sugar"]}
+{"recipe": "Beer Biscuits", "ingredient": ["all-purpose flour", "powder", "salt", "shortening", "beer"]}
+{"recipe": "Cardamom Bread", "ingredient": ["egg", "water", "skim milk", "salt", "canola oil", "flour", "ground cardamom", "white sugar", "active dry yeast"]}
+{"recipe": "Three C Bread", "ingredient": ["eggs", "vegetable oil", "milk", "all-purpose flour", "white sugar", "powder", "soda", "ground cinnamon", "salt", "carrots", "coconut", "maraschino cherries", "raisins", "chopped pecans"]}
+{"recipe": "Grandma Cornish's Whole Wheat Potato Bread", "ingredient": ["medium potato", "water", "salt", "white sugar", "shortening", "salt", "warm milk", "active dry yeast", "warm water", "white sugar", "whole wheat flour"]}
+{"recipe": "Chocolate Bread", "ingredient": ["seed oil", "salt", "warm water", "instant yeast", "flour", "white sugar", "unsweetened cocoa powder"]}
+{"recipe": "Strawberry Rhubarb Muffins", "ingredient": ["flour", "amaranth flour", "brown rice flour", "powder", "soda", "ground allspice", "rhubarb", "water", "honey", "vegetable oil", "egg", "chopped strawberries"]}
+{"recipe": "Poppy Seed Bread I", "ingredient": ["salt", "poppy seeds", "all-purpose flour", "eggs", "vegetable oil", "white sugar", "soda", "vanilla extract", "milk"]}
+{"recipe": "Zucchini Bread", "ingredient": ["all-purpose flour", "eggs", "white sugar", "vegetable oil", "zucchini", "semisweet chocolate chips", "ground cinnamon", "soda", "powder", "sour cream"]}
+{"recipe": "Honey Wheat Bread I", "ingredient": ["rapid rise yeast", "white sugar", "warm water", "milk", "water", "shortening", "honey", "salt", "whole wheat flour", "flour", "butter"]}
+{"recipe": "Honey White Bread", "ingredient": ["milk", "unsalted butter", "honey", "flour", "salt", "vitamin c powder", "ground ginger", "active dry yeast"]}
+{"recipe": "Mom's Hazelnut Special", "ingredient": ["active dry yeast", "flour", "whole wheat flour", "flour", "warm water", "sesame seeds", "sunflower seeds", "hazelnuts", "white sugar", "vegetable oil", "salt"]}
+{"recipe": "Quick Lemon Poppy Seed Bread", "ingredient": ["lemon cake mix", "eggs", "vegetable oil", "instant lemon mix", "water", "poppy seeds"]}
+{"recipe": "Maple Zucchini Bread", "ingredient": ["eggs", "vegetable oil", "brown sugar", "white sugar", "maple extract", "all-purpose flour", "wheat germ", "soda", "salt", "powder", "zucchini", "walnuts"]}
+{"recipe": "Chocolate Chip Orange Zucchini Bread", "ingredient": ["eggs", "white sugar", "vegetable oil", "vanilla extract", "zucchini", "walnuts", "semisweet chocolate chips", "orange zest", "all-purpose flour", "powder", "soda", "salt", "ground cinnamon", "ground nutmeg"]}
+{"recipe": "Chocolate Chip Pumpkin Bread", "ingredient": ["white sugar", "pumpkin", "vegetable oil", "water", "eggs", "all-purpose flour", "ground cinnamon", "ground nutmeg", "soda", "salt", "miniature semisweet chocolate chips", "walnuts"]}
+{"recipe": "Red Pepper Biscuits", "ingredient": ["mix", "red pepper flakes", "garlic powder", "milk", "Cheddar cheese", "butter"]}
+{"recipe": "Chocolate Wave Zucchini Bread", "ingredient": ["shortening", "white sugar", "eggs", "zucchini", "water", "vanilla extract", "all-purpose flour", "soda", "salt", "powder", "pumpkin pie spice", "walnuts", "unsweetened cocoa powder", "semi-sweet chocolate chips"]}
+{"recipe": "Wheat and Barley Bread", "ingredient": ["wheat barley nugget cereal", "buttermilk", "egg", "white sugar", "soda", "salt", "all-purpose flour", "shortening"]}
+{"recipe": "Tomato Bread I", "ingredient": ["tomato juice", "water", "instant yeast", "vegetable oil", "honey", "fresh parsley", "green onions", "garlic", "carrot", "salt", "flour"]}
+{"recipe": "Zucchini Bread II", "ingredient": ["eggs", "vegetable oil", "brown sugar", "zucchini", "vanilla extract", "all-purpose flour", "ground cinnamon", "powder", "soda", "salt", "raisins", "walnuts"]}
+{"recipe": "Mall Pretzels", "ingredient": ["active dry yeast", "brown sugar", "salt", "warm water", "all-purpose flour", "flour", "warm water", "soda", "butter", "coarse kosher salt"]}
+{"recipe": "Soft Pretzels I", "ingredient": ["warm water", "margarine", "white sugar", "salt", "all-purpose flour", "active dry yeast", "water", "soda", "kosher salt"]}
+{"recipe": "Sweet Potato Rolls", "ingredient": ["active dry yeast", "white sugar", "sweet potato", "warm water", "margarine", "salt", "eggs", "all-purpose flour"]}
+{"recipe": "Tea Biscuits", "ingredient": ["all-purpose flour", "powder", "salt", "shortening", "milk"]}
+{"recipe": "Cheddar Biscuits", "ingredient": ["biscuit mix", "Cheddar cheese", "milk", "garlic powder", "margarine", "parsley", "garlic salt"]}
+{"recipe": "Cottage Dill Bread", "ingredient": ["warm water", "cottage cheese", "margarine", "flour", "white sugar", "dry milk powder", "minced onion", "dill seed", "salt", "active dry yeast"]}
+{"recipe": "English Muffin Loaves", "ingredient": ["active dry yeast", "all-purpose flour", "white sugar", "milk", "soda", "water", "salt", "cornmeal"]}
+{"recipe": "Parmesan Focaccia Bread", "ingredient": ["warm water", "white sugar", "salt", "flour", "lecithin", "bread machine yeast", "olive oil", "oregano", "olive oil", "Parmesan cheese"]}
+{"recipe": "Darbey Bread", "ingredient": ["frozen bread dough", "sharp Cheddar cheese", "onion", "olive oil", "Italian seasoning"]}
+{"recipe": "Nonfat Sour Cream Cake Bread", "ingredient": ["fat free sour cream", "salt", "light brown sugar", "egg whites", "skim milk", "vanilla extract", "unbleached all-purpose flour", "active dry yeast"]}
+{"recipe": "Coconut Bread I", "ingredient": ["butter", "vanilla sugar", "eggs", "coconut extract", "self-rising flour", "sour cream", "coconut", "confectioners sugar", "milk"]}
+{"recipe": "Irish Soda Bread I", "ingredient": ["all-purpose flour", "white sugar", "soda", "powder", "salt", "eggs", "sour cream", "raisins"]}
+{"recipe": "Ciabatta", "ingredient": ["Sponge", "active dry yeast", "warm water", "warm water", "flour", "Bread", "active dry yeast", "warm milk", "warm water", "olive oil", "flour", "salt"]}
+{"recipe": "Lower Fat Banana Nut Bread", "ingredient": ["fat free sour cream", "egg whites", "walnuts", "raisins", "powder", "soda", "ripe bananas", "fat margarine", "vanilla extract", "salt", "light brown sugar", "unbleached all-purpose flour"]}
+{"recipe": "Orange Nut Bread", "ingredient": ["orange zest", "fresh orange juice", "hot water", "shortening", "vanilla extract", "egg", "all-purpose flour", "salt", "powder", "soda", "white sugar", "walnuts"]}
+{"recipe": "Poppy Seed Bread II", "ingredient": ["all-purpose flour", "salt", "powder", "eggs", "milk", "vegetable oil", "white sugar", "poppy seeds", "vanilla extract", "lemon extract", "butter extract", "orange juice", "confectioners sugar"]}
+{"recipe": "Oatmeal Chocolate Chip Muffins", "ingredient": ["quick cooking oats", "milk", "egg", "vegetable oil", "brown sugar", "semisweet chocolate chips", "chopped pecans", "all-purpose flour", "powder", "salt"]}
+{"recipe": "Lower Fat Banana Bread I", "ingredient": ["white sugar", "margarine", "eggs", "bananas", "water", "all-purpose flour", "soda", "salt", "powder"]}
+{"recipe": "Sourdough Bread II", "ingredient": ["active dry yeast", "warm water", "flour", "warm water", "white sugar", "salt", "active dry yeast", "warm water", "sourdough starter", "white sugar", "salt", "soda", "flour", "butter"]}
+{"recipe": "Parmesan Herb Bread", "ingredient": ["warm water", "margarine", "oregano", "white sugar", "active dry yeast", "Parmesan cheese", "all-purpose flour", "salt", "Parmesan cheese"]}
+{"recipe": "Simple Banana Bread", "ingredient": ["bananas", "white sugar", "eggs", "all-purpose flour", "powder", "salt", "walnuts"]}
+{"recipe": "Unbelievable Rolls", "ingredient": ["milk", "water", "white sugar", "salt", "eggs", "active dry yeast", "all-purpose flour", "margarine"]}
+{"recipe": "Pecan Sticky Buns", "ingredient": ["active dry yeast", "warm water", "buttermilk", "eggs", "all-purpose flour", "margarine", "white sugar", "powder", "salt", "butter", "white sugar", "ground cinnamon", "chopped pecans", "brown sugar", "butter"]}
+{"recipe": "Challah I", "ingredient": ["warm water", "active dry yeast", "honey", "vegetable oil", "eggs", "salt", "unbleached all-purpose flour", "poppy seeds"]}
+{"recipe": "Tasty Buns", "ingredient": ["all-purpose flour", "dry yeast", "milk", "water", "vegetable oil", "white sugar", "salt"]}
+{"recipe": "Breakfast Muffins", "ingredient": ["all-purpose flour", "white sugar", "powder", "salt", "milk", "egg", "butter", "fresh blueberries"]}
+{"recipe": "Honey Wheat Bread II", "ingredient": ["warm water", "whole wheat flour", "active dry yeast", "salt", "honey", "vegetable oil", "all-purpose flour"]}
+{"recipe": "Special Pumpkin Bread", "ingredient": ["vegetable oil", "pumpkin", "brown sugar", "white sugar", "instant coconut cream mix", "soda", "eggs", "all-purpose flour", "salt", "ground cinnamon", "walnuts"]}
+{"recipe": "4H Banana Bread", "ingredient": ["all-purpose flour", "soda", "white sugar", "egg", "milk", "powder", "salt", "margarine", "bananas", "walnuts"]}
+{"recipe": "Oatmeal Blueberry Muffins", "ingredient": ["quick cooking oats", "all-purpose flour", "white sugar", "powder", "salt", "milk", "egg", "vegetable oil", "blueberries"]}
+{"recipe": "Instant Rolls", "ingredient": ["self-rising flour", "white sugar", "mayonnaise", "milk"]}
+{"recipe": "Basic Sweet Dough", "ingredient": ["milk", "all-purpose flour", "cold water", "cakes fresh yeast", "salt", "white sugar", "shortening", "eggs", "shortening"]}
+{"recipe": "Lemon Bread", "ingredient": ["shortening", "white sugar", "eggs", "milk", "all-purpose flour", "salt", "powder", "lemon zest", "walnuts", "white sugar", "lemon"]}
+{"recipe": "Pumpkin Coconut Bread", "ingredient": ["white sugar", "brown sugar", "vegetable oil", "eggs", "pumpkin", "all-purpose flour", "soda", "salt", "ground cloves", "ground cinnamon", "ground allspice", "ground nutmeg", "water", "coconut", "walnuts"]}
+{"recipe": "Simple White Bread", "ingredient": ["active dry yeast", "warm water", "nonfat dry milk powder", "vegetable oil", "white sugar", "salt", "all-purpose flour", "butter"]}
+{"recipe": "Hazelnut Chocolate Chip Scones", "ingredient": ["all-purpose flour", "brown sugar", "powder", "soda", "salt", "unsalted butter", "buttermilk", "egg", "almond extract", "semisweet chocolate chips", "hazelnuts"]}
+{"recipe": "Simple Whole Wheat Bread", "ingredient": ["warm water", "active dry yeast", "honey", "flour", "butter", "honey", "salt", "whole wheat flour", "butter"]}
+{"recipe": "Rye Beer Bread", "ingredient": ["flour", "room temperature beer", "active dry yeast", "white sugar", "salt", "shortening", "egg", "flour", "caraway seed", "cornmeal"]}
+{"recipe": "Mrs. Kurtz's Banana Bread", "ingredient": ["margarine", "white sugar", "egg", "bananas", "sour milk", "soda", "all-purpose flour", "salt"]}
+{"recipe": "Pizza Dough I", "ingredient": ["all-purpose flour", "active dry yeast", "vegetable oil", "salt", "white sugar", "warm water"]}
+{"recipe": "Banana Nut Bread I", "ingredient": ["white sugar", "shortening", "eggs", "bananas", "all-purpose flour", "buttermilk", "soda", "powder", "vanilla extract", "walnuts"]}
+{"recipe": "Blue Ribbon Overnight Rolls", "ingredient": ["active dry yeast", "warm milk", "white sugar", "eggs", "butter", "salt", "all-purpose flour"]}
+{"recipe": "Cinnamon Raisin Bread I", "ingredient": ["milk", "warm water", "active dry yeast", "eggs", "white sugar", "salt", "margarine", "raisins", "all-purpose flour", "milk", "white sugar", "ground cinnamon", "butter"]}
+{"recipe": "Homemade Focaccia Bread", "ingredient": ["all-purpose flour", "white sugar", "salt", "active dry yeast", "water", "vegetable oil", "egg", "olive oil", "rosemary"]}
+{"recipe": "Whole Wheat Bread I", "ingredient": ["wheat", "water", "whole wheat flour", "flour", "active dry yeast", "water", "honey", "lard", "salt"]}
+{"recipe": "Sourdough Drop Biscuits", "ingredient": ["sourdough starter", "vegetable oil", "soda", "salt", "all-purpose flour"]}
+{"recipe": "Sourdough Starter II", "ingredient": ["all-purpose flour", "warm water", "active dry yeast"]}
+{"recipe": "Milk and Honey Loaf", "ingredient": ["active dry yeast", "honey", "warm water", "salt", "butter", "flour", "whole wheat flour", "unbleached all-purpose flour"]}
+{"recipe": "Crazay  Bagels", "ingredient": ["unbleached all-purpose flour", "active dry yeast", "white sugar", "salt", "ground cinnamon", "powder", "soda", "eggs", "vegetable oil", "warm water", "semi-sweet chocolate squares", "fresh raspberries"]}
+{"recipe": "Italian Herb Bread I", "ingredient": ["active dry yeast", "warm water", "white sugar", "olive oil", "salt", "basil", "oregano", "garlic powder", "onion powder", "Romano cheese", "flour"]}
+{"recipe": "Potato Bread II", "ingredient": ["warm water", "flour", "dry potato flakes", "dry milk powder", "white sugar", "salt", "vegetable oil", "active dry yeast"]}
+{"recipe": "Amish White Bread", "ingredient": ["warm water", "white sugar", "active dry yeast", "salt", "vegetable oil", "flour"]}
+{"recipe": "Cottage Cheese Bread I", "ingredient": ["water", "cottage cheese", "margarine", "egg", "white sugar", "soda", "salt", "flour", "active dry yeast"]}
+{"recipe": "Nana's Nut Bread", "ingredient": ["shortening", "white sugar", "eggs", "milk", "soda", "all-purpose flour", "cream tartar", "salt", "walnuts"]}
+{"recipe": "Irish Soda Bread II", "ingredient": ["all-purpose flour", "powder", "salt", "white sugar", "buttermilk", "raisins", "eggs", "caraway seed"]}
+{"recipe": "Zucchini Bread III", "ingredient": ["eggs", "vegetable oil", "brown sugar", "zucchini", "vanilla extract", "all-purpose flour", "whole wheat flour", "powder", "soda", "salt", "ground cinnamon", "raisins", "walnuts", "wheat germ"]}
+{"recipe": "Cinnamon Rolls I", "ingredient": ["warm water", "egg", "flour", "white sugar", "instant milk", "salt", "butter", "instant yeast", "butter", "vanilla ice cream", "brown sugar", "butter", "ground cinnamon", "brown sugar"]}
+{"recipe": "Sweet Potato Pecan Waffles", "ingredient": ["sweet potato", "egg yolks", "milk", "flour", "powder", "white sugar", "salt", "ground nutmeg", "chopped pecans", "egg whites", "butter", "pecans"]}
+{"recipe": "Mom's Baking Powder Biscuits", "ingredient": ["all-purpose flour", "powder", "salt", "shortening", "milk"]}
+{"recipe": "Cornbread I", "ingredient": ["buttermilk", "stone ground cornmeal", "salt", "soda", "egg", "shortening"]}
+{"recipe": "Pumpkin Bread II", "ingredient": ["pumpkin", "vegetable oil", "eggs", "all-purpose flour", "white sugar", "soda", "salt", "ground allspice", "ground nutmeg", "ground cinnamon", "walnuts", "powder"]}
+{"recipe": "Cranberry Pumpkin Bread", "ingredient": ["all-purpose flour", "brown sugar", "soda", "powder", "salt", "ground cinnamon", "ground cloves", "egg substitute", "whole cranberry sauce", "pumpkin", "vegetable oil", "orange zest", "walnuts"]}
+{"recipe": "Honey Whole Wheat Bread", "ingredient": ["warm water", "honey", "salt", "whole wheat flour", "flour", "vegetable oil", "active dry yeast"]}
+{"recipe": "Basic Rye Bread", "ingredient": ["warm water", "molasses", "vegetable oil", "salt", "all-purpose flour", "flour", "brown sugar", "unsweetened cocoa powder", "caraway seed", "bread machine yeast"]}
+{"recipe": "Oat-N-Honey Bread", "ingredient": ["buttermilk", "egg", "warm water", "honey", "whole wheat flour", "all-purpose flour", "quick cooking oats", "vegetable oil", "salt", "active dry yeast"]}
+{"recipe": "Mexican Style Cornbread", "ingredient": ["eggs", "corn oil", "buttermilk", "Cheddar cheese", "cream-style corn", "onion", "jalapeno peppers", "cornmeal", "all-purpose flour", "powder", "soda", "salt"]}
+{"recipe": "Olive Bread", "ingredient": ["warm water", "active dry yeast", "molasses", "olive oil", "salt", "flour", "kalamata olives", "fresh rosemary", "sesame seeds"]}
+{"recipe": "Donna's Chocolate Zucchini Bread", "ingredient": ["eggs", "white sugar", "vegetable oil", "unsweetened chocolate", "vanilla extract", "all-purpose flour", "salt", "ground cinnamon", "powder", "soda", "almonds", "zucchini"]}
+{"recipe": "Blueberry Muffins I", "ingredient": ["milk", "egg", "vegetable oil", "all-purpose flour", "powder", "white sugar", "fresh blueberries"]}
+{"recipe": "Calzone", "ingredient": ["water", "salt", "flour", "dry milk powder", "white sugar", "active dry yeast", "pizza sauce", "pepperoni sausage", "mozzarella cheese", "butter"]}
+{"recipe": "Uncle Wynn's Bread Machine Rye", "ingredient": ["water", "honey", "olive oil", "caraway seed", "cornmeal", "dark rye flour", "flour", "vital wheat gluten", "active dry yeast", "salt"]}
+{"recipe": "Beer Bread II", "ingredient": ["self-rising flour", "white sugar", "beer", "Cheddar cheese", "green chile peppers", "butter"]}
+{"recipe": "Garden Herb Loaf", "ingredient": ["all-purpose flour", "white sugar", "instant yeast", "salt", "marjoram", "thyme", "rosemary", "milk", "water", "butter", "egg", "butter"]}
+{"recipe": "Apricot Walnut Loaf", "ingredient": ["egg", "water", "salt", "vegetable oil", "honey", "flour", "flour", "orange zest", "ground cardamom", "nonfat dry milk powder", "active dry yeast", "walnuts", "dried apricots", "apricot preserves"]}
+{"recipe": "Panettone I", "ingredient": ["active dry yeast", "warm water", "white sugar", "eggs", "plain yogurt", "vanilla extract", "lemon zest", "salt", "unbleached all-purpose flour", "currants", "raisins", "confectioners sugar", "butter"]}
+{"recipe": "Potato Rosemary Rolls", "ingredient": ["warm water", "olive oil", "nonfat dry milk powder", "dry potato flakes", "white sugar", "rosemary", "salt", "flour", "bread machine yeast", "cornmeal", "egg", "kosher salt"]}
+{"recipe": "White Bread For The Bread Machine", "ingredient": ["warm water", "white sugar", "salt", "vegetable oil", "flour", "active dry yeast"]}
+{"recipe": "Valentino's Pizza Crust", "ingredient": ["warm water", "white sugar", "active dry yeast", "olive oil", "salt", "all-purpose flour"]}
+{"recipe": "Monkey Bread I", "ingredient": ["biscuit dough", "white sugar", "ground cinnamon", "margarine", "brown sugar", "walnuts", "raisins"]}
+{"recipe": "Italian Bread II", "ingredient": ["unbleached all-purpose flour", "brown sugar", "salt", "warm water", "olive oil", "active dry yeast", "egg", "water", "sesame seeds", "cornmeal"]}
+{"recipe": "New York Rye Bread", "ingredient": ["warm water", "vegetable oil", "honey", "salt", "caraway seed", "flour", "flour", "vital wheat gluten", "dry milk powder", "active dry yeast"]}
+{"recipe": "Sweet Honey French Bread", "ingredient": ["water", "honey", "olive oil", "salt", "white sugar", "flour", "active dry yeast", "honey"]}
+{"recipe": "Pineapple Tangerine Bread", "ingredient": ["pineapple juice", "egg", "butter", "tangerine zest", "all-purpose flour", "white sugar", "wheat germ", "powder", "salt", "soda"]}
+{"recipe": "Downeast Maine Pumpkin Bread", "ingredient": ["pumpkin", "eggs", "vegetable oil", "water", "white sugar", "all-purpose flour", "soda", "salt", "ground cinnamon", "ground nutmeg", "ground cloves", "ground ginger"]}
+{"recipe": "Peppy's Pita Bread", "ingredient": ["warm water", "all-purpose flour", "salt", "vegetable oil", "white sugar", "active dry yeast"]}
+{"recipe": "Pineapple Zucchini Bread", "ingredient": ["brown sugar", "margarine", "zucchini", "pineapple juice", "eggs", "all-purpose flour", "soda", "ground cinnamon", "salt", "ground allspice", "walnuts", "confectioners sugar", "corn syrup", "ground cinnamon"]}
+{"recipe": "Walnut Raisin Scones", "ingredient": ["all-purpose flour", "white sugar", "powder", "soda", "salt", "lemon zest", "butter", "walnuts", "raisins", "buttermilk", "buttermilk", "white sugar", "walnuts"]}
+{"recipe": "Pumpkin Nut Muffins", "ingredient": ["all-purpose flour", "soda", "powder", "ground cinnamon", "ground nutmeg", "ground ginger", "eggs", "buttermilk", "butter", "molasses", "vanilla extract", "white sugar", "pumpkin", "chopped pecans"]}
+{"recipe": "Orange Muffins", "ingredient": ["all-purpose flour", "powder", "soda", "salt", "white sugar", "orange zest", "orange juice", "butter", "eggs", "ground walnuts", "butter", "brown sugar", "ground cinnamon"]}
+{"recipe": "Yogurt Cornbread", "ingredient": ["plain yogurt", "water", "margarine", "flour", "cornmeal", "whole kernel corn", "white sugar", "onion powder", "salt", "active dry yeast"]}
+{"recipe": "Bagels I", "ingredient": ["all-purpose flour", "white sugar", "salt", "active dry yeast", "warm water", "margarine", "white sugar", "salt"]}
+{"recipe": "Tortillas I", "ingredient": ["all-purpose flour", "shortening", "powder", "salt", "boiling water"]}
+{"recipe": "Whole Wheat Banana Strawberry Loaf", "ingredient": ["whole wheat flour", "soda", "eggs", "vegetable oil", "white sugar", "bananas", "chopped strawberries", "ground cinnamon"]}
+{"recipe": "Cheddar Muffins", "ingredient": ["all-purpose flour", "powder", "salt", "paprika", "butter", "egg", "milk", "Cheddar cheese", "raisins"]}
+{"recipe": "Burger or Hot Dog Buns", "ingredient": ["milk", "water", "butter", "all-purpose flour", "instant yeast", "white sugar", "salt", "egg"]}
+{"recipe": "Buttermilk White Bread", "ingredient": ["water", "honey", "margarine", "salt", "flour", "active dry yeast", "buttermilk"]}
+{"recipe": "Carolyn's Orange Rolls", "ingredient": ["active dry yeast", "warm water", "butter", "white sugar", "salt", "milk", "egg", "all-purpose flour", "butter", "white sugar", "orange zest"]}
+{"recipe": "Orange Juice Muffins with Honey Spread", "ingredient": ["buttermilk mix", "white sugar", "egg", "orange zest", "orange juice", "white sugar", "ground cinnamon", "margarine", "honey"]}
+{"recipe": "Seminole Pumpkin Bread", "ingredient": ["pumpkin", "all-purpose flour", "powder", "soda", "white sugar", "water", "vegetable oil frying", "white sugar"]}
+{"recipe": "Garlic Cheese Biscuits", "ingredient": ["buttermilk mix", "milk", "Cheddar cheese", "butter", "garlic powder"]}
+{"recipe": "Quick Sticky Buns", "ingredient": ["biscuit dough", "margarine", "light brown sugar", "ground cinnamon", "dark corn syrup", "chopped pecans"]}
+{"recipe": "Poppy Seed Bread III", "ingredient": ["all-purpose flour", "white sugar", "powder", "salt", "milk", "vanilla extract", "eggs", "vegetable oil", "poppy seeds", "butter extract", "almond extract", "orange juice", "white sugar", "vanilla extract", "butter extract", "almond extract"]}
+{"recipe": "Sweeter Muffins", "ingredient": ["egg", "milk", "vegetable oil", "all-purpose flour", "white sugar", "powder", "salt"]}
+{"recipe": "Pumpkin Bread III", "ingredient": ["all-purpose flour", "white sugar", "ground cinnamon", "ground nutmeg", "ground allspice", "salt", "soda", "vegetable oil", "water", "pumpkin", "eggs"]}
+{"recipe": "Whole Wheat Zucchini Herb Bread", "ingredient": ["water", "honey", "vegetable oil", "zucchini", "whole wheat flour", "flour", "fresh basil", "sesame seeds", "salt", "active dry yeast"]}
+{"recipe": "Chinky's Bibingka", "ingredient": ["fresh cassava", "coconut milk", "butter", "eggs", "white sugar", "salt", "vanilla extract", "lemon zest", "mozzarella cheese", "coconut milk", "milk", "all-purpose flour", "mozzarella cheese", "egg yolks"]}
+{"recipe": "Chinky's Mango Bread", "ingredient": ["all-purpose flour", "ground cinnamon", "soda", "salt", "white sugar", "eggs", "vegetable oil", "mangos", "lemon juice", "raisins"]}
+{"recipe": "Chinky's Puto Bread", "ingredient": ["flour", "white sugar", "powder", "milk", "water", "eggs", "margarine"]}
+{"recipe": "Baked Pumpkin Bread", "ingredient": ["all-purpose flour", "soda", "salt", "ground cinnamon", "ground nutmeg", "solid pack pumpkin puree", "brown sugar", "buttermilk", "egg", "butter"]}
+{"recipe": "Blueberry Muffins II", "ingredient": ["all-purpose flour", "fresh blueberries", "egg white", "vegetable oil", "skim milk", "margarine", "powder", "salt", "white sugar"]}
+{"recipe": "Eggnog Quick Bread", "ingredient": ["eggs", "white sugar", "butter", "eggnog", "rum extract", "vanilla extract", "all-purpose flour", "powder", "salt", "ground nutmeg"]}
+{"recipe": "Strawberry Nut Bread", "ingredient": ["all-purpose flour", "soda", "salt", "ground cinnamon", "white sugar", "fresh strawberries", "eggs", "vegetable oil", "walnuts"]}
+{"recipe": "Boiled Bagels", "ingredient": ["all-purpose flour", "active dry yeast", "warm water", "white sugar", "salt", "white sugar"]}
+{"recipe": "Mocha Cream Bread", "ingredient": ["coffee liqueur", "water", "milk", "salt", "vegetable oil", "flour", "brown sugar", "active dry yeast", "miniature semisweet chocolate chips"]}
+{"recipe": "Pina Colada Bread", "ingredient": ["pineapple juice", "rum", "warm water", "margarine", "all-purpose flour", "coconut", "white sugar", "salt", "active dry yeast"]}
+{"recipe": "Date Nut Bread", "ingredient": ["dates", "boiling water", "soda", "walnuts", "white sugar", "margarine", "eggs", "salt", "all-purpose flour", "vanilla extract"]}
+{"recipe": "Blueberry Monkey Bread", "ingredient": ["white sugar", "ground cinnamon", "buttermilk biscuit dough", "frozen blueberries dry pack", "white sugar", "margarine", "vanilla extract", "ground cinnamon", "frozen blueberries dry pack"]}
+{"recipe": "Streusel Topped Blueberry Muffins", "ingredient": ["all-purpose flour", "powder", "salt", "all-purpose flour", "fresh blueberries", "butter", "white sugar", "eggs", "vanilla extract", "lemon zest", "milk", "all-purpose flour", "white sugar", "ground cinnamon", "butter"]}
+{"recipe": "Easy Biscuits", "ingredient": ["self-rising flour", "shortening", "milk"]}
+{"recipe": "Amish Friendship Bread I", "ingredient": ["Amish Friendship Bread Starter", "vegetable oil", "eggs", "all-purpose flour", "white sugar", "ground cinnamon", "salt", "soda", "powder", "vanilla extract"]}
+{"recipe": "Jalapeno Bread I", "ingredient": ["warm water", "salt", "white sugar", "Monterey Jack cheese", "fresh jalapeno peppers", "flour", "active dry yeast"]}
+{"recipe": "Jalapeno Bread II", "ingredient": ["warm water", "salt", "white sugar", "sharp Cheddar cheese", "fresh jalapeno peppers", "flour", "active dry yeast"]}
+{"recipe": "Sourdough Tomato Bread", "ingredient": ["sourdough starter", "warm water", "active dry yeast", "warm tomato juice", "white sugar", "salt", "all-purpose flour"]}
+{"recipe": "Chocolate Chip Almond Bread", "ingredient": ["warm milk", "salt", "margarine", "flour", "white sugar", "active dry yeast", "semisweet chocolate chips", "almonds", "unsweetened cocoa powder", "almond extract", "butter", "confectioners sugar", "orange zest"]}
+{"recipe": "Hot Onion Pinwheels", "ingredient": ["active dry yeast", "warm water", "white sugar", "salt", "butter room temperature", "dry milk powder", "all-purpose flour", "egg", "onions", "butter", "red pepper"]}
+{"recipe": "Pumpkin Bread IV", "ingredient": ["pumpkin", "vegetable oil", "white sugar", "eggs", "all-purpose flour", "powder", "soda", "salt", "ground cinnamon", "ground nutmeg", "ground cloves"]}
+{"recipe": "Italian Bread III", "ingredient": ["active dry yeast", "flour", "white sugar", "margarine", "warm water", "egg whites stiffly beaten"]}
+{"recipe": "Monkey Bread II", "ingredient": ["active dry yeast", "all-purpose flour", "ground cinnamon", "salt", "white sugar", "margarine", "water", "margarine", "brown sugar", "raisins"]}
+{"recipe": "To Die For Blueberry Muffins", "ingredient": ["all-purpose flour", "white sugar", "salt", "powder", "vegetable oil", "egg", "milk", "fresh blueberries", "white sugar", "all-purpose flour", "butter", "ground cinnamon"]}
+{"recipe": "Angel Biscuits I", "ingredient": ["all-purpose flour", "white sugar", "powder", "salt", "shortening", "warm water", "active dry yeast", "warm buttermilk"]}
+{"recipe": "Bread of Life", "ingredient": ["whole wheat flour", "active dry yeast", "white sugar", "soda", "powder", "water", "anise seed", "egg whites"]}
+{"recipe": "Cranberry Pineapple Bread", "ingredient": ["vegetable oil", "honey", "water", "flour", "whole wheat flour", "ground cinnamon", "ground mace", "dry milk powder", "salt", "cranberries", "pineapple rings", "active dry yeast"]}
+{"recipe": "Buttered Biscuits", "ingredient": ["self-rising flour", "butter margarine", "buttermilk"]}
+{"recipe": "Poppy Seed Muffins", "ingredient": ["eggs", "white sugar", "vegetable oil", "milk", "salt", "powder", "poppy seeds", "vanilla extract", "almond extract", "all-purpose flour", "white sugar", "orange juice", "vanilla extract", "almond extract", "butter"]}
+{"recipe": "Sour Cream Biscuits", "ingredient": ["all-purpose flour", "salt", "soda", "powder", "sour cream", "water"]}
+{"recipe": "Butter Honey Wheat Bread", "ingredient": ["water", "margarine", "honey", "flour", "whole wheat flour", "dry milk powder", "salt", "active dry yeast"]}
+{"recipe": "Blueberry Bread I", "ingredient": ["eggs", "white sugar", "milk", "vegetable oil", "all-purpose flour", "salt", "powder", "fresh blueberries", "walnuts"]}
+{"recipe": "Best Ever Muffins", "ingredient": ["all-purpose flour", "powder", "salt", "white sugar", "egg", "milk", "vegetable oil"]}
+{"recipe": "Rory's Most Wonderful Corn Bread", "ingredient": ["dry cornbread mix", "eggs", "broccoli", "onion", "cottage cheese", "butter"]}
+{"recipe": "Dad's Orange Cardamom Breakfast Rolls", "ingredient": ["orange", "honey", "vegetable oil", "flour", "whole wheat flour", "salt", "bread machine yeast", "brown sugar", "dried cranberries", "ground cardamom"]}
+{"recipe": "White Bread I", "ingredient": ["lukewarm milk", "all-purpose flour", "white sugar", "salt", "butter", "active dry yeast"]}
+{"recipe": "Almond Crescent Buns", "ingredient": ["margarine", "brown sugar", "all-purpose flour", "milk", "almond extract", "crescent rolls", "butter", "almonds", "confectioners sugar"]}
+{"recipe": "A Number One Egg Bread", "ingredient": ["active dry yeast", "warm water", "egg yolks", "eggs room temperature", "vegetable oil", "white sugar", "salt", "all-purpose flour", "egg", "salt"]}
+{"recipe": "Fry Bread I", "ingredient": ["all-purpose flour", "salt", "powder", "warm water", "shortening for frying"]}
+{"recipe": "Jalapeno Cornbread", "ingredient": ["active dry yeast", "water", "butter", "flour", "cornmeal", "white sugar", "salt", "whole kernel corn", "jalapeno"]}
+{"recipe": "French Bread", "ingredient": ["all-purpose flour", "active dry yeast", "salt", "warm water", "cornmeal", "egg white", "water"]}
+{"recipe": "Dark and Sweet Rye Bread", "ingredient": ["water", "vegetable oil", "honey", "raisins", "brown sugar", "active dry yeast", "warm water", "unbleached all-purpose flour", "whole wheat flour", "flour", "dry milk powder", "salt", "cornmeal", "butter"]}
+{"recipe": "Bishop's Bread I", "ingredient": ["egg", "white sugar", "vegetable oil", "vanilla extract", "buttermilk", "all-purpose flour", "soda", "salt", "walnuts", "candied cherries", "currants", "semisweet chocolate chips"]}
+{"recipe": "Spicy Scones", "ingredient": ["all-purpose flour", "whole wheat flour", "white sugar", "powder", "ground cinnamon", "ground nutmeg", "salt", "margarine", "currants", "egg", "milk", "milk", "white sugar"]}
+{"recipe": "Zucchini Muffins", "ingredient": ["whole wheat flour", "powder", "salt", "ground cinnamon", "nonfat milk", "egg whites", "vegetable oil", "honey", "zucchini"]}
+{"recipe": "Croutons", "ingredient": ["bread", "butter", "garlic salt"]}
+{"recipe": "Savory Onion Bread", "ingredient": ["all-purpose flour", "powder", "salt", "margarine", "sharp Cheddar cheese", "onion", "margarine", "egg", "milk", "sharp Cheddar cheese"]}
+{"recipe": "Cheddar Cheese Straws", "ingredient": ["all-purpose flour", "sharp Cheddar cheese", "margarine", "powder", "cayenne pepper", "salt", "water"]}
+{"recipe": "Portugal Cakes", "ingredient": ["white sugar", "margarine", "eggs", "dry sherry", "all-purpose flour", "currants", "ground nutmeg"]}
+{"recipe": "Apricot Raisin Loaf", "ingredient": ["margarine", "brown sugar", "eggs", "orange juice", "all-purpose flour", "powder", "salt", "dried apricots", "raisins", "pecans", "orange zest", "apricot jam", "water"]}
+{"recipe": "Cinnamon Coconut Loaf", "ingredient": ["eggs", "vegetable oil", "white sugar", "sour cream", "all-purpose flour", "powder", "soda", "salt", "coconut", "brown sugar", "ground cinnamon"]}
+{"recipe": "Apple Loaf", "ingredient": ["all-purpose flour", "powder", "soda", "salt", "walnuts", "butter", "white sugar", "eggs", "vanilla extract", "apples"]}
+{"recipe": "Banana Coconut Loaf", "ingredient": ["eggs", "white sugar", "butter", "bananas", "almond extract", "all-purpose flour", "coconut", "powder", "soda", "salt", "walnuts", "maraschino cherries"]}
+{"recipe": "Chocolate Date Loaf I", "ingredient": ["dates", "boiling water", "soda", "egg", "white sugar", "salt", "vanilla extract", "semisweet chocolate chips", "butter", "all-purpose flour", "powder", "walnuts"]}
+{"recipe": "Apricot Cheese Loaf", "ingredient": ["boiling water", "dried apricots", "margarine", "cream cheese", "white sugar", "eggs", "all-purpose flour", "powder", "soda", "salt", "dates"]}
+{"recipe": "Whole Wheat Apple Muffins", "ingredient": ["whole wheat flour", "powder", "salt", "ground cinnamon", "nonfat milk", "egg whites", "vegetable oil", "honey", "chopped apples"]}
+{"recipe": "Raisin Loaf", "ingredient": ["margarine", "white sugar", "eggs", "milk", "vanilla extract", "all-purpose flour", "powder", "salt", "golden raisins", "raisins"]}
+{"recipe": "Blueberry Anadama Bread", "ingredient": ["cornmeal", "boiling water", "margarine", "molasses", "egg", "active dry yeast", "warm water", "all-purpose flour", "frozen blueberries dry pack"]}
+{"recipe": "Dumplings", "ingredient": ["all-purpose flour", "powder", "white sugar", "salt", "margarine", "milk"]}
+{"recipe": "Indian Naan I", "ingredient": ["active dry yeast", "flour", "salt", "water", "butter"]}
+{"recipe": "Zucchini Pineapple Loaf", "ingredient": ["eggs", "vegetable oil", "white sugar", "zucchini", "pineapple", "vanilla extract", "all-purpose flour", "soda", "powder", "salt", "ground cinnamon", "ground nutmeg", "walnuts"]}
+{"recipe": "Grandma's English Muffin Bread", "ingredient": ["all-purpose flour", "active dry yeast", "white sugar", "salt", "powder", "warm milk", "water"]}
+{"recipe": "Chocolate Filled Muffins", "ingredient": ["all-purpose flour", "white sugar", "unsweetened cocoa powder", "powder", "salt", "ground cinnamon", "egg", "milk", "vegetable oil", "instant milk", "hot water", "butter", "almond extract", "coconut"]}
+{"recipe": "Apple Scones", "ingredient": ["all-purpose flour", "white sugar", "powder", "soda", "salt", "butter", "peeled", "milk", "milk", "white sugar", "ground cinnamon"]}
+{"recipe": "Scottish Oat Scones", "ingredient": ["all-purpose flour", "oats", "white sugar", "powder", "salt", "currants", "egg", "butter", "milk"]}
+{"recipe": "Jiffy Cinnamon Rolls", "ingredient": ["butter", "brown sugar", "ground cinnamon", "all-purpose flour", "white sugar", "powder", "salt", "butter", "cold milk", "currants", "confectioners sugar", "milk"]}
+{"recipe": "Butterscotch Buns", "ingredient": ["margarine", "brown sugar", "walnuts", "all-purpose flour", "white sugar", "powder", "salt", "butter", "milk"]}
+{"recipe": "Jam Filled Buns", "ingredient": ["all-purpose flour", "white sugar", "powder", "salt", "butter", "egg", "cold milk", "raspberry jam"]}
+{"recipe": "Kolaches I", "ingredient": ["warm milk", "active dry yeast", "white sugar", "shortening", "salt", "eggs", "egg yolks", "all-purpose flour", "fruit preserves"]}
+{"recipe": "Sour Cream and Onion Bread", "ingredient": ["whole wheat flour", "white sugar", "salt", "wheat germ", "active dry yeast", "dry onion soup mix", "sour cream", "water"]}
+{"recipe": "Orange Loaf", "ingredient": ["margarine", "white sugar", "eggs", "orange zest", "fresh orange juice", "all-purpose flour", "powder", "salt", "walnuts", "orange juice", "white sugar"]}
+{"recipe": "Cranberry Orange Loaf", "ingredient": ["all-purpose flour", "powder", "soda", "salt", "orange zest", "fresh cranberries", "pecans", "margarine", "white sugar", "egg", "orange juice"]}
+{"recipe": "Cranberry Loaf", "ingredient": ["all-purpose flour", "graham cracker crumbs", "brown sugar", "powder", "salt", "chopped cranberries", "raisins", "walnuts", "orange zest", "egg", "orange juice", "vegetable oil"]}
+{"recipe": "Zucchini Bread IV", "ingredient": ["eggs", "vegetable oil", "white sugar", "zucchini", "vanilla extract", "all-purpose flour", "ground cinnamon", "soda", "powder", "salt", "walnuts"]}
+{"recipe": "Croissants", "ingredient": ["active dry yeast", "warm water", "white sugar", "all-purpose flour", "white sugar", "salt", "warm milk", "vegetable oil", "unsalted butter", "egg", "water"]}
+{"recipe": "Portuguese Cornbread", "ingredient": ["cornmeal", "salt", "boiling water", "olive oil", "active dry yeast", "white sugar", "warm water", "all-purpose flour"]}
+{"recipe": "Portuguese Fried Bread", "ingredient": ["all-purpose flour", "powder", "salt", "white sugar", "milk", "vegetable oil frying"]}
+{"recipe": "Bannock", "ingredient": ["all-purpose flour", "salt", "powder", "butter", "water"]}
+{"recipe": "Orange Cinnamon Sticks", "ingredient": ["soft bread stick dough", "butter", "honey", "orange juice", "orange zest", "white sugar", "ground cinnamon"]}
+{"recipe": "Quick Banana Bread", "ingredient": ["vegetable oil", "bananas", "vanilla extract", "eggs", "mix", "white sugar", "walnuts"]}
+{"recipe": "Fake Sourdough Biscuits", "ingredient": ["all-purpose flour", "white sugar", "shortening", "salt", "powder", "soda", "active dry yeast", "warm water", "lukewarm buttermilk"]}
+{"recipe": "Monkey Bread III", "ingredient": ["white sugar", "chopped pecans", "ground cinnamon", "buttermilk biscuit dough", "margarine"]}
+{"recipe": "Monkey Bread IV", "ingredient": ["biscuit dough", "white sugar", "ground cinnamon", "ground nutmeg", "ground cloves", "butter"]}
+{"recipe": "Monkey Bread V", "ingredient": ["biscuit dough", "white sugar", "ground cinnamon", "margarine", "white sugar"]}
+{"recipe": "Bruce's Honey Sesame Bread", "ingredient": ["water", "honey", "buttermilk", "salt", "flour", "wheat bran", "sesame seeds", "active dry yeast"]}
+{"recipe": "Beaten Biscuits", "ingredient": ["all-purpose flour", "salt", "powder", "white sugar", "lard small pieces", "light cream", "cold water"]}
+{"recipe": "Flower Pot Challah Bread", "ingredient": ["warm water", "margarine", "all-purpose flour", "active dry yeast", "white sugar", "salt", "eggs", "vegetable oil"]}
+{"recipe": "Bagels II", "ingredient": ["warm water", "active dry yeast", "white sugar", "vegetable oil", "flour", "salt", "white sugar", "poppy seeds"]}
+{"recipe": "Date Orange Bread", "ingredient": ["egg", "butter", "white sugar", "orange zest", "fresh orange juice", "boiling water", "vanilla extract", "all-purpose flour", "powder", "soda", "salt", "walnuts", "dates"]}
+{"recipe": "Luxury Loaf", "ingredient": ["margarine", "white sugar", "eggs", "vanilla extract", "orange zest", "orange juice", "all-purpose flour", "powder", "salt", "ground nutmeg", "semisweet chocolate", "walnuts"]}
+{"recipe": "Orange Pumpkin Loaf", "ingredient": ["orange", "butter", "white sugar", "eggs", "pumpkin", "water", "all-purpose flour", "soda", "powder", "salt", "ground cinnamon", "ground cloves", "walnuts", "chopped raisins"]}
+{"recipe": "Pumpkin Tea Bread", "ingredient": ["margarine", "white sugar", "eggs", "pumpkin", "orange zest", "orange juice", "all-purpose flour", "powder", "soda", "salt", "ground cinnamon", "ground cloves", "walnuts", "dates"]}
+{"recipe": "Cinnamon Bread I", "ingredient": ["all-purpose flour", "white sugar", "powder", "soda", "ground cinnamon", "salt", "buttermilk", "vegetable oil", "eggs", "vanilla extract", "white sugar", "ground cinnamon", "margarine"]}
+{"recipe": "Cherry Spice Loaf", "ingredient": ["eggs", "white sugar", "vegetable oil", "milk", "almond extract", "all-purpose flour", "powder", "soda", "salt", "dates", "candied cherries", "raisins", "walnuts"]}
+{"recipe": "Pineapple Bread", "ingredient": ["eggs", "butter", "white sugar", "pineapple juice", "vanilla extract", "all-purpose flour", "powder", "soda", "salt", "walnuts"]}
+{"recipe": "Raisin Bread I", "ingredient": ["all-purpose flour", "white sugar", "powder", "soda", "salt", "ground cinnamon", "raisins", "egg", "butter", "milk"]}
+{"recipe": "Fruit and Nut Loaf", "ingredient": ["margarine", "white sugar", "eggs", "milk", "vanilla extract", "almond extract", "all-purpose flour", "powder", "salt", "mixed fruit", "raisins", "almonds"]}
+{"recipe": "Fruit Bread I", "ingredient": ["eggs", "white sugar", "vegetable oil", "milk", "vanilla extract", "carrots", "all-purpose flour", "powder", "soda", "ground cinnamon", "salt", "coconut", "candied cherries", "raisins", "walnuts"]}
+{"recipe": "Fruit Bread II", "ingredient": ["all-purpose flour", "white sugar", "powder", "salt", "candied pineapple", "currants", "candied cherries", "eggs", "milk", "vegetable oil"]}
+{"recipe": "Favorite Nut Bread", "ingredient": ["cream cheese", "white sugar", "eggs", "vegetable oil", "milk", "lemon zest", "all-purpose flour", "white sugar", "brown sugar", "soda", "salt", "walnuts"]}
+{"recipe": "Zucchini Coconut Loaf", "ingredient": ["egg", "vegetable oil", "white sugar", "zucchini", "vanilla extract", "all-purpose flour", "powder", "soda", "salt", "ground cinnamon", "ground nutmeg", "coconut", "walnuts", "currants"]}
+{"recipe": "Cottage Cheese Loaf", "ingredient": ["cottage cheese", "brown sugar", "eggs", "all-purpose flour", "powder", "soda", "salt", "walnuts", "mixed fruit peel"]}
+{"recipe": "Fancy Crescents", "ingredient": ["all-purpose flour", "margarine", "egg yolk", "sour cream", "white sugar", "ground cinnamon"]}
+{"recipe": "Pumpkin Loaf", "ingredient": ["cream cheese", "margarine", "white sugar", "eggs", "pumpkin", "all-purpose flour", "soda", "powder", "salt", "ground cinnamon", "ground cloves", "walnuts"]}
+{"recipe": "Blueberry Scones", "ingredient": ["all-purpose flour", "brown sugar", "powder", "salt", "butter", "fresh blueberries", "half-and-half cream", "egg"]}
+{"recipe": "English Muffins", "ingredient": ["milk", "white sugar", "active dry yeast", "warm water", "shortening", "all-purpose flour", "salt"]}
+{"recipe": "Cinnamon Sour Cream Biscuits", "ingredient": ["all-purpose flour", "white sugar", "ground cinnamon", "powder", "soda", "salt", "margarine", "sour cream", "milk", "raisins", "confectioners sugar", "milk"]}
+{"recipe": "Fruit Loaf", "ingredient": ["water", "vegetable oil", "brown sugar", "flour", "flour", "dry milk powder", "pumpkin pie spice", "active dry yeast", "golden raisins", "mixed fruit peel"]}
+{"recipe": "Sophie's Zucchini Bread", "ingredient": ["all-purpose flour", "salt", "soda", "ground cinnamon", "powder", "eggs", "white sugar", "vanilla extract", "vegetable oil", "zucchini", "walnuts"]}
+{"recipe": "Abby's Super Zucchini Loaf", "ingredient": ["zucchinis", "salt", "unbleached all-purpose flour", "soda", "ground cinnamon", "nutmeg", "eggs", "white sugar", "vegetable oil", "vanilla extract", "walnuts", "golden raisins"]}
+{"recipe": "Butter Tart Muffins", "ingredient": ["raisins", "white sugar", "butter", "eggs", "milk", "vanilla extract", "all-purpose flour", "powder", "soda", "salt", "walnuts", "real maple syrup"]}
+{"recipe": "Hot Water Cornbread", "ingredient": ["cornmeal", "salt", "white sugar", "shortening", "boiling water"]}
+{"recipe": "Maple Twists", "ingredient": ["cream cheese", "confectioners sugar", "margarine", "brown sugar", "walnuts", "maple syrup", "mix", "milk", "white sugar", "egg"]}
+{"recipe": "Mama D's Italian Bread", "ingredient": ["warm water", "white sugar", "active dry yeast", "salt", "all-purpose flour"]}
+{"recipe": "Pepperoni-filled Bread", "ingredient": ["mozzarella cheese", "pepperoni sausage", "onion", "parsley", "olive oil", "hero sandwich rolls split lengthwise", "olive oil", "Parmesan cheese"]}
+{"recipe": "Banana Chip Muffins I", "ingredient": ["all-purpose flour", "white sugar", "powder", "salt", "semisweet chocolate chips", "egg", "vegetable oil", "milk", "bananas"]}
+{"recipe": "Cinnamon Buns", "ingredient": ["butter", "mix", "milk", "egg", "margarine", "white sugar", "ground cinnamon", "confectioners sugar", "milk"]}
+{"recipe": "Mustard Wheat Rye Sandwich Bread", "ingredient": ["warm water", "Dijon-style prepared mustard", "olive oil", "molasses", "unbleached all-purpose flour", "flour", "whole wheat flour", "vital wheat gluten", "active dry yeast"]}
+{"recipe": "Dr. Michael's Yeasted Cornbread", "ingredient": ["flour", "cornmeal", "salt", "white sugar", "shortening", "milk", "water", "egg", "active dry yeast"]}
+{"recipe": "The Best Pizza Crust", "ingredient": ["active dry yeast", "flour", "salt", "white sugar", "nonfat dry milk powder", "margarine", "warm water"]}
+{"recipe": "Seven Grain Bread I", "ingredient": ["active dry yeast", "flour", "salt", "white sugar", "nonfat dry milk powder", "margarine", "warm water", "grain cereal"]}
+{"recipe": "Good 100% Whole Wheat Bread", "ingredient": ["active dry yeast", "whole wheat flour", "salt", "white sugar", "nonfat dry milk powder", "margarine", "warm water"]}
+{"recipe": "Persimmon Bread II", "ingredient": ["persimmon pulp", "soda", "white sugar", "vegetable oil", "eggs", "ground cinnamon", "ground nutmeg", "salt", "water", "all-purpose flour", "walnuts"]}
+{"recipe": "Peanut Butter Sandwich Loaf", "ingredient": ["all-purpose flour", "powder", "salt", "white sugar", "creamy peanut butter", "milk", "egg"]}
+{"recipe": "Soft Pretzels II", "ingredient": ["white sugar", "warm water", "active dry yeast", "warm water", "all-purpose flour", "salt", "egg", "water", "kosher salt", "sesame seeds"]}
+{"recipe": "Mincemeat Quick Bread", "ingredient": ["all-purpose flour", "white sugar", "powder", "soda", "salt", "egg", "vegetable oil", "orange zest", "orange juice", "prepared mincemeat pie filling"]}
+{"recipe": "Poppy Seed Rolls", "ingredient": ["all-purpose flour", "active dry yeast", "warm milk", "white sugar", "shortening", "salt", "eggs", "all-purpose flour", "poppy seeds", "margarine", "honey", "heavy cream", "walnuts", "raisins", "orange zest"]}
+{"recipe": "Peach Bread", "ingredient": ["eggs", "white sugar", "vanilla extract", "vegetable oil", "canned peaches", "all-purpose flour", "powder", "salt", "soda", "ground cinnamon", "walnuts"]}
+{"recipe": "Butterfly Buns", "ingredient": ["self-rising flour", "unsweetened cocoa powder", "hot water", "margarine", "white sugar", "egg", "margarine", "confectioners sugar", "vanilla extract", "cherry jam"]}
+{"recipe": "Honey Of An Oatmeal Bread", "ingredient": ["water", "vegetable oil", "honey", "salt", "oats", "flour", "active dry yeast"]}
+{"recipe": "Buttermilk Bread II", "ingredient": ["buttermilk", "warm water", "margarine", "white sugar", "soda", "active dry yeast", "salt", "flour"]}
+{"recipe": "Poppy Seed Loaf", "ingredient": ["all-purpose flour", "active dry yeast", "milk", "white sugar", "shortening", "salt", "eggs", "boiling water", "poppy seeds", "walnuts", "honey", "lemon zest", "egg white"]}
+{"recipe": "Irish Bannock", "ingredient": ["all-purpose flour", "white sugar", "powder", "soda", "salt", "butter", "buttermilk", "currants"]}
+{"recipe": "Swedish Limpu Bread", "ingredient": ["all-purpose flour", "active dry yeast", "water", "brown sugar", "vegetable oil", "salt", "orange zest", "caraway seed", "fennel seed", "eggs room temperature", "flour"]}
+{"recipe": "Hot Water Cornmeal Bread", "ingredient": ["boiling water", "cornmeal", "molasses", "soda", "margarine", "salt", "cold water", "warm water", "active dry yeast", "flour"]}
+{"recipe": "Cracklin' Bread I", "ingredient": ["pork", "salt", "onion", "cornmeal", "all-purpose flour", "powder", "soda", "eggs", "honey", "buttermilk", "orange juice"]}
+{"recipe": "Sausage Cornbread Bake", "ingredient": ["pork sausage", "onion", "eggs", "buttermilk self-rising cornmeal mix", "cream style corn", "sour cream", "vegetable oil", "sharp Cheddar cheese", "milk"]}
+{"recipe": "Bread Bowls I", "ingredient": ["active dry yeast", "white sugar", "warm water", "whole wheat flour", "flour", "salt", "egg white", "water"]}
+{"recipe": "Crusty White Bread", "ingredient": ["active dry yeast", "white sugar", "water", "milk", "margarine", "flour", "salt"]}
+{"recipe": "Zeppoli", "ingredient": ["active dry yeast", "warm water", "all-purpose flour", "vegetable oil frying", "confectioners sugar"]}
+{"recipe": "Peanut Butter Bread I", "ingredient": ["all-purpose flour", "water", "peanut butter", "brown sugar", "salt", "active dry yeast"]}
+{"recipe": "Sourdough Starter III", "ingredient": ["cubed potatoes", "warm water", "all-purpose flour", "white sugar", "active dry yeast"]}
+{"recipe": "Garlic Bread", "ingredient": ["water", "olive oil", "garlic", "flour", "white sugar", "salt", "Parmesan cheese", "basil", "garlic powder", "fresh chives", "ground black pepper", "bread machine yeast"]}
+{"recipe": "Banana Sour Cream Bread", "ingredient": ["white sugar", "ground cinnamon", "butter", "white sugar", "eggs", "ripe bananas", "sour cream", "vanilla extract", "ground cinnamon", "salt", "soda", "all-purpose flour", "walnuts"]}
+{"recipe": "Holiday Pumpkin Bread", "ingredient": ["white sugar", "eggs", "water", "soda", "powder", "ground allspice", "all-purpose flour", "salt", "ground nutmeg", "ground cinnamon", "ground cloves", "pumpkin", "walnuts", "raisins", "vegetable oil"]}
+{"recipe": "Sourdough Rye", "ingredient": ["flour", "flour", "water", "water", "salt", "white sugar", "olive oil", "caraway seed", "flour", "flour", "sourdough starter", "water", "salt"]}
+{"recipe": "Hungarian Braided White Bread", "ingredient": ["active dry yeast", "warm milk", "egg yolk", "eggs", "white sugar", "salt", "all-purpose flour", "poppy seeds", "egg"]}
+{"recipe": "Sarah's Banana Bread Muffins", "ingredient": ["white sugar", "vegetable oil", "egg", "bananas", "walnuts", "all-purpose flour", "soda", "salt"]}
+{"recipe": "Banana Nut Muffins", "ingredient": ["all-purpose flour", "powder", "soda", "salt", "egg whites", "bananas", "white sugar", "vegetable oil", "lemon zest", "walnuts"]}
+{"recipe": "Easy Focaccia", "ingredient": ["flour", "unbleached all-purpose flour", "salt", "white sugar", "instant yeast", "warm water", "extra virgin olive oil", "fresh rosemary", "Parmesan cheese"]}
+{"recipe": "Cheese Biscuits I", "ingredient": ["mix", "milk", "Cheddar cheese", "Parmesan cheese", "butter", "garlic powder", "parsley"]}
+{"recipe": "Cathy's Banana Bread", "ingredient": ["bananas", "sour cream", "margarine", "white sugar", "eggs", "vanilla extract", "all-purpose flour", "soda", "powder", "salt"]}
+{"recipe": "Rice Bread (Pirog)", "ingredient": ["cake fresh yeast", "warm water", "milk", "white sugar", "margarine", "eggs", "vanilla extract", "salt", "all-purpose flour", "golden raisins", "butter", "ground cinnamon", "white rice", "cold milk", "butter", "white sugar", "salt"]}
+{"recipe": "Low-Salt White Bread", "ingredient": ["flour", "white sugar", "salt", "vegetable oil", "active dry yeast", "warm water"]}
+{"recipe": "Braided Egg Bread", "ingredient": ["active dry yeast", "warm water", "hot milk", "white sugar", "butter", "salt", "water", "eggs", "all-purpose flour", "egg", "sesame seeds"]}
+{"recipe": "Cinnamon Rolls II", "ingredient": ["milk", "water", "butter", "salt", "all-purpose flour", "active dry yeast", "white sugar", "egg", "butter", "ground cinnamon", "white sugar", "raisins", "walnuts", "confectioners sugar", "butter", "vanilla extract", "milk"]}
+{"recipe": "Pumpkin Rolls I", "ingredient": ["active dry yeast", "warm water", "brown sugar", "salt", "eggs", "butter", "pumpkin", "all-purpose flour", "butter"]}
+{"recipe": "Quick Bread Mix", "ingredient": ["all-purpose flour", "white sugar", "powder", "soda", "salt", "vegetable oil", "eggs"]}
+{"recipe": "Golden Crescent Rolls", "ingredient": ["active dry yeast", "warm water", "white sugar", "salt", "eggs", "butter room temperature", "all-purpose flour", "butter"]}
+{"recipe": "Poppy Seed Bread with Glaze", "ingredient": ["all-purpose flour", "salt", "powder", "poppy seeds", "butter extract", "vegetable oil", "eggs", "milk", "white sugar", "vanilla extract", "almond extract", "orange juice", "butter extract", "almond extract", "vanilla extract", "confectioners sugar"]}
+{"recipe": "Czech Christmas Hoska", "ingredient": ["cake fresh yeast", "warm water", "white sugar", "butter", "egg", "salt", "milk", "all-purpose flour", "ground ginger", "ground mace", "orange zest", "golden raisins", "mixed fruit peel", "almonds", "egg yolk", "milk", "confectioners sugar"]}
+{"recipe": "Applesauce Bread I", "ingredient": ["all-purpose flour", "eggs", "white sugar", "vegetable oil", "applesauce", "raisins", "ground cinnamon", "soda", "powder", "sour cream"]}
+{"recipe": "Raisin Brown Bread", "ingredient": ["boiling water", "oats", "shortening", "brown sugar", "salt", "molasses", "warm water", "white sugar", "active dry yeast", "warm water", "flour", "raisins", "ground cinnamon"]}
+{"recipe": "Applesauce Raisin Bread", "ingredient": ["all-purpose flour", "powder", "soda", "ground cinnamon", "quick cooking oats", "brown sugar", "raisins", "applesauce", "vegetable oil", "eggs", "milk", "apple juice"]}
+{"recipe": "Apple Raisin Bread", "ingredient": ["all-purpose flour", "powder", "soda", "salt", "ground cinnamon", "ground nutmeg", "brown sugar", "oats", "apple", "walnuts", "raisins", "eggs", "milk", "vegetable oil"]}
+{"recipe": "Buttermilk Oatmeal Bread", "ingredient": ["oats", "buttermilk", "vegetable oil", "egg", "brown sugar", "all-purpose flour", "powder", "soda", "salt"]}
+{"recipe": "Kolaches II", "ingredient": ["shortening", "white sugar", "salt", "milk", "egg yolks", "lemon extract", "active dry yeast", "all-purpose flour", "fruit preserves"]}
+{"recipe": "Whole Wheat Bread II", "ingredient": ["shortening", "hot water", "brown sugar", "active dry yeast", "warm water", "white sugar", "salt", "flour", "whole wheat flour"]}
+{"recipe": "Finnish Pulla", "ingredient": ["milk", "warm water", "active dry yeast", "white sugar", "salt", "ground cardamom", "eggs", "all-purpose flour", "butter", "egg", "white sugar"]}
+{"recipe": "Chinese Steamed Buns", "ingredient": ["active dry yeast", "white sugar", "all-purpose flour", "water", "warm water", "all-purpose flour", "salt", "white sugar", "vegetable oil", "powder"]}
+{"recipe": "Cottage Cheese Bread II", "ingredient": ["warm water", "cottage cheese room temperature", "vegetable oil", "egg", "all-purpose flour", "white sugar", "soda", "salt", "active dry yeast"]}
+{"recipe": "Mocha Chocolate Chip Banana Muffins", "ingredient": ["margarine", "white sugar", "egg", "bananas", "instant coffee granules", "water", "vanilla extract", "all-purpose flour", "salt", "powder", "soda", "semisweet chocolate chips"]}
+{"recipe": "Ruby's Special Cornbread", "ingredient": ["cornmeal", "milk", "eggs", "green bell pepper", "onion", "garlic powder", "salt", "soda", "white sugar", "whole kernel corn", "pimento peppers", "vegetable oil", "jalapeno peppers"]}
+{"recipe": "Maple Muffins", "ingredient": ["all-purpose flour", "white sugar", "powder", "salt", "shortening", "oats", "egg", "milk", "real maple syrup"]}
+{"recipe": "French Toast I", "ingredient": ["slices", "eggs", "milk", "ground cinnamon", "ground nutmeg", "vanilla extract", "salt"]}
+{"recipe": "Snow Day French Toast", "ingredient": ["eggs", "milk", "salt", "ground nutmeg", "raisin bread", "butter", "white sugar"]}
+{"recipe": "Angel Biscuits II", "ingredient": ["active dry yeast", "warm water", "buttermilk", "all-purpose flour", "powder", "soda", "salt", "white sugar", "shortening"]}
+{"recipe": "Fudgy Chocolate Chip Muffins", "ingredient": ["applesauce", "margarine", "white sugar", "light brown sugar", "egg", "vanilla extract", "all-purpose flour", "unsweetened cocoa powder", "soda", "ground cinnamon", "semi-sweet chocolate chips", "confectioners sugar"]}
+{"recipe": "Pumpernickel Bread II", "ingredient": ["warm milk", "vegetable oil", "molasses", "flour", "flour", "cornmeal", "salt", "active dry yeast", "unsweetened cocoa powder", "brown sugar"]}
+{"recipe": "Indian Naan II", "ingredient": ["warm water", "active dry yeast", "white sugar", "all-purpose flour", "salt", "ghee", "plain yogurt", "kalonji"]}
+{"recipe": "Lefse II", "ingredient": ["buttermilk", "light corn syrup", "white sugar", "soda", "ground cardamom", "all-purpose flour"]}
+{"recipe": "Chocolate Chocolate Chip Muffins", "ingredient": ["semisweet chocolate", "unsalted butter", "buttermilk", "white sugar", "egg", "vanilla extract", "all-purpose flour", "soda", "salt", "semi-sweet chocolate chips"]}
+{"recipe": "Banana Nut Bread Baked in a Jar", "ingredient": ["shortening", "white sugar", "eggs", "bananas", "water", "all-purpose flour", "powder", "soda", "salt", "ground cinnamon", "ground cloves", "chopped pecans"]}
+{"recipe": "Light Oat Bread", "ingredient": ["water", "margarine", "salt", "all-purpose flour", "oats", "brown sugar", "active dry yeast"]}
+{"recipe": "Honey Oatmeal Bread I", "ingredient": ["flour", "whole wheat flour", "oats", "wheat germ", "honey", "milk", "water", "salt", "butter", "active dry yeast"]}
+{"recipe": "Potato Bread III", "ingredient": ["potato", "water", "active dry yeast", "all-purpose flour", "white sugar", "shortening", "salt", "all-purpose flour"]}
+{"recipe": "French Baguettes", "ingredient": ["water", "flour", "white sugar", "salt", "bread machine yeast", "egg yolk", "water"]}
+{"recipe": "Oatmeal Soda Bread", "ingredient": ["all-purpose flour", "quick cooking oats", "salt", "powder", "soda", "low-fat sour cream", "skim milk", "honey", "white sugar", "butter", "butter"]}
+{"recipe": "Chinese Steamed Buns with Meat Filling", "ingredient": ["pork", "shrimp", "salt", "green onions", "fresh ginger root", "light soy sauce", "rice wine", "vegetable oil", "white sugar", "ground black pepper", "water", "Chinese Steamed Buns"]}
+{"recipe": "Chinese Steamed Buns with BBQ Pork Filling", "ingredient": ["boneless pork loin roast", "barbecue sauce", "shallots", "chicken broth", "dark soy sauce", "vegetable oil", "white sugar", "Chinese Steamed Buns"]}
+{"recipe": "Mary Anne's Moist and Nutty Carrot Loaf", "ingredient": ["soda", "salt", "ground cinnamon", "ground nutmeg", "all-purpose flour", "carrots", "pineapple", "vegetable oil", "white sugar", "eggs", "walnuts", "raisins"]}
+{"recipe": "Basic Fruit Bread Recipe", "ingredient": ["all-purpose flour", "powder", "soda", "salt", "white sugar", "vegetable oil", "eggs", "apple", "walnuts", "vanilla extract"]}
+{"recipe": "Russian Black Bread", "ingredient": ["water", "cider vinegar", "flour", "flour", "salt", "margarine", "dark corn syrup", "brown sugar", "unsweetened cocoa powder", "instant coffee granules", "caraway seed", "fennel seed", "active dry yeast"]}
+{"recipe": "Raisin Bread III", "ingredient": ["milk", "active dry yeast", "warm water", "white sugar", "shortening", "salt", "all-purpose flour", "raisins"]}
+{"recipe": "Dill Pickle Bread", "ingredient": ["warm water", "dill pickle", "butter", "minced onion", "parsley", "dill weed", "salt", "flour", "active dry yeast"]}
+{"recipe": "Angel Biscuit Rolls", "ingredient": ["all-purpose flour", "white sugar", "powder", "soda", "salt", "shortening", "active dry yeast", "warm water", "buttermilk", "butter"]}
+{"recipe": "Panettone II", "ingredient": ["warm water", "butter", "eggs", "vanilla extract", "flour", "white sugar", "dry milk powder", "salt", "bread machine yeast", "mixed fruit"]}
+{"recipe": "J.P.'s Big Daddy Biscuits", "ingredient": ["all-purpose flour", "powder", "salt", "white sugar", "shortening", "milk"]}
+{"recipe": "Beer Rolls", "ingredient": ["flour", "honey", "salt", "margarine", "dark beer", "active dry yeast", "ground cinnamon", "butter"]}
+{"recipe": "Paska Bread", "ingredient": ["Sponge", "active dry yeast", "warm water", "white sugar", "warm milk", "all-purpose flour", "Dough", "eggs", "white sugar", "butter", "salt", "lemon zest", "all-purpose flour", "egg", "water", "butter"]}
+{"recipe": "Bread Machine Challah I", "ingredient": ["milk", "eggs", "margarine", "flour", "white sugar", "salt", "active dry yeast"]}
+{"recipe": "Pumpkin Bread V", "ingredient": ["all-purpose flour", "powder", "salt", "pumpkin pie spice", "soda", "ground cloves", "brown sugar", "butter", "eggs", "pumpkin", "milk", "raisins", "walnuts"]}
+{"recipe": "Best Ever Cinnamon Buns", "ingredient": ["active dry yeast", "warm water", "yellow cake mix", "all-purpose flour", "eggs", "vegetable oil", "salt", "butter", "white sugar", "ground cinnamon", "butter", "confectioners sugar", "vanilla extract", "milk"]}
+{"recipe": "Oatmeal Molasses Bread", "ingredient": ["active dry yeast", "quick cooking oats", "flour", "salt", "molasses", "vegetable oil", "water", "honey"]}
+{"recipe": "Ezekiel Bread I", "ingredient": ["wheat berries", "flour", "barley", "millet", "dry green lentils", "dry great Northern beans", "dry kidney beans", "pinto beans", "warm water", "honey", "olive oil", "active dry yeast", "salt"]}
+{"recipe": "Zucchini Pineapple Bread I", "ingredient": ["eggs", "white sugar", "vanilla extract", "vegetable oil", "ground cinnamon", "ground nutmeg", "pineapple", "zucchini", "all-purpose flour", "salt", "soda", "powder"]}
+{"recipe": "Pumpkin Swirl Bread", "ingredient": ["cream cheese", "white sugar", "egg", "all-purpose flour", "white sugar", "soda", "ground cinnamon", "salt", "ground nutmeg", "pumpkin", "butter", "egg", "water"]}
+{"recipe": "Jule Kaka", "ingredient": ["milk", "butter", "salt", "white sugar", "active dry yeast", "warm water", "all-purpose flour", "ground cardamom", "candied cherries", "citron", "golden raisins", "egg white"]}
+{"recipe": "Steve's Whole Wheat", "ingredient": ["water", "dry milk powder", "molasses", "honey", "margarine", "white sugar", "salt", "flour", "whole wheat flour", "flour", "active dry yeast"]}
+{"recipe": "Oatmeal Bread II", "ingredient": ["water", "flour", "honey", "dry milk powder", "salt", "quick cooking oats", "margarine", "active dry yeast"]}
+{"recipe": "Dizzy Pineapple Bread", "ingredient": ["pineapple chunks", "self-rising flour", "white sugar", "beer"]}
+{"recipe": "Coconut Pumpkin Nut Bread", "ingredient": ["all-purpose flour", "dark brown sugar", "white sugar", "pumpkin", "vegetable oil", "coconut milk", "soda", "salt", "ground nutmeg", "ground cinnamon", "unsweetened coconut", "walnuts"]}
+{"recipe": "European Black Bread", "ingredient": ["water", "cider vinegar", "flour", "flour", "oat bran", "margarine", "white sugar", "salt", "caraway seed", "minced onion", "unsweetened cocoa powder", "active dry yeast"]}
+{"recipe": "Chili Bread", "ingredient": ["beer", "beef bouillon", "ground", "hot chile oil", "olive oil", "flour", "ground cumin", "minced onion", "chili powder", "garlic powder", "salt", "active dry yeast"]}
+{"recipe": "Old Fashion Molasses Bread", "ingredient": ["water", "flour", "butter", "dry milk powder", "molasses", "active dry yeast", "salt"]}
+{"recipe": "Whole Wheat Honey Bread", "ingredient": ["water", "whole wheat flour", "salt", "honey", "dry milk powder", "shortening", "active dry yeast"]}
+{"recipe": "Carrot Thyme Bread", "ingredient": ["active dry yeast", "flour", "flour", "cornmeal", "white sugar", "thyme", "salt", "water", "carrots", "vegetable oil"]}
+{"recipe": "Golly Gee Gluten-Free Pancakes", "ingredient": ["egg", "apple juice", "unsalted butter", "amaranth flour", "tapioca flour", "flour", "ground cinnamon", "ground nutmeg", "wheat-free baking powder", "salt"]}
+{"recipe": "Salt Rising Bread", "ingredient": ["milk", "cornmeal", "white sugar", "salt", "warm water", "all-purpose flour", "white sugar", "shortening", "soda", "warm water", "all-purpose flour"]}
+{"recipe": "Baked Pretzels", "ingredient": ["beer", "margarine", "white sugar", "salt", "all-purpose flour", "active dry yeast", "egg", "warm water", "kosher salt"]}
+{"recipe": "Amish Friendship Bread Starter", "ingredient": ["active dry yeast", "warm water", "all-purpose flour", "white sugar", "milk"]}
+{"recipe": "Amish Cinnamon Bread", "ingredient": ["Amish Friendship Bread Starter", "vegetable oil", "white sugar", "eggs", "vanilla extract", "soda", "powder", "instant vanilla mix", "all-purpose flour", "ground cinnamon", "chopped pecans", "apple", "raisins"]}
+{"recipe": "Easy Rice Bread", "ingredient": ["white rice flour", "brown rice flour", "xanthan gum", "unflavored gelatin", "superfine sugar", "salt", "egg substitute", "dry milk powder", "active dry yeast", "eggs", "cider vinegar", "walnut oil", "warm water"]}
+{"recipe": "French Herb Bread", "ingredient": ["active dry yeast", "white sugar", "salt", "all-purpose flour", "milk", "white vinegar", "water", "margarine", "onion", "garlic", "salt", "parsley", "margarine"]}
+{"recipe": "Lemon Poppy Seed Muffins I", "ingredient": ["all-purpose flour", "white sugar", "poppy seeds", "powder", "soda", "salt", "eggs", "lemon yogurt", "vegetable oil", "lemon zest", "lemon juice", "white sugar"]}
+{"recipe": "Lemon Poppy Seed Muffins II", "ingredient": ["milk", "vegetable oil", "nonfat lemon yogurt", "egg", "all-purpose flour", "white sugar", "poppy seeds", "lemon zest", "lemon extract", "powder", "soda", "salt", "confectioners sugar", "lemon juice"]}
+{"recipe": "Special Banana Bread", "ingredient": ["shortening", "white sugar", "ripe bananas", "eggs", "all-purpose flour", "salt", "soda", "ground cinnamon", "ground cloves", "nutmeg", "walnuts"]}
+{"recipe": "Injera", "ingredient": ["active dry yeast", "honey", "warm water", "ground flour", "soda"]}
+{"recipe": "Pita Bread", "ingredient": ["all-purpose flour", "pastry flour", "warm water", "active dry yeast", "applesauce", "salt", "white sugar", "olive oil"]}
+{"recipe": "Raisin Bread II", "ingredient": ["warm water", "lard", "active dry yeast", "raisins", "flour", "salt", "ground cinnamon"]}
+{"recipe": "Hot Cross Buns I", "ingredient": ["warm water", "butter", "instant milk", "white sugar", "salt", "egg", "egg white", "all-purpose flour", "active dry yeast", "currants", "ground cinnamon", "egg yolk", "water", "confectioners sugar", "vanilla extract", "milk"]}
+{"recipe": "Hot Cross Buns II", "ingredient": ["active dry yeast", "warm milk", "eggs", "butter", "whole wheat flour", "salt", "ground nutmeg", "currants", "mixed fruit peel", "honey", "all-purpose flour", "shortening", "egg", "milk"]}
+{"recipe": "Plain and Simple Sourdough Bread", "ingredient": ["warm water", "sourdough starter", "salt", "flour", "active dry yeast"]}
+{"recipe": "Garlic and Herb Bread", "ingredient": ["warm water", "nonfat dry milk powder", "vegetable oil", "white sugar", "garlic salt", "onion powder", "basil", "dill weed", "celery seed", "parsley", "flour", "active dry yeast"]}
+{"recipe": "Ron's Fruit Bread", "ingredient": ["water", "egg", "dry milk powder", "honey", "margarine", "salt", "flour", "all-purpose flour", "ground cinnamon", "ground nutmeg", "ground ginger", "ground allspice", "ground mace", "ground cardamom", "active dry yeast", "raisins", "mixed fruit peel"]}
+{"recipe": "Ron's Bread Machine White", "ingredient": ["water", "large egg", "dry milk powder", "white sugar", "vegetable oil", "salt", "flour", "all-purpose flour", "active dry yeast"]}
+{"recipe": "Portuguese Sweet Bread I", "ingredient": ["milk", "egg", "margarine", "white sugar", "salt", "flour", "active dry yeast"]}
+{"recipe": "Pizza Crust I", "ingredient": ["warm water", "salt", "olive oil", "all-purpose flour", "white sugar", "active dry yeast"]}
+{"recipe": "Tomato Basil Sherry Bread", "ingredient": ["tomato paste", "sherry", "salt", "flour", "vegetable oil", "basil", "active dry yeast", "sun-dried tomatoes"]}
+{"recipe": "Onion, Garlic, Cheese Bread", "ingredient": ["warm water", "flour", "dry milk powder", "white sugar", "salt", "margarine", "active dry yeast", "garlic powder", "minced onion", "sharp Cheddar cheese"]}
+{"recipe": "Irish Soda Bread III", "ingredient": ["warm water", "margarine", "white sugar", "salt", "flour", "dry milk powder", "caraway seed", "active dry yeast", "raisins"]}
+{"recipe": "The All-Good Loaf", "ingredient": ["warm water", "sea salt", "whole wheat flour", "flour", "white flour", "fresh rosemary", "active dry yeast"]}
+{"recipe": "Sourdough Wheat Bread", "ingredient": ["sourdough starter", "warm water", "margarine", "white sugar", "salt", "whole wheat flour", "all-purpose flour", "active dry yeast"]}
+{"recipe": "Basic British Scones", "ingredient": ["all-purpose flour", "cream tartar", "soda", "salt", "margarine", "white sugar", "milk", "milk"]}
+{"recipe": "Yeast-Free Bread", "ingredient": ["self-rising flour", "white sugar", "lemon-lime carbonated beverage"]}
+{"recipe": "Bread Bowls II", "ingredient": ["frozen bread dough"]}
+{"recipe": "Bread Sticks", "ingredient": ["dinner roll dough", "margarine", "garlic salt", "Parmesan cheese", "sesame seeds"]}
+{"recipe": "Cinnamon Bread II", "ingredient": ["warm water", "margarine", "flour", "white sugar", "salt", "ground cinnamon", "active dry yeast", "raisins"]}
+{"recipe": "Banana Macadamia Nut Bread", "ingredient": ["warm water", "bananas", "margarine", "egg", "flour", "white sugar", "salt", "active dry yeast", "macadamia nuts"]}
+{"recipe": "Homemade Wonderful Bread", "ingredient": ["active dry yeast", "warm water", "white sugar", "all-purpose flour", "dry potato flakes", "dry milk powder", "salt", "white sugar", "margarine", "warm water"]}
+{"recipe": "Spudnuts", "ingredient": ["potatoes", "milk", "white sugar", "shortening", "salt", "all-purpose flour", "lemon zest", "lemon juice", "warm water", "active dry yeast", "eggs", "ground nutmeg"]}
+{"recipe": "Banana Nut Oatmeal Bread", "ingredient": ["steel cut oats", "boiling water", "warm water", "egg", "vegetable oil", "bananas", "brown sugar", "salt", "buttermilk", "quick cooking oats", "all-purpose flour", "active dry yeast", "walnuts"]}
+{"recipe": "Irresistible Irish Soda Bread", "ingredient": ["all-purpose flour", "powder", "white sugar", "salt", "soda", "egg", "buttermilk", "butter"]}
+{"recipe": "Irish Soda Bread IV", "ingredient": ["all-purpose flour", "white sugar", "margarine", "powder", "eggs", "soda", "salt", "caraway seed", "raisins", "buttermilk", "milk", "sour cream"]}
+{"recipe": "Chinese Pork Buns (Cha Siu Bao)", "ingredient": ["all-purpose flour", "white sugar", "warm water", "active dry yeast", "powder", "shortening", "pork", "light soy sauce", "hoisin sauce", "soy sauce", "white sugar", "soy sauce", "oyster sauce", "water", "cornstarch", "water", "shortening", "sesame oil", "ground white pepper"]}
+{"recipe": "Christmas Stollen II", "ingredient": ["raisins", "currants", "mixed citrus peel", "candied cherries", "rum", "active dry yeast", "white sugar", "warm water", "all-purpose flour", "almonds", "milk", "almond extract", "lemon zest", "salt", "egg", "butter", "butter", "confectioners sugar"]}
+{"recipe": "Pizza Crust II", "ingredient": ["warm water", "white sugar", "active dry yeast", "salt", "all-purpose flour", "garlic powder", "oregano", "margarine", "cornmeal", "olive oil", "Parmigiano Reggiano cheese"]}
+{"recipe": "Swiss Christmas Bread", "ingredient": ["all-purpose flour", "active dry yeast", "white sugar", "salt", "ground nutmeg", "ground mace", "ground cloves", "milk", "water", "margarine", "egg", "raisins", "candied cherries", "citron peel", "walnuts", "butter", "white sugar"]}
+{"recipe": "Pistachio Bread", "ingredient": ["yellow cake mix", "eggs", "vegetable oil", "water", "instant pistachio mix", "sour cream", "maraschino cherries", "green food coloring", "ground cinnamon", "white sugar"]}
+{"recipe": "Grill Dough", "ingredient": ["all-purpose flour", "salt", "white sugar", "active dry yeast", "olive oil", "cornmeal", "warm water"]}
+{"recipe": "German Rye Bread", "ingredient": ["active dry yeast", "warm water", "lukewarm milk", "white sugar", "salt", "molasses", "butter", "flour", "flour"]}
+{"recipe": "Spelt Bread I", "ingredient": ["active dry yeast", "white sugar", "flour", "warm water", "salt"]}
+{"recipe": "Easter Bread Ring", "ingredient": ["eggs", "white sugar", "salt", "active dry yeast", "all-purpose flour", "milk", "butter", "eggs room temperature", "mixed fruit", "almonds", "anise seed", "shortening", "confectioners sugar", "whole milk", "vanilla extract", "sprinkles"]}
+{"recipe": "Essene Bread", "ingredient": ["wheat berries", "water", "cornmeal"]}
+{"recipe": "Sticky Buns I", "ingredient": ["active dry yeast", "warm water", "buttermilk", "eggs", "all-purpose flour", "margarine", "white sugar", "powder", "salt", "margarine", "white sugar", "ground cinnamon", "butter", "brown sugar", "raisins", "chopped pecans"]}
+{"recipe": "Apple Bran Cheddar Muffins", "ingredient": ["whole bran cereal", "milk", "apple", "vegetable oil", "egg", "all-purpose flour", "powder", "salt", "ground cinnamon", "brown sugar", "Cheddar cheese"]}
+{"recipe": "Restaurant-Quality Maple Oatmeal Scones", "ingredient": ["cherries", "egg", "buttermilk", "vanilla extract", "all-purpose flour", "oats", "cornstarch", "powder", "soda", "salt", "white sugar", "real maple syrup", "maple extract", "unsalted butter", "egg white", "white sugar"]}
+{"recipe": "Quick and Easy Monkey Bread", "ingredient": ["frozen dinner roll dough", "brown sugar", "instant butterscotch pudding mix", "white sugar", "ground cinnamon", "walnuts", "butter"]}
+{"recipe": "Brunch Cream Cheese Muffins", "ingredient": ["cream cheese", "white sugar", "lemon zest", "vanilla extract", "eggs", "milk", "vegetable oil", "all-purpose flour", "white sugar", "powder", "salt", "confectioners sugar"]}
+{"recipe": "Mocha Muffins", "ingredient": ["egg", "egg whites", "milk", "instant coffee powder", "water", "vanilla extract", "all-purpose flour", "milk powder", "white sugar", "powder", "salt", "ground cinnamon", "white sugar"]}
+{"recipe": "Peanut Butter and Jelly Bread", "ingredient": ["water", "vegetable oil", "peanut butter", "blackberry", "white sugar", "salt", "whole wheat flour", "flour", "active dry yeast"]}
+{"recipe": "Spiced Apple Muffins", "ingredient": ["apple peel", "applesauce", "milk", "salt", "powder", "white sugar", "all-purpose flour", "ground ginger", "ground cinnamon", "anise seed"]}
+{"recipe": "Banana Chip Muffins II", "ingredient": ["all-purpose flour", "powder", "soda", "ground cinnamon", "salt", "egg whites", "bananas", "white sugar", "applesauce", "semisweet chocolate chips"]}
+{"recipe": "Banana Bread - Quick Bread for Machines", "ingredient": ["all-purpose flour", "powder", "soda", "white sugar", "vegetable oil", "eggs", "bananas lengthwise"]}
+{"recipe": "Steamed Black Bread", "ingredient": ["buttermilk", "molasses", "vegetable oil", "white sugar", "salt", "soda", "all-purpose flour", "graham"]}
+{"recipe": "Dark Rye Bread", "ingredient": ["water", "molasses", "vegetable oil", "salt", "all-purpose flour", "flour", "brown sugar", "unsweetened cocoa powder", "caraway seed", "bread machine yeast"]}
+{"recipe": "Mediterranean Black Olive Bread", "ingredient": ["flour", "active dry yeast", "white sugar", "salt", "chopped black olives", "olive oil", "warm water", "cornmeal"]}
+{"recipe": "Italian Herb Bread II", "ingredient": ["warm water", "flour", "dry milk powder", "white sugar", "salt", "Parmesan cheese", "Italian seasoning", "margarine", "active dry yeast"]}
+{"recipe": "Batter White Bread", "ingredient": ["active dry yeast", "shortening", "warm water", "white sugar", "salt", "all-purpose flour", "butter"]}
+{"recipe": "Authentic Mexican Tortillas", "ingredient": ["all-purpose flour", "powder", "salt", "shortening", "hot water"]}
+{"recipe": "Johnnycakes", "ingredient": ["stone ground cornmeal", "salt", "unsalted butter", "whole milk", "boiling water"]}
+{"recipe": "Polish Doughnuts", "ingredient": ["cake fresh yeast", "warm water", "white sugar", "milk", "margarine", "egg yolks", "white sugar", "all-purpose flour", "shortening for frying", "white sugar"]}
+{"recipe": "Julia's Hot Cross Buns", "ingredient": ["milk", "water", "egg", "salt", "white sugar", "margarine", "ground cinnamon", "ground nutmeg", "orange zest", "flour", "active dry yeast", "raisins", "confectioners sugar", "water"]}
+{"recipe": "Pain Perdu I", "ingredient": ["egg bread", "egg", "unsalted butter", "white sugar", "salt", "ground cinnamon", "ground nutmeg", "all-purpose flour", "milk", "vanilla extract"]}
+{"recipe": "High Flavor Bran Bread", "ingredient": ["warm water", "dry milk powder", "vegetable oil", "molasses", "honey", "salt", "whole wheat flour", "flour", "whole bran cereal", "active dry yeast"]}
+{"recipe": "Malasadas", "ingredient": ["active dry yeast", "white sugar", "warm water", "eggs", "all-purpose flour", "white sugar", "butter", "milk", "water", "salt", "vegetable oil frying", "white sugar"]}
+{"recipe": "Oat Bran Bread", "ingredient": ["warm water", "margarine", "flour", "oat bran", "honey", "salt", "active dry yeast"]}
+{"recipe": "Oatmeal Bread III", "ingredient": ["soy milk", "honey", "vegetable oil", "liquid lecithin", "oat flour", "brown rice flour", "flour", "powder", "arrowroot powder", "sea salt", "ground cinnamon", "oats"]}
+{"recipe": "Blueberry Bread II", "ingredient": ["flour", "white sugar", "salt", "vegetable oil", "blueberries", "soda", "buttermilk", "vital wheat gluten", "active dry yeast"]}
+{"recipe": "Sour Cream and Chive Rolls", "ingredient": ["sour cream", "salt", "white sugar", "butter", "active dry yeast", "eggs", "all-purpose flour", "fresh chives", "warm water"]}
+{"recipe": "Pear-a-dise Muffins", "ingredient": ["all-purpose flour", "whole wheat flour", "soda", "ground cinnamon", "powder", "ground nutmeg", "salt", "plain yogurt", "vegetable oil", "honey", "egg", "canned pears"]}
+{"recipe": "Basic Sourdough Bread", "ingredient": ["sourdough starter", "water", "all-purpose flour", "white sugar", "vegetable oil", "salt", "bread machine yeast"]}
+{"recipe": "Bread Pudding I", "ingredient": ["day-old bread cubes", "milk", "butter", "white sugar", "salt", "eggs", "ground cinnamon", "ground nutmeg", "raisins", "white sugar", "cornstarch", "hot water", "butter", "lemon juice", "lemon zest"]}
+{"recipe": "Taralli", "ingredient": ["active dry yeast", "water", "margarine", "white sugar", "salt", "egg", "all-purpose flour", "fennel seed", "water"]}
+{"recipe": "Fondue Bread", "ingredient": ["white sugar", "salt", "active dry yeast", "all-purpose flour", "margarine", "milk", "egg", "egg yolk", "Muenster cheese", "egg white", "whole almonds"]}
+{"recipe": "Southern Butter Rolls", "ingredient": ["all-purpose flour", "shortening", "white sugar", "salt", "active dry yeast", "cold water", "vegetable oil"]}
+{"recipe": "Ponczki", "ingredient": ["cake fresh yeast", "milk", "raisins", "warm water", "egg yolks", "egg", "white sugar", "butter", "vanilla extract", "orange zest", "salt", "all-purpose flour", "vegetable oil frying"]}
+{"recipe": "Country Seed Bread", "ingredient": ["water", "honey", "canola oil", "salt", "flour", "whole wheat flour", "flax seed", "sesame seeds", "poppy seeds", "active dry yeast"]}
+{"recipe": "Banana Nut Bread II", "ingredient": ["margarine", "milk", "eggs", "all-purpose flour", "white sugar", "powder", "soda", "salt", "bananas", "walnuts"]}
+{"recipe": "Italian Cheese Bread", "ingredient": ["warm water", "flour", "pepperjack cheese", "Italian seasoning", "ground black pepper", "Parmesan cheese", "brown sugar", "salt", "active dry yeast"]}
+{"recipe": "Nut Rolls", "ingredient": ["margarine", "eggs", "white sugar", "sour cream", "salt", "milk", "all-purpose flour", "active dry yeast", "ground walnuts", "white sugar", "ground cinnamon", "apricot preserves", "lemon juice", "ground cinnamon", "butter", "egg yolk"]}
+{"recipe": "Bread Machine Spelt Bread", "ingredient": ["water", "vegetable oil", "honey", "lecithin", "white flour", "dry milk powder", "salt", "active dry yeast"]}
+{"recipe": "Sausage Bread", "ingredient": ["hot bread roll mix", "pork sausage", "pepperoni", "Parmesan cheese", "mozzarella cheese", "Cheddar cheese", "eggs", "parsley", "garlic powder", "monosodium glutamate", "minced onion", "oregano", "eggs"]}
+{"recipe": "Cheddar Bay Biscuits", "ingredient": ["mix", "Cheddar cheese", "water", "butter", "garlic powder", "salt", "onion powder", "parsley"]}
+{"recipe": "Tarradls (Italian Pepper Rings)", "ingredient": ["warm water", "active dry yeast", "olive oil", "salt", "all-purpose flour", "ground black pepper", "almonds"]}
+{"recipe": "French Brioche", "ingredient": ["warm water", "eggs", "egg yolks", "butter", "all-purpose flour", "white sugar", "active dry yeast", "egg white", "water"]}
+{"recipe": "Sticky Buns II", "ingredient": ["all-purpose flour", "white sugar", "powder", "salt", "margarine", "milk", "margarine", "brown sugar", "ground cinnamon", "raisins"]}
+{"recipe": "Golden Cake Batter Bread", "ingredient": ["all-purpose flour", "white sugar", "salt", "active dry yeast", "milk", "margarine", "eggs", "vanilla extract"]}
+{"recipe": "Blueberry Orange Bread", "ingredient": ["all-purpose flour", "brown sugar", "powder", "salt", "margarine", "eggs", "orange zest", "milk", "orange juice", "fresh blueberries"]}
+{"recipe": "Pan Dulce", "ingredient": ["margarine", "milk", "active dry yeast", "salt", "white sugar", "all-purpose flour", "eggs", "white sugar", "all-purpose flour", "margarine", "egg yolks", "cocoa powder", "egg", "milk"]}
+{"recipe": "Honey and Flaxseed Bread", "ingredient": ["water", "oil", "honey", "liquid lecithin", "whole wheat flour", "flax seed", "flour", "whey powder", "sea salt", "active dry yeast"]}
+{"recipe": "Creamy Banana Bread", "ingredient": ["margarine", "cream cheese", "white sugar", "eggs", "bananas", "vanilla extract", "all-purpose flour", "powder", "soda", "chopped pecans", "brown sugar", "ground cinnamon"]}
+{"recipe": "Whole Wheat Banana Nut Bread", "ingredient": ["vegetable oil", "honey", "vanilla extract", "eggs", "bananas", "whole wheat flour", "salt", "soda", "hot water", "walnuts"]}
+{"recipe": "San Francisco Sourdough Bread", "ingredient": ["flour", "white sugar", "salt", "active dry yeast", "warm milk", "margarine", "sourdough starter", "large egg", "water", "onion"]}
+{"recipe": "Fougasse", "ingredient": ["warm water", "active dry yeast", "all-purpose flour", "basil", "ground savory", "thyme", "rosemary", "sea salt", "olive oil", "cornmeal"]}
+{"recipe": "Strawnana Bread", "ingredient": ["eggs", "white sugar", "strawberries", "bananas", "orange zest", "vegetable oil", "all-purpose flour", "soda", "ground cinnamon", "salt", "ground nutmeg", "walnuts"]}
+{"recipe": "Morning Glory Muffins I", "ingredient": ["all-purpose flour", "whole wheat flour", "white sugar", "ground cinnamon", "powder", "soda", "salt", "carrots", "peeled", "raisins", "egg", "egg whites", "apple butter", "vegetable oil", "vanilla extract", "walnuts", "toasted wheat germ"]}
+{"recipe": "Herman Sourdough Starter", "ingredient": ["active dry yeast", "warm water", "all-purpose flour", "white sugar", "white sugar", "all-purpose flour", "milk"]}
+{"recipe": "Herman Biscuits", "ingredient": ["Herman Sourdough Starter", "all-purpose flour", "soda", "powder", "salt", "vegetable oil"]}
+{"recipe": "Herman Coffee Cake", "ingredient": ["Herman Sourdough Starter", "vegetable oil", "eggs", "all-purpose flour", "ground cinnamon", "soda", "powder", "salt", "white sugar", "chopped pecans", "raisins", "brown sugar", "all-purpose flour", "ground cinnamon", "margarine", "margarine", "milk", "brown sugar"]}
+{"recipe": "Favorite Banana Blueberry Quick Bread", "ingredient": ["fresh blueberries", "all-purpose flour", "quick cooking oats", "chopped pecans", "soda", "salt", "shortening", "white sugar", "eggs", "bananas"]}
+{"recipe": "Honey Bran Muffins", "ingredient": ["pineapple juice", "golden raisins", "brown sugar", "vegetable oil", "honey", "eggs", "all-purpose flour", "soda", "salt", "whole bran cereal"]}
+{"recipe": "Welsh Bread", "ingredient": ["white vinegar", "milk", "brown sugar", "egg", "margarine", "salt", "molasses", "all-purpose flour", "soda", "caraway seed", "bread machine yeast", "raisins"]}
+{"recipe": "Cherry Vanilla Chip Muffins", "ingredient": ["banana", "egg substitute", "vanilla soy milk", "vegetable oil", "applesauce", "white rice flour", "sucanat", "powder", "salt", "cherries", "vanilla chips"]}
+{"recipe": "Chocolate Zucchini Muffins", "ingredient": ["eggs", "white sugar", "vegetable oil", "unsweetened cocoa powder", "vanilla extract", "zucchini", "all-purpose flour", "soda", "powder", "salt", "ground cinnamon", "ground nutmeg", "ground cloves", "ground cardamom"]}
+{"recipe": "Buttermilk Honey Wheat Bread", "ingredient": ["active dry yeast", "whole wheat flour", "all-purpose flour", "soda", "salt", "honey", "vegetable oil", "buttermilk room temperature"]}
+{"recipe": "Herman Cinnamon Rolls", "ingredient": ["Herman Sourdough Starter", "all-purpose flour", "soda", "salt", "powder", "eggs", "margarine", "white sugar", "ground cinnamon", "raisins", "walnuts"]}
+{"recipe": "Herman Dinner Rolls", "ingredient": ["active dry yeast", "warm water", "Herman Sourdough Starter", "all-purpose flour", "salt", "vegetable oil"]}
+{"recipe": "Orange Pull-Aparts", "ingredient": ["milk", "egg", "orange zest", "orange", "water", "all-purpose flour", "white sugar", "active dry yeast", "salt", "margarine", "ground cinnamon", "butter", "white sugar", "confectioners sugar", "orange juice"]}
+{"recipe": "Six Week Bran Muffins", "ingredient": ["boiling water", "whole bran cereal", "shortening", "white sugar", "eggs", "buttermilk", "all-purpose flour", "soda", "salt", "whole bran cereal"]}
+{"recipe": "Schlotsky's Bread", "ingredient": ["warm water", "white sugar", "active dry yeast", "soda", "warm water", "warm milk", "salt", "flour", "cornmeal"]}
+{"recipe": "Navajo Fry Bread I", "ingredient": ["all-purpose flour", "nonfat dry milk powder", "powder", "salt", "lard small pieces", "ice water", "sea salt", "lard"]}
+{"recipe": "Banana Chai Bread", "ingredient": ["all-purpose flour", "powder", "salt", "white sugar", "lowfat cream cheese", "eggs", "bananas", "chai tea"]}
+{"recipe": "Soft, Moist and Gooey Cinnamon Buns", "ingredient": ["milk", "egg", "butter", "water", "instant vanilla mix", "flour", "white sugar", "salt", "bread machine yeast", "butter", "brown sugar", "ground cinnamon", "walnuts", "raisins", "milk", "confectioners sugar", "butter", "vanilla extract"]}
+{"recipe": "Bread Pudding II", "ingredient": ["day-old bread", "butter", "raisins", "eggs", "milk", "white sugar", "ground cinnamon", "vanilla extract"]}
+{"recipe": "Bread Machine Bagels", "ingredient": ["warm water", "salt", "white sugar", "flour", "active dry yeast", "boiling water", "white sugar", "cornmeal", "egg white", "poppy seeds"]}
+{"recipe": "Beignets", "ingredient": ["active dry yeast", "warm water", "white sugar", "salt", "eggs", "milk", "all-purpose flour", "shortening", "vegetable oil frying", "confectioners sugar"]}
+{"recipe": "Sourdough Pancakes", "ingredient": ["sourdough starter", "egg", "water", "vegetable oil", "nonfat dry milk powder", "salt", "soda", "white sugar"]}
+{"recipe": "Jelly Doughnuts", "ingredient": ["warm milk", "water", "egg", "margarine", "white sugar", "flour", "salt", "ground nutmeg", "active dry yeast", "flavor fruit jam", "vegetable oil frying"]}
+{"recipe": "Old-Fashioned Sally Lunn Muffins", "ingredient": ["all-purpose flour", "powder", "salt", "shortening", "white sugar", "egg", "milk"]}
+{"recipe": "Norwegian Flat Bread", "ingredient": ["whole wheat flour", "all-purpose flour", "vegetable oil", "soda", "salt", "buttermilk room temperature"]}
+{"recipe": "Easy Biscuit Mixture", "ingredient": ["all-purpose flour", "powder", "white sugar", "salt", "shortening"]}
+{"recipe": "Gluten-Free White Bread for Bread Machines", "ingredient": ["eggs", "cider vinegar", "olive oil", "honey", "buttermilk room temperature", "salt", "xanthan gum", "cornstarch", "potato starch", "flour", "white rice flour", "active dry yeast"]}
+{"recipe": "Chocolate Apple Bread", "ingredient": ["white sugar", "ground cinnamon", "walnuts", "all-purpose flour", "salt", "powder", "soda", "ground cinnamon", "ground nutmeg", "margarine", "white sugar", "eggs", "vanilla extract", "buttermilk", "chopped apples", "walnuts", "semi-sweet chocolate chips"]}
+{"recipe": "Coconut Muffins", "ingredient": ["eggs", "margarine", "honey", "almond extract", "boiling water", "unsweetened coconut", "all-purpose flour"]}
+{"recipe": "Zucchini Pineapple Bread II", "ingredient": ["eggs", "white sugar", "vanilla extract", "vegetable oil", "zucchini", "all-purpose flour", "soda", "powder", "salt", "raisins", "chopped pecans", "pineapple"]}
+{"recipe": "Pizza Crust for Bread Machine", "ingredient": ["warm water", "all-purpose flour", "flour", "white sugar", "salt", "olive oil", "active dry yeast"]}
+{"recipe": "Spinach Bread", "ingredient": ["water", "vegetable oil", "frozen spinach", "all-purpose flour", "Cheddar cheese", "salt", "white sugar", "ground black pepper", "active dry yeast"]}
+{"recipe": "Jo Jo's Favorite Banana Muffins", "ingredient": ["all-purpose flour", "white sugar", "ripe banana", "margarine", "eggs", "milk", "powder", "soda", "ground cinnamon", "salt"]}
+{"recipe": "Real Southern Cornbread", "ingredient": ["cornmeal", "all-purpose flour", "salt", "powder", "eggs", "margarine", "buttermilk", "corn oil"]}
+{"recipe": "Herb Biscuits", "ingredient": ["buttermilk biscuit dough", "butter", "parsley", "dill weed", "minced onion"]}
+{"recipe": "Cheese Biscuits II", "ingredient": ["all-purpose flour", "white sugar", "powder", "salt", "cream tartar", "shortening", "Cheddar cheese", "green bell pepper", "pimento peppers", "milk"]}
+{"recipe": "Zucchini Bread V", "ingredient": ["white sugar", "vegetable oil", "eggs", "vanilla extract", "zucchini", "all-purpose flour", "soda", "powder", "salt", "ground ginger", "ground cloves", "walnuts", "raisins"]}
+{"recipe": "Lefse I", "ingredient": ["boiling water", "butter", "milk", "salt", "white sugar", "dry potato flakes", "all-purpose flour", "all-purpose flour"]}
+{"recipe": "Broccoli and Four Cheese Calzones", "ingredient": ["warm water", "olive oil", "salt", "oregano", "flour", "active dry yeast", "frozen broccoli", "garlic powder", "olive oil", "provolone cheese", "Parmesan cheese", "mozzarella cheese", "ricotta cheese", "olive oil"]}
+{"recipe": "Prosciutto Filling for Calzones", "ingredient": ["ricotta cheese", "prosciutto", "Romano cheese", "Parmesan cheese", "eggs", "fresh parsley", "garlic", "salt pepper"]}
+{"recipe": "Broccoli, Pepperoni and Three Cheese Calzones", "ingredient": ["active dry yeast", "warm water", "all-purpose flour", "salt", "white sugar", "olive oil", "salt", "fresh broccoli", "provolone cheese", "mozzarella cheese", "Parmesan cheese", "garlic", "pepperoni", "olive oil", "salt pepper", "egg", "water", "cornmeal"]}
+{"recipe": "Banana Nut and Ginger Bread", "ingredient": ["brown sugar", "bananas", "eggs", "vanilla extract", "vegetable oil", "all-purpose flour", "soda", "salt", "ground cinnamon", "ground allspice", "ground cardamom", "ground cloves", "dark beer", "walnuts", "all-purpose flour", "dates", "fresh ginger root"]}
+{"recipe": "Lemon Poppy Seed Amish Friendship Bread", "ingredient": ["all-purpose flour", "white sugar", "powder", "soda", "salt", "ground cinnamon", "poppy seeds", "instant lemon mix", "Amish Friendship Bread Starter", "eggs", "milk", "applesauce", "vanilla extract", "vegetable oil"]}
+{"recipe": "Yummy Peanut Butter Bread", "ingredient": ["warm water", "white sugar", "brown sugar", "honey", "salt", "crunchy peanut butter", "vegetable oil", "egg", "flour", "active dry yeast"]}
+{"recipe": "Crunchy Honey Wheat Bread", "ingredient": ["warm water", "vegetable oil", "honey", "salt", "flour", "whole wheat flour", "vital wheat gluten", "granola", "active dry yeast"]}
+{"recipe": "Paximade", "ingredient": ["all-purpose flour", "powder", "salt", "anise seed", "unsalted butter", "white sugar", "eggs", "milk"]}
+{"recipe": "Southern Biscuits with Mayonnaise", "ingredient": ["buttermilk", "vegetable oil", "mayonnaise", "self-rising flour"]}
+{"recipe": "Cuban Water Bread", "ingredient": ["active dry yeast", "warm water", "white sugar", "salt", "all-purpose flour", "cornmeal", "sesame seeds", "cold water"]}
+{"recipe": "Granny's Oatmeal Bread", "ingredient": ["oats", "boiling water", "scalded whole milk", "canola oil", "molasses", "white sugar", "active dry yeast", "all-purpose flour", "salt"]}
+{"recipe": "Kalamata Olive and Garlic Bread", "ingredient": ["all-purpose flour", "warm water", "white sugar", "active dry yeast", "non-iodized salt", "warm water", "olive oil", "garlic", "Kalamata olives", "cornmeal"]}
+{"recipe": "Nana's Fastnachts", "ingredient": ["active dry yeast", "warm water", "white sugar", "all-purpose flour", "milk", "eggs", "margarine", "white sugar", "salt", "all-purpose flour", "vegetable oil frying"]}
+{"recipe": "Broccoli Cornbread", "ingredient": ["cornmeal", "all-purpose flour", "salt", "powder", "white sugar", "eggs", "frozen broccoli", "cottage cheese", "margarine"]}
+{"recipe": "Cheese Herb Bread", "ingredient": ["warm water", "flour", "dry milk powder", "white sugar", "salt", "butter", "Parmesan cheese", "marjoram", "thyme", "basil", "oregano", "active dry yeast"]}
+{"recipe": "Mocha Java Bread", "ingredient": ["warm water", "flour", "dry milk powder", "salt", "butter", "flour", "brown sugar", "egg", "mocha instant coffee mix", "almonds", "active dry yeast"]}
+{"recipe": "Deluxe Waffles", "ingredient": ["all-purpose flour", "powder", "salt", "white sugar", "egg yolks", "egg whites", "milk", "vegetable oil"]}
+{"recipe": "Pear Bread I", "ingredient": ["all-purpose flour", "powder", "soda", "salt", "ground cinnamon", "vegetable oil", "eggs", "white sugar", "pears", "chopped pecans", "vanilla extract"]}
+{"recipe": "Pumpkin Yeast Bread", "ingredient": ["warm water", "pumpkin", "margarine", "nonfat dry milk powder", "brown sugar", "ground cinnamon", "ground nutmeg", "salt", "ground ginger", "flour", "active dry yeast"]}
+{"recipe": "Sweet Corn Cake", "ingredient": ["butter", "masa harina", "water", "frozen whole-kernel corn", "cornmeal", "white sugar", "heavy whipping cream", "salt", "powder"]}
+{"recipe": "Rye Starter", "ingredient": ["whole meal rye flour", "spring water", "flour", "spring water"]}
+{"recipe": "Pepperoni Pizza Bread", "ingredient": ["water", "flour", "dry milk powder", "white sugar", "salt", "butter", "pepperoni sausage", "mozzarella cheese", "Parmesan cheese", "mushrooms", "minced onion", "garlic powder", "active dry yeast"]}
+{"recipe": "Wild Grape Starter", "ingredient": ["grapes", "whole wheat flour"]}
+{"recipe": "Orange Spice Muffins", "ingredient": ["brown sugar", "margarine", "egg", "milk", "orange juice", "orange zest", "buttermilk mix", "mincemeat", "white sugar", "ground cinnamon"]}
+{"recipe": "Muesli-Applesauce Muffins", "ingredient": ["applesauce", "vegetable oil", "white sugar", "egg", "water", "all-purpose flour", "soda", "ground cinnamon", "ground allspice", "salt", "muesli cereal", "raisins"]}
+{"recipe": "Double Quick Dinner Rolls", "ingredient": ["active dry yeast", "warm water", "dry potato flakes", "white sugar", "salt", "egg", "vegetable oil", "onion powder", "all-purpose flour"]}
+{"recipe": "Banana Chocolate Chip Muffins", "ingredient": ["all-purpose flour", "white sugar", "Dutch process cocoa powder", "powder", "bananas", "canola oil", "egg", "semi-sweet chocolate chips"]}
+{"recipe": "Pan de Muertos (Mexican Bread of the Dead)", "ingredient": ["margarine", "milk", "warm water", "all-purpose flour", "active dry yeast", "salt", "anise seed", "white sugar", "eggs", "orange zest", "white sugar", "orange juice", "orange zest", "white sugar"]}
+{"recipe": "Sourdough Buckwheat Pancakes", "ingredient": ["sourdough starter", "eggs", "vegetable oil", "white sugar", "vanilla extract", "salt", "buckwheat flour", "all-purpose flour", "soda", "ground ginger"]}
+{"recipe": "Cracked Wheat Sourdough Bread", "ingredient": ["wheat", "hot water", "margarine", "molasses", "honey", "nonfat milk", "flax seed", "raw sunflower seeds", "sourdough starter", "whole wheat flour", "flour", "egg"]}
+{"recipe": "Chocolate Chip Sourdough Muffins", "ingredient": ["sourdough starter", "egg", "milk", "vegetable oil", "vanilla extract", "salt", "all-purpose flour", "white sugar", "ground cinnamon", "milk chocolate chips"]}
+{"recipe": "Skiers' French Toast", "ingredient": ["light corn syrup", "butter", "brown sugar", "loaf white bread crust", "eggs", "milk", "vanilla extract", "salt"]}
+{"recipe": "Delightful Apple Spice Muffins", "ingredient": ["margarine", "white sugar", "eggs", "all-purpose flour", "ground cinnamon", "ground allspice", "powder", "soda", "applesauce"]}
+{"recipe": "Pumpkin Chip Bread", "ingredient": ["all-purpose flour", "soda", "ground cinnamon", "ground nutmeg", "ground ginger", "ground cloves", "margarine", "white sugar", "eggs", "solid pack pumpkin puree", "semi-sweet chocolate chips", "walnuts", "confectioners sugar", "milk", "ground nutmeg", "ground cinnamon"]}
+{"recipe": "Granny's Corn Flour Tortillas", "ingredient": ["all-purpose flour", "cornmeal", "powder", "salt", "warm water"]}
+{"recipe": "Tangy Buttermilk Cheese Bread", "ingredient": ["buttermilk", "flour", "salt", "white sugar", "sharp Cheddar cheese", "active dry yeast"]}
+{"recipe": "Corn Yeast Rolls", "ingredient": ["milk", "vegetable oil", "margarine", "egg", "cornmeal", "salt", "white sugar", "all-purpose flour", "active dry yeast"]}
+{"recipe": "Grandma Emma's Spice Loaf", "ingredient": ["hot coffee", "raisins", "shortening", "white sugar", "eggs", "molasses", "vanilla extract", "ground cinnamon", "ground nutmeg", "ground cloves", "ground ginger", "all-purpose flour", "soda", "salt", "walnuts"]}
+{"recipe": "Portuguese Sweet Bread II", "ingredient": ["milk", "eggs", "margarine", "white sugar", "salt", "flour", "active dry yeast", "lemon juice"]}
+{"recipe": "Challah in a Hurry", "ingredient": ["warm water", "margarine", "white sugar", "egg", "active dry yeast", "salt", "flour", "egg", "poppy seeds", "sesame seeds"]}
+{"recipe": "Jam Muffins", "ingredient": ["all-purpose flour", "powder", "salt", "white sugar", "egg", "milk", "vegetable oil", "flavor fruit jam"]}
+{"recipe": "Popovers", "ingredient": ["eggs", "all-purpose flour", "milk", "salt"]}
+{"recipe": "Rum Raisin Bread", "ingredient": ["rum", "raisins", "water", "flour", "dry milk powder", "brown sugar", "salt", "butter", "heavy whipping cream", "rum extract", "egg", "olive oil", "active dry yeast"]}
+{"recipe": "Apple Cheddar Bread", "ingredient": ["white sugar", "self-rising flour", "ground cinnamon", "walnuts", "eggs", "margarine", "peeled", "Cheddar cheese", "milk"]}
+{"recipe": "Pumpkin Pie Bread", "ingredient": ["all-purpose flour", "soda", "powder", "pumpkin pie spice", "salt", "white sugar", "vegetable oil", "eggs", "pumpkin", "water"]}
+{"recipe": "Pseudo Sourdough for the Bread Machine", "ingredient": ["water", "sour cream room temperature", "vegetable oil", "salt", "flour", "barley flour", "dry potato flakes", "white sugar", "active dry yeast"]}
+{"recipe": "Cardamom Banana Bread", "ingredient": ["raisins", "dark rum", "bananas", "brown sugar", "canola oil", "eggs", "all-purpose flour", "whole wheat flour", "powder", "soda", "salt", "ground cardamom", "walnuts"]}
+{"recipe": "Jay's Signature Pizza Crust", "ingredient": ["active dry yeast", "brown sugar", "warm water", "salt", "olive oil", "all-purpose flour"]}
+{"recipe": "Southern Sweet Potato Bread with Pecans", "ingredient": ["all-purpose flour", "powder", "salt", "ground nutmeg", "ground cinnamon", "white sugar", "eggs", "vegetable oil", "milk", "sweet potatoes", "chopped pecans", "golden raisins"]}
+{"recipe": "Aunt Bert's White Cake", "ingredient": ["white sugar", "all-purpose flour", "egg yolks", "egg", "buttermilk", "vanilla extract", "salt", "powder", "soda", "shortening", "boiling water"]}
+{"recipe": "Easy Plain Cake", "ingredient": ["eggs", "white sugar", "butter", "self-rising flour", "raisins", "semi-sweet chocolate chips", "peeled"]}
+{"recipe": "Peanut Butter Cake I", "ingredient": ["peanut butter", "butter", "brown sugar", "white sugar", "eggs", "vanilla extract", "all-purpose flour", "powder", "salt", "milk", "butter", "confectioners sugar", "milk", "vanilla extract"]}
+{"recipe": "Donna's Pound Cake", "ingredient": ["yellow cake mix", "white sugar", "vegetable oil", "sour cream", "eggs", "lemon extract"]}
+{"recipe": "Sourdough Chocolate Cranberry Cake", "ingredient": ["sourdough starter", "water", "all-purpose flour", "dry milk powder", "white sugar", "vegetable oil", "salt", "vanilla extract", "ground cinnamon", "soda", "eggs", "semisweet chocolate", "whole cranberry sauce"]}
+{"recipe": "Chocolate Zucchini Cake I", "ingredient": ["butter", "vegetable oil", "white sugar", "eggs", "sour milk", "vanilla extract", "all-purpose flour", "soda", "ground cinnamon", "ground cloves", "salt", "unsweetened cocoa powder", "zucchini", "ground walnuts", "semisweet chocolate chips"]}
+{"recipe": "Fruitcake Without Citron", "ingredient": ["dates", "candied pineapple chunks", "red green cherries", "walnut halves", "all-purpose flour", "powder", "salt", "eggs", "dark corn syrup", "brown sugar", "vegetable oil"]}
+{"recipe": "Mocha Blanca Cheesecake", "ingredient": ["Crust", "vanilla wafers", "butter", "white sugar", "unsweetened cocoa powder", "Filling", "instant coffee powder", "coffee-flavored liqueur", "semisweet chocolate", "cream cheese room temperature", "white sugar", "eggs room temperature", "Topping", "sour cream", "white sugar", "coffee-flavored liqueur", "unsweetened cocoa powder"]}
+{"recipe": "Carrot Cake II", "ingredient": ["egg whites", "white sugar", "applesauce", "skim milk", "vanilla extract", "ground cloves", "ground nutmeg", "ground cinnamon", "soda", "whole wheat flour", "all-purpose flour", "pineapple juice", "shredded carrots", "walnuts", "raisins"]}
+{"recipe": "Dirt Cake I", "ingredient": ["butter", "cream cheese", "confectioners sugar", "instant vanilla mix", "milk", "frozen", "chocolate sandwich cookies creme filling"]}
+{"recipe": "Chocolate Chip Oatmeal Cake", "ingredient": ["boiling water", "oats", "brown sugar", "white sugar", "butter", "eggs", "all-purpose flour", "soda", "unsweetened cocoa powder", "salt", "semisweet chocolate chips", "walnuts"]}
+{"recipe": "Pol's Apple Cake", "ingredient": ["eggs", "vegetable oil", "white sugar", "self-rising flour", "peeled", "coconut", "walnuts", "butter", "brown sugar", "milk"]}
+{"recipe": "Cherry Ripple Rose Cake", "ingredient": ["cherry pie filling", "almonds", "almond extract", "all-purpose flour", "powder", "salt", "butter", "white sugar", "eggs", "milk", "butter", "confectioners sugar", "almond extract", "milk"]}
+{"recipe": "Grandma's Eggless, Butterless, Milkless Cake", "ingredient": ["all-purpose flour", "white sugar", "unsweetened cocoa powder", "soda", "powder", "vegetable oil", "water", "white vinegar", "vanilla extract"]}
+{"recipe": "Texas Sheet Cake I", "ingredient": ["butter", "water", "unsweetened cocoa powder", "all-purpose flour", "white sugar", "salt", "eggs", "sour cream", "soda", "butter", "unsweetened cocoa powder", "milk", "confectioners sugar", "vanilla extract", "walnuts"]}
+{"recipe": "Italian Cream Cake I", "ingredient": ["butter", "egg yolks", "soda", "all-purpose flour", "egg whites", "white sugar", "buttermilk", "walnuts", "coconut", "cream cheese", "butter", "confectioners sugar", "vanilla extract", "walnuts"]}
+{"recipe": "Streusel Coffee Cake", "ingredient": ["butter", "white sugar", "eggs", "sour cream", "vanilla extract", "all-purpose flour", "powder", "soda", "white sugar", "ground cinnamon", "walnuts"]}
+{"recipe": "Boiled Raisin Cake I", "ingredient": ["raisins", "water", "vegetable oil", "cold water", "white sugar", "all-purpose flour", "ground cinnamon", "ground cloves", "ground nutmeg", "soda", "salt"]}
+{"recipe": "Waldorf Astoria Red Cake", "ingredient": ["shortening", "white sugar", "eggs", "red food coloring", "all-purpose flour", "salt", "vanilla extract", "unsweetened cocoa powder", "white vinegar", "buttermilk", "soda", "all-purpose flour", "milk", "confectioners sugar", "butter", "vanilla extract"]}
+{"recipe": "Krazy Kake", "ingredient": ["all-purpose flour", "white sugar", "soda", "unsweetened cocoa powder", "salt", "vegetable oil", "white vinegar", "vanilla extract", "water", "unsweetened cocoa powder", "milk", "butter", "white sugar"]}
+{"recipe": "Cocoa Apple Cake", "ingredient": ["eggs", "white sugar", "butter", "water", "all-purpose flour", "unsweetened cocoa powder", "soda", "ground cinnamon", "ground allspice", "semisweet chocolate chips", "apple", "vanilla extract"]}
+{"recipe": "Best Cheesecake on Earth", "ingredient": ["ricotta cheese", "cream cheese", "white sugar", "eggs", "all-purpose flour", "sour cream", "vanilla extract"]}
+{"recipe": "Grandma Snyder's Oatmeal Cake", "ingredient": ["oats", "boiling water", "butter", "white sugar", "brown sugar", "eggs", "all-purpose flour", "soda", "salt", "ground cinnamon", "ground nutmeg", "vanilla extract", "butter", "brown sugar", "milk", "coconut", "walnuts", "vanilla extract"]}
+{"recipe": "No Bake Cheesecake I", "ingredient": ["ground graham cracker crumbs", "pecan sandies cookies", "butter", "white sugar", "cream cheese", "white sugar", "lemon juice", "heavy whipping cream", "fresh strawberries"]}
+{"recipe": "Fabulous Fudge Chocolate Cake", "ingredient": ["all-purpose flour", "soda", "salt", "butter", "brown sugar", "eggs", "vanilla extract", "unsweetened chocolate", "sour cream", "boiling water", "butter", "brown sugar", "milk", "confectioners sugar"]}
+{"recipe": "Pumpkin Pie Cake I", "ingredient": ["pumpkin", "milk", "eggs", "white sugar", "ground cinnamon", "ground nutmeg", "ground ginger", "ground cloves", "yellow cake mix", "butter", "walnuts"]}
+{"recipe": "Awesome Carrot Cake with Cream Cheese Frosting", "ingredient": ["carrots", "all-purpose flour", "white sugar", "soda", "powder", "salt", "ground cinnamon", "eggs", "vegetable oil", "vanilla extract", "pineapple juice", "chopped pecans", "confectioners sugar", "Neufchatel cheese", "butter", "vanilla extract", "chopped pecans"]}
+{"recipe": "Chantilly Cake Frosting", "ingredient": ["milk", "white sugar", "egg yolks", "butter", "vanilla extract", "coconut", "macadamia nuts"]}
+{"recipe": "Plum Bread", "ingredient": ["vegetable oil", "eggs", "plum baby food", "white sugar", "red food coloring", "all-purpose flour", "ground cloves", "ground cinnamon", "ground nutmeg", "salt", "soda", "walnuts", "confectioners sugar", "lemon juice"]}
+{"recipe": "Mom's Carrot Cake", "ingredient": ["carrots", "all-purpose flour", "white sugar", "soda", "salt", "eggs", "ground cinnamon", "vegetable oil", "vanilla extract", "buttermilk", "pineapple juice", "coconut", "walnuts", "cream cheese", "butter", "vanilla extract", "confectioners sugar"]}
+{"recipe": "Easy Lemon Cake", "ingredient": ["yellow cake mix", "lemon Jell-O\u00ae", "vegetable oil", "eggs", "water", "lemon extract", "confectioners sugar", "lemon juice"]}
+{"recipe": "French Buttercream Frosting", "ingredient": ["unsalted butter", "shortening", "confectioners sugar", "vanilla extract", "butter extract", "heavy whipping cream", "all-purpose flour"]}
+{"recipe": "Pecan Sour Cream Pound Cake", "ingredient": ["chopped pecans", "flour", "salt", "soda", "unsalted butter", "white sugar", "eggs", "vanilla extract", "sour cream", "confectioners sugar", "orange juice", "vanilla extract"]}
+{"recipe": "Brownie Torte", "ingredient": ["butter", "light corn syrup", "semisweet chocolate chips", "white sugar", "eggs", "vanilla extract", "all-purpose flour", "walnuts", "semisweet chocolate chips", "butter", "light corn syrup", "vanilla extract", "fresh strawberries"]}
+{"recipe": "The Easiest Chocolate Cake", "ingredient": ["white sugar", "eggs", "powder", "vanilla sugar", "shortening", "orange juice", "unsweetened cocoa powder", "all-purpose flour", "confectioners sugar", "instant coffee powder", "milk"]}
+{"recipe": "Chocolate Cherry Cake I", "ingredient": ["chocolate cake mix", "cherry pie filling", "eggs", "white sugar", "butter", "milk", "semisweet chocolate chips"]}
+{"recipe": "Pecan Pound Cake", "ingredient": ["butter", "all-purpose flour", "eggs", "white sugar", "vanilla extract", "butter extract", "chopped pecans", "confectioners sugar"]}
+{"recipe": "Easy Streusel Coffee Cake", "ingredient": ["yellow cake mix", "instant vanilla mix", "vegetable oil", "eggs", "plain yogurt", "unsweetened cocoa powder", "walnuts", "ground cinnamon"]}
+{"recipe": "Irish Cream Chocolate Cheesecake", "ingredient": ["chocolate cookie crumbs", "confectioners sugar", "unsweetened cocoa powder", "butter", "cream cheese", "white sugar", "unsweetened cocoa powder", "all-purpose flour", "eggs", "sour cream", "Irish cream liqueur"]}
+{"recipe": "Microwave Cake", "ingredient": ["yellow cake mix", "eggs", "apple pie", "applesauce"]}
+{"recipe": "Creme de Menthe Cake I", "ingredient": ["white cake mix", "creme liqueur", "chocolate syrup", "frozen", "creme liqueur"]}
+{"recipe": "Lick Your Lips Cake", "ingredient": ["yellow cake mix", "eggs", "mandarin orange segments", "pineapple juice", "frozen", "instant vanilla mix"]}
+{"recipe": "Dump Cake I", "ingredient": ["cherry pie filling", "pineapple", "yellow cake mix", "walnuts", "butter"]}
+{"recipe": "Texas Sheet Cake II", "ingredient": ["all-purpose flour", "white sugar", "butter", "water", "shortening", "unsweetened cocoa powder", "buttermilk", "eggs", "soda", "vanilla extract", "milk", "confectioners sugar"]}
+{"recipe": "Angelo Cake", "ingredient": ["self-rising flour", "corn flour", "white sugar", "butter", "eggs", "milk"]}
+{"recipe": "Miss Beth's Yoghurt Cake", "ingredient": ["plain yogurt", "all-purpose flour", "white sugar", "vegetable oil", "eggs", "active dry yeast", "confectioners sugar"]}
+{"recipe": "Cherry Nut Cake I", "ingredient": ["all-purpose flour", "white sugar", "salt", "soda", "vegetable oil", "eggs", "cherry pie filling", "walnuts"]}
+{"recipe": "Quick Fudge Icing", "ingredient": ["white sugar", "unsweetened cocoa powder", "milk", "shortening", "salt", "vanilla extract"]}
+{"recipe": "Chocolate Cherry Upside Down Cake", "ingredient": ["cherry pie filling", "all-purpose flour", "white sugar", "unsweetened cocoa powder", "soda", "salt", "water", "vegetable oil", "white vinegar", "vanilla extract"]}
+{"recipe": "Chocolate Pound Cake I", "ingredient": ["white sugar", "butter", "shortening", "all-purpose flour", "eggs", "powder", "salt", "unsweetened cocoa powder", "milk", "vanilla extract"]}
+{"recipe": "Quick Black Forest Cake", "ingredient": ["devil food cake mix pudding", "eggs", "almond extract", "cherry pie filling", "semisweet chocolate chips", "butter", "milk", "confectioners sugar"]}
+{"recipe": "Carrot Cake I", "ingredient": ["carrots", "eggs", "vegetable oil", "white sugar", "all-purpose flour", "powder", "soda", "ground cinnamon", "salt", "ground nutmeg", "golden raisins", "confectioners sugar", "cream cheese", "light corn syrup", "vanilla extract"]}
+{"recipe": "Key Lime Cake I", "ingredient": ["butter", "white sugar", "eggs", "key lime zest", "all-purpose flour", "powder", "soda", "salt", "key lime juice"]}
+{"recipe": "Pineapple Cake I", "ingredient": ["fat yellow cake mix", "pineapple juice", "eggs"]}
+{"recipe": "Marron Layer Cake", "ingredient": ["white sugar", "eggs", "vegetable oil", "white wine", "all-purpose flour", "salt", "powder", "vanilla extract", "chestnut", "unsalted butter", "semi-sweet chocolate", "cream", "vanilla extract", "confectioners sugar", "glaces"]}
+{"recipe": "Botercake (Butter Cake)", "ingredient": ["butter", "white sugar", "vanilla sugar", "lemon zest", "white sugar", "salt", "eggs", "all-purpose flour", "powder"]}
+{"recipe": "Butter Pound Cake", "ingredient": ["butter", "eggs", "white sugar", "all-purpose flour", "heavy whipping cream", "vanilla extract", "lemon extract"]}
+{"recipe": "The Best Chocolate Cake You Ever Ate", "ingredient": ["white sugar", "all-purpose flour", "butter", "vegetable oil", "water", "unsweetened cocoa powder", "soda", "buttermilk", "eggs", "salt", "ground cinnamon", "vanilla extract", "butter", "unsweetened cocoa powder", "milk", "confectioners sugar", "vanilla extract", "chopped pecans"]}
+{"recipe": "Eclair Cake", "ingredient": ["instant vanilla mix", "frozen", "milk", "graham cracker squares", "prepared chocolate frosting"]}
+{"recipe": "Banana Cake I", "ingredient": ["flour", "powder", "soda", "unsalted butter", "white sugar", "salt", "eggs", "bananas", "buttermilk", "vanilla extract"]}
+{"recipe": "Surprise Banana Cake", "ingredient": ["white sugar", "unsalted butter", "eggs", "bananas", "all-purpose flour", "soda", "salt", "walnuts", "vanilla extract"]}
+{"recipe": "Mini Cheesecakes I", "ingredient": ["vanilla wafers", "cream cheese", "white sugar", "eggs", "vanilla extract", "cherry pie filling"]}
+{"recipe": "Praline Chocolate Cake", "ingredient": ["milk", "white sugar", "unsalted butter", "unsweetened chocolate", "eggs", "flour", "powder", "toasted almonds", "pecans", "confectioners sugar", "pecans"]}
+{"recipe": "Apricot Sponge Cake", "ingredient": ["flour", "white sugar", "salt", "powder", "eggs", "apricot nectar", "vanilla extract", "almond extract"]}
+{"recipe": "Burnt Sugar Cake I", "ingredient": ["white sugar", "water", "all-purpose flour", "powder", "salt", "butter", "white sugar", "eggs", "milk", "vanilla extract", "white sugar", "water"]}
+{"recipe": "Mom's Fruitcake", "ingredient": ["currants", "raisins", "water", "candied cherries", "gum drops licorice ones", "dates half", "walnuts", "ground cinnamon", "ground cloves", "ground allspice", "brandy", "apple", "butter", "white sugar", "eggs", "vanilla extract", "all-purpose flour", "soda"]}
+{"recipe": "Chocolate Cake I", "ingredient": ["milk", "semisweet chocolate", "white sugar", "eggs", "sour cream", "soda", "water", "flour", "butter"]}
+{"recipe": "Brown Sugar Cake", "ingredient": ["brown sugar", "butter", "sour cream", "soda", "all-purpose flour", "powder", "ground nutmeg", "ground cinnamon", "raisins", "eggs"]}
+{"recipe": "Favorite Chocolate Cake", "ingredient": ["flour", "soda", "salt", "water", "unsweetened chocolate", "butter", "white sugar", "eggs", "vanilla extract", "sour cream"]}
+{"recipe": "Orange Sponge Cake", "ingredient": ["eggs", "white sugar", "orange zest", "all-purpose flour", "powder", "orange juice"]}
+{"recipe": "Philadelphia Red Cake", "ingredient": ["white sugar", "butter", "eggs", "milk", "fresh lemon juice", "water", "unsweetened cocoa powder", "flour", "soda", "vanilla extract"]}
+{"recipe": "Great Chocolate Cake", "ingredient": ["bittersweet chocolate", "butter", "eggs", "all-purpose flour", "water"]}
+{"recipe": "Quick Sunshine Cake", "ingredient": ["moist yellow cake mix", "eggs", "vegetable oil", "mandarin oranges juice", "frozen", "instant vanilla mix", "pineapple juice"]}
+{"recipe": "Double Chocolate Cake I", "ingredient": ["all-purpose flour", "white sugar", "semisweet chocolate", "eggs", "vanilla extract", "milk", "powder", "soda", "salt", "butter", "red food coloring"]}
+{"recipe": "Coconut Pound Cake", "ingredient": ["white sugar", "butter", "eggs", "all-purpose flour", "powder", "milk", "coconut", "coconut extract", "white sugar", "water", "coconut extract", "walnuts"]}
+{"recipe": "Favorite Old Fashioned Gingerbread", "ingredient": ["white sugar", "butter", "egg", "molasses", "all-purpose flour", "soda", "ground cinnamon", "ground ginger", "ground cloves", "salt", "hot water"]}
+{"recipe": "Pineapple Layer Cake", "ingredient": ["flour", "powder", "salt", "butter", "white sugar", "milk", "egg whites", "egg yolks", "white sugar", "cornstarch", "unsweetened pineapple juice", "walnuts", "pineapple"]}
+{"recipe": "Glorious Sponge Cake", "ingredient": ["eggs", "white sugar", "water", "lemon extract", "lemon zest", "flour", "cream tartar", "salt"]}
+{"recipe": "Angel Food Cake I", "ingredient": ["flour", "white sugar", "salt", "egg whites", "cream tartar", "vanilla extract", "almond extract"]}
+{"recipe": "Cream Cheese Pound Cake I", "ingredient": ["butter", "cream cheese", "white sugar", "vanilla extract", "almond extract", "eggs", "flour"]}
+{"recipe": "Sour Cream Chocolate Cake", "ingredient": ["eggs", "sour cream", "shortening", "white sugar", "all-purpose flour", "unsweetened cocoa powder", "salt", "vanilla extract", "soda", "hot water", "white sugar", "light corn syrup", "milk", "shortening", "unsweetened chocolate", "salt", "vanilla extract"]}
+{"recipe": "Earthquake Cake I", "ingredient": ["German chocolate cake mix", "coconut", "walnuts", "confectioners sugar", "unsweetened cocoa powder", "cola-flavored beverage", "butter", "cream cheese"]}
+{"recipe": "Worm Cake", "ingredient": ["chocolate cake mix", "chocolate cookie crumbs", "prepared chocolate frosting", "gummi worms"]}
+{"recipe": "Karen A's Chocolate Dump Cake", "ingredient": ["non-instant chocolate pudding mix", "milk", "chocolate cake mix", "semisweet chocolate chips"]}
+{"recipe": "Maraschino Cherry Nut Cake", "ingredient": ["maraschino cherries", "flour", "powder", "salt", "shortening", "white sugar", "egg whites room temperature", "milk room temperature", "chopped pecans", "butter room temperature", "confectioners sugar", "milk", "red food coloring", "vanilla extract", "maraschino cherries stems"]}
+{"recipe": "Green Cake", "ingredient": ["yellow cake mix", "pineapple", "instant pistachio mix", "frozen"]}
+{"recipe": "Butter Frosting", "ingredient": ["butter", "confectioners sugar", "milk", "vanilla extract", "salt", "milk", "red food coloring"]}
+{"recipe": "Ricotta Cheese Cake", "ingredient": ["yellow cake mix", "ricotta cheese", "white sugar", "eggs", "vanilla extract", "confectioners sugar"]}
+{"recipe": "Strawberry Cake I", "ingredient": ["white cake mix", "strawberry Jell-O\u00ae", "vegetable oil", "eggs", "all-purpose flour", "frozen strawberries", "buttermilk"]}
+{"recipe": "Pistachio Cake I", "ingredient": ["instant pistachio mix", "white cake mix", "eggs", "vegetable oil", "water", "milk", "instant dessert topping"]}
+{"recipe": "Fruit Cocktail Cake I", "ingredient": ["all-purpose flour", "white sugar", "salt", "powder", "egg", "fruit cocktail", "brown sugar"]}
+{"recipe": "Passover Brownie Cake", "ingredient": ["eggs", "unsweetened cocoa powder", "white sugar", "matzo meal", "vegetable oil", "walnuts"]}
+{"recipe": "Pineapple Pudding Cake", "ingredient": ["instant vanilla mix", "milk", "pineapple", "shortening", "white sugar", "eggs", "flour", "powder", "salt", "milk", "frozen"]}
+{"recipe": "Gateau D'Abricot A L'Orange", "ingredient": ["cream cheese", "milk", "lemon juice", "orange extract", "graham cracker crust", "apricot halves syrup", "white sugar", "cornstarch", "orange juice"]}
+{"recipe": "Banana Nut Coconut Cake", "ingredient": ["Banana Nut Coconut Cake", "white sugar", "butter", "eggs", "bananas", "all-purpose flour", "soda", "buttermilk", "vanilla extract", "chopped pecans", "coconut", "Banana Nut Frosting", "butter", "confectioners sugar", "banana", "chopped pecans", "coconut", "vanilla extract"]}
+{"recipe": "Easy Raisin Cake", "ingredient": ["raisins", "water", "butter", "soda", "salt", "white sugar", "ground cinnamon", "ground nutmeg", "walnuts", "all-purpose flour"]}
+{"recipe": "Cinnamon Teacake", "ingredient": ["butter", "self-rising flour", "white sugar", "ground cinnamon", "milk", "white sugar", "ground cinnamon", "white sugar", "ground cinnamon"]}
+{"recipe": "Cassata alla Siciliana (Sicilian Cream Tart)", "ingredient": ["eggs", "white sugar", "lemon juice", "orange zest", "sherry", "flour", "salt", "ricotta cheese", "rum", "confectioners sugar", "sweet chocolate", "candied cherries", "ground cinnamon", "almonds", "butter", "confectioners sugar", "egg whites", "almond extract", "rum", "confectioners sugar"]}
+{"recipe": "Banana Nut Frosting", "ingredient": ["butter", "confectioners sugar", "medium banana", "coconut", "chopped pecans", "vanilla extract"]}
+{"recipe": "Coconut Cake I", "ingredient": ["white cake mix", "sour cream", "white sugar", "coconut", "frozen"]}
+{"recipe": "Creamy White Layers", "ingredient": ["flour", "powder", "salt", "eggs", "vanilla extract", "super fine sugar", "heavy whipping cream", "brandy", "confectioners sugar", "fresh strawberries"]}
+{"recipe": "Gingerbread I", "ingredient": ["shortening", "white sugar", "egg", "light molasses", "all-purpose flour", "salt", "soda", "ground ginger", "ground cinnamon", "water"]}
+{"recipe": "Fresh Pineapple Upside Down Cake", "ingredient": ["butter", "dark brown sugar", "unsweetened pineapple juice", "all-purpose flour", "powder", "salt", "white sugar", "eggs", "vanilla extract", "pineapple rings"]}
+{"recipe": "Devil's Food Cake I", "ingredient": ["butter", "unsweetened chocolate", "white sugar", "eggs", "water", "all-purpose flour", "soda", "salt", "milk", "white vinegar"]}
+{"recipe": "Auntie's Buttermilk Cake", "ingredient": ["shortening", "white sugar", "flour", "salt", "egg whites", "vanilla extract", "buttermilk", "powder", "buttermilk", "soda", "almond extract"]}
+{"recipe": "Chocolate Fudge Buttercream Frosting", "ingredient": ["butter", "shortening", "unsweetened cocoa powder", "confectioners sugar", "milk", "hot fudge", "vanilla extract"]}
+{"recipe": "Our Favorite Chocolate Cake", "ingredient": ["shortening", "unsweetened chocolate", "eggs", "soda", "milk", "white sugar", "all-purpose flour", "salt", "vanilla extract", "instant coffee granules", "milk", "unsweetened cocoa powder", "butter", "confectioners sugar", "vanilla extract"]}
+{"recipe": "Coffee Frosting", "ingredient": ["instant coffee granules", "milk", "unsweetened cocoa powder", "butter", "vanilla extract", "confectioners sugar"]}
+{"recipe": "Norwegian Hazelnut Cake", "ingredient": ["hazelnuts", "butter", "white sugar", "vanilla extract", "all-purpose flour", "powder", "salt", "heavy whipping cream", "semisweet chocolate chips", "eggs", "vanilla extract"]}
+{"recipe": "Vasilopita", "ingredient": ["butter", "white sugar", "eggs", "water", "vanilla extract", "all-purpose flour", "powder", "almonds", "sesame seeds"]}
+{"recipe": "Cranberry Swirl Coffeecake", "ingredient": ["butter", "white sugar", "eggs", "all-purpose flour", "sour cream", "salt", "powder", "soda", "almond extract", "whole cranberry sauce", "almonds", "confectioners sugar", "warm water", "almond extract"]}
+{"recipe": "Melt In Your Mouth Blueberry Cake", "ingredient": ["butter", "white sugar", "salt", "vanilla extract", "egg yolks", "all-purpose flour", "powder", "milk", "egg whites", "white sugar", "fresh blueberries", "all-purpose flour", "white sugar"]}
+{"recipe": "Chocolate Mint Cheesecake", "ingredient": ["thin chocolate wafers", "bittersweet chocolate", "white sugar", "butter", "bittersweet chocolate", "cream cheese", "white sugar", "eggs", "heavy whipping cream", "unsweetened cocoa powder", "vanilla extract", "sour cream", "white sugar", "heavy whipping cream", "butter", "bittersweet chocolate", "peppermint extract"]}
+{"recipe": "Fabulous Oatmeal-Bran Cake", "ingredient": ["boiling water", "oats", "whole bran cereal", "white sugar", "light brown sugar", "shortening", "eggs", "soda", "ground cinnamon", "salt", "all-purpose flour"]}
+{"recipe": "Banana Cake II", "ingredient": ["butter", "white sugar", "eggs", "vanilla extract", "sour milk", "bananas", "all-purpose flour", "salt", "soda", "powder"]}
+{"recipe": "Cream Cheese Frosting I", "ingredient": ["cream cheese", "cream", "confectioners sugar"]}
+{"recipe": "Chocolate Spice Cake", "ingredient": ["butter", "white sugar", "eggs", "sour milk", "ground cloves", "all-purpose flour", "soda", "ground cinnamon", "semisweet chocolate"]}
+{"recipe": "Old-Fashioned Spice Cake", "ingredient": ["raisins", "water", "shortening", "egg", "all-purpose flour", "ground cinnamon", "ground nutmeg", "ground allspice", "walnuts", "white sugar", "soda"]}
+{"recipe": "Easy Rum Cake", "ingredient": ["walnuts", "yellow cake mix", "dark rum", "eggs", "water", "vegetable oil", "instant vanilla mix", "Glaze", "butter", "water", "white sugar", "rum"]}
+{"recipe": "Aunt Maria's Pudding Cake", "ingredient": ["yellow cake mix", "instant vanilla mix", "vegetable oil", "cream sherry", "eggs", "vanilla extract", "almond extract", "poppy seeds"]}
+{"recipe": "Barb's Chocolate Cake", "ingredient": ["eggs", "white sugar", "butter", "vegetable oil", "unsweetened cocoa powder", "buttermilk", "vanilla extract", "all-purpose flour", "powder", "soda", "salt", "boiling water", "semisweet chocolate chips", "butter", "confectioners sugar", "unsweetened cocoa powder", "vanilla extract", "milk", "strong coffee"]}
+{"recipe": "Lemonade Cake I", "ingredient": ["yellow cake mix", "vanilla ice cream", "red food coloring", "frozen lemonade concentrate", "heavy whipping cream", "white sugar"]}
+{"recipe": "Lemon Pound Cake I", "ingredient": ["unsalted butter", "white sugar", "eggs", "flour", "dry milk powder", "corn syrup", "lemon", "salt", "vanilla extract", "ground nutmeg", "powder", "ground mace"]}
+{"recipe": "Rum Cake I", "ingredient": ["walnuts", "yellow cake mix", "dark rum", "eggs", "water", "vegetable oil", "instant vanilla mix", "butter", "white sugar", "water", "dark rum"]}
+{"recipe": "Crumb Cake I", "ingredient": ["white sugar", "all-purpose flour", "shortening", "powder", "eggs", "milk", "vanilla extract"]}
+{"recipe": "Lemonade Frosting", "ingredient": ["heavy whipping cream", "white sugar", "ounces frozen lemonade concentrate"]}
+{"recipe": "Grandma's Fudge Cake", "ingredient": ["chocolate cake mix", "milk", "all-purpose flour", "butter", "shortening", "white sugar", "vanilla extract", "unsweetened cocoa powder", "salt", "white sugar", "milk", "butter"]}
+{"recipe": "Donna's Sherry Wine Cake", "ingredient": ["vegetable oil", "dry sherry", "eggs", "ground nutmeg", "yellow cake mix", "confectioners sugar"]}
+{"recipe": "Black Russian Cake I", "ingredient": ["moist yellow cake mix", "instant chocolate pudding mix", "eggs", "white sugar", "vegetable oil", "vodka", "coffee liqueur", "water", "coffee liqueur", "confectioners sugar"]}
+{"recipe": "Fudge Cake", "ingredient": ["white sugar", "vanilla extract", "eggs", "milk", "fresh lemon juice", "unsweetened cocoa powder", "hot water", "all-purpose flour", "soda", "powder", "salt", "butter"]}
+{"recipe": "Pound Cake I", "ingredient": ["butter", "white sugar", "egg yolks", "vanilla extract", "lemon extract", "all-purpose flour", "powder", "egg whites"]}
+{"recipe": "Sunshine Cake", "ingredient": ["eggs", "white sugar", "boiling water", "all-purpose flour", "powder", "salt", "lemon extract", "vanilla extract"]}
+{"recipe": "Prune Mocha Cake", "ingredient": ["shortening", "white sugar", "eggs", "prunes", "all-purpose flour", "buttermilk", "soda", "powder", "ground cinnamon", "ground nutmeg", "salt", "butter", "egg yolk", "confectioners sugar", "unsweetened cocoa powder", "ground cinnamon", "strong coffee"]}
+{"recipe": "Treasure Chest Cake", "ingredient": ["orange", "raisins", "walnuts", "shortening", "white sugar", "buttermilk", "egg", "all-purpose flour", "soda", "powder", "salt", "ground cinnamon", "ground cloves", "ground allspice", "heavy whipping cream", "vanilla extract", "confectioners sugar", "orange zest"]}
+{"recipe": "Applesauce Cake I", "ingredient": ["butter", "white sugar", "applesauce", "all-purpose flour", "soda", "ground cinnamon", "ground cloves", "raisins", "walnuts"]}
+{"recipe": "Ice Box Cake I", "ingredient": ["milk", "milk", "fruit cocktail", "eggs", "pound cake", "lemon extract"]}
+{"recipe": "Maraschino Cherry Pound Cake", "ingredient": ["shortening", "eggs", "powder", "butternut extract", "white sugar", "all-purpose flour", "milk", "maraschino cherries", "cream cheese", "butter", "confectioners sugar", "maraschino cherries", "coconut"]}
+{"recipe": "Holly's Black Forest Cake", "ingredient": ["all-purpose flour", "white sugar", "powder", "soda", "salt", "water", "shortening", "vanilla extract", "eggs", "unsweetened chocolate", "butter", "confectioners sugar", "milk", "unsweetened cocoa powder", "dark sweet cherries juice", "cornstarch", "orange liqueur"]}
+{"recipe": "Chocolate Cappuccino Cheesecake", "ingredient": ["chocolate cookie crumbs", "butter", "white sugar", "ground cinnamon", "cream cheese", "white sugar", "eggs", "semisweet chocolate", "cream", "sour cream", "salt", "instant coffee granules cup hot water", "coffee liqueur", "vanilla extract", "heavy whipping cream", "confectioners sugar", "coffee-flavored liqueur", "semisweet chocolate"]}
+{"recipe": "White Chocolate Cheesecake with White Chocolate Brandy Sauce", "ingredient": ["White Chocolate Cheesecake", "white chocolate", "cream cheese room temperature", "white sugar", "all-purpose flour", "eggs room temperature", "heavy cream room temperature", "vanilla extract", "White Chocolate Brandy Sauce", "white chocolate", "heavy cream", "ounces"]}
+{"recipe": "Happy Birthday Cake", "ingredient": ["butter", "white sugar", "vanilla extract", "eggs", "powder", "all-purpose flour", "milk", "salt"]}
+{"recipe": "Egg-Yolk Sponge Cake", "ingredient": ["all-purpose flour", "powder", "salt", "egg yolks", "egg", "white sugar", "orange zest", "orange juice", "lemon extract", "boiling water"]}
+{"recipe": "Pineapple Sponge Cake", "ingredient": ["flour", "powder", "eggs", "salt", "white sugar", "lemon juice", "unsweetened pineapple juice", "cream", "pineapple", "maraschino cherries"]}
+{"recipe": "Chocolate Chip Cake", "ingredient": ["butter", "brown sugar", "white sugar", "eggs", "all-purpose flour", "whole wheat flour", "powder", "salt", "milk", "vanilla extract", "semisweet chocolate chips"]}
+{"recipe": "Butterscotch Filling", "ingredient": ["brown sugar", "cornstarch", "salt", "water", "butter"]}
+{"recipe": "Christmas Fruitcake", "ingredient": ["dried cherries", "mango", "cranberries", "currants", "citron", "dark rum", "butter", "brown sugar", "egg", "all-purpose flour", "soda", "salt", "ground cinnamon", "unsulfured molasses", "milk", "chopped pecans", "dark rum"]}
+{"recipe": "Chocolate Glaze I", "ingredient": ["semisweet chocolate chips", "butter", "corn syrup"]}
+{"recipe": "Hot Fudge Cake", "ingredient": ["all-purpose flour", "white sugar", "unsweetened cocoa powder", "powder", "salt", "milk", "vegetable oil", "vanilla extract", "brown sugar", "hot water"]}
+{"recipe": "Crazy Chocolate Cake", "ingredient": ["all-purpose flour", "white sugar", "unsweetened cocoa powder", "salt", "soda", "vanilla extract", "cold water", "white vinegar", "vegetable oil"]}
+{"recipe": "Chocolate Meringue Frosting", "ingredient": ["butter", "egg whites", "white sugar", "vanilla extract", "semi-sweet chocolate"]}
+{"recipe": "Party Cake", "ingredient": ["flour", "powder", "salt", "white sugar", "shortening", "milk", "egg whites", "maraschino cherries", "water", "light corn syrup", "salt", "vanilla extract", "maraschino cherries", "coconut", "white sugar"]}
+{"recipe": "Lemon Fluff Cake", "ingredient": ["flour", "white sugar", "powder", "salt", "egg whites", "milk", "lemon extract", "shortening"]}
+{"recipe": "Orange Delight Cake", "ingredient": ["flour", "white sugar", "powder", "soda", "salt", "orange zest", "shortening", "orange juice", "water", "eggs", "lemon juice", "egg whites", "white sugar", "water", "salt", "light corn syrup", "cream tartar", "vanilla extract", "orange zest", "walnuts"]}
+{"recipe": "Tres Leches (Milk Cake)", "ingredient": ["all-purpose flour", "powder", "unsalted butter", "white sugar", "eggs", "vanilla extract", "whole milk", "milk", "milk", "heavy whipping cream", "white sugar", "vanilla extract"]}
+{"recipe": "Lite Carrot Cake", "ingredient": ["flour", "whole wheat flour", "brown sugar", "white sugar", "powder", "soda", "ground cinnamon", "eggs", "vegetable oil", "buttermilk", "carrots"]}
+{"recipe": "Carrot Cake III", "ingredient": ["eggs", "vegetable oil", "white sugar", "vanilla extract", "all-purpose flour", "soda", "powder", "salt", "ground cinnamon", "carrots", "chopped pecans", "butter", "cream cheese", "confectioners sugar", "vanilla extract", "chopped pecans"]}
+{"recipe": "Rich Dark Fruitcake", "ingredient": ["golden raisins", "currants", "dates", "raisins", "mixed citrus peel", "candied cherries", "almonds", "butter", "all-purpose flour", "powder", "soda", "salt", "ground allspice", "ground cinnamon", "ground nutmeg", "ground cloves", "vanilla extract", "almond extract", "white sugar", "egg yolks", "molasses", "egg whites", "grape juice", "strong coffee"]}
+{"recipe": "Light Fruitcake", "ingredient": ["butter", "raisins", "citron", "almonds", "maraschino cherries", "all-purpose flour", "powder", "salt", "vanilla extract", "almond extract", "rosewater", "lemon zest", "white sugar", "eggs", "lemon juice"]}
+{"recipe": "Pumpkin Sheet Cake", "ingredient": ["pumpkin", "white sugar", "vegetable oil", "eggs", "all-purpose flour", "soda", "ground cinnamon", "salt", "cream cheese", "butter", "vanilla extract", "confectioners sugar", "milk", "walnuts"]}
+{"recipe": "Tres Leches 'Three Milks'", "ingredient": ["eggs", "white sugar", "self-rising flour", "vanilla extract", "milk", "milk", "milk", "vanilla extract", "egg whites", "white sugar", "vanilla extract"]}
+{"recipe": "Key Lime Cake II", "ingredient": ["lemon cake mix", "instant lemon mix", "water", "vegetable oil", "eggs", "key lime juice", "confectioners sugar", "key lime juice"]}
+{"recipe": "Cinnamon Coffee Cake I", "ingredient": ["butter", "white sugar", "eggs", "powder", "soda", "salt", "sour cream", "walnuts", "ground cinnamon", "vanilla extract", "all-purpose flour"]}
+{"recipe": "Marble Crumb Cake", "ingredient": ["all-purpose flour", "brown sugar", "butter", "walnuts", "white sugar", "soda", "salt", "shortening", "eggs", "buttermilk", "vanilla extract", "semisweet chocolate chips"]}
+{"recipe": "Strawberry Torte", "ingredient": ["cream cheese", "white sugar", "vanilla extract", "heavy whipping cream", "ladyfinger cookies", "frozen strawberries", "cornstarch"]}
+{"recipe": "Wedding Cake Frosting", "ingredient": ["butter", "shortening", "milk", "clear imitation vanilla extract", "confectioners sugar"]}
+{"recipe": "Peach Cake I", "ingredient": ["butter", "white sugar", "milk", "all-purpose flour", "salt", "powder", "peaches"]}
+{"recipe": "Pineapple Upside-Down Cake I", "ingredient": ["unsalted butter", "brown sugar", "honey", "pineapple", "unsweetened pineapple juice", "currants", "almonds", "dark rum", "buttermilk", "all-purpose flour", "powder", "ground cinnamon", "ground nutmeg", "salt", "ground cloves", "unsalted butter", "brown sugar", "eggs", "vanilla extract", "almond extract", "almonds"]}
+{"recipe": "Turtles\u00ae Cake I", "ingredient": ["German chocolate cake mix", "caramels", "milk", "butter", "chopped pecans", "semisweet chocolate chips"]}
+{"recipe": "Kitty Litter Cake", "ingredient": ["German chocolate cake mix", "white cake mix", "instant vanilla mix", "vanilla sandwich cookies", "green food coloring", "tootsie rolls"]}
+{"recipe": "Chocolate Cherry Cake II", "ingredient": ["chocolate cake mix", "cherry pie filling", "almond extract", "eggs", "white sugar", "butter", "milk", "semisweet chocolate chips"]}
+{"recipe": "Chocolate Mayo Cake", "ingredient": ["all-purpose flour", "soda", "white sugar", "mayonnaise", "unsweetened cocoa powder", "water", "powder", "vanilla extract"]}
+{"recipe": "Dump Cake II", "ingredient": ["yellow cake mix", "pineapple", "dark sweet cherries", "butter"]}
+{"recipe": "Turtles\u00ae Cake II", "ingredient": ["German chocolate cake mix", "caramels", "milk", "butter", "semisweet chocolate chips", "chopped pecans", "unsweetened chocolate", "butter", "corn syrup", "vanilla extract", "confectioners sugar", "milk"]}
+{"recipe": "Sugar Free Cake", "ingredient": ["raisins", "water", "eggs", "liquid sweetener", "vegetable oil", "vanilla extract", "soda", "salt", "ground cinnamon", "ground nutmeg", "all-purpose flour", "walnuts", "unsweetened applesauce"]}
+{"recipe": "Better Than Sex Cake I", "ingredient": ["German chocolate cake mix", "milk", "hot fudge", "frozen", "chocolate English toffee"]}
+{"recipe": "Dump Cake III", "ingredient": ["all-purpose flour", "white sugar", "eggs", "butter", "salt", "soda", "ground cinnamon", "vanilla extract", "walnuts", "apple pie", "confectioners sugar", "butter", "vanilla extract", "cream cheese"]}
+{"recipe": "Rhubarb Strawberry Cake", "ingredient": ["all-purpose flour", "brown sugar", "quick cooking oats", "ground cinnamon", "ground nutmeg", "butter", "rhubarb", "fresh strawberries", "white sugar", "cornstarch", "water", "vanilla extract"]}
+{"recipe": "Mayonnaise Cake  I", "ingredient": ["mayonnaise", "white sugar", "water", "all-purpose flour", "soda", "unsweetened cocoa powder", "salt", "vanilla extract"]}
+{"recipe": "Lemon Poppy Seed Loaf", "ingredient": ["all-purpose flour", "soda", "salt", "butter", "white sugar", "eggs", "lemon juice", "plain yogurt", "lemon zest", "poppy seeds"]}
+{"recipe": "Red Velvet Cake I", "ingredient": ["unsweetened cocoa powder", "red food coloring", "buttermilk", "salt", "vanilla extract", "shortening", "white sugar", "eggs", "all-purpose flour", "soda", "white vinegar", "milk", "all-purpose flour", "white sugar", "butter", "vanilla extract"]}
+{"recipe": "Pina Colada Cake I", "ingredient": ["all-purpose flour", "white sugar", "vegetable oil", "water", "orange zest", "pineapple juice", "butter", "powder", "salt", "eggs", "cream tartar", "white sugar", "light rum", "coconut"]}
+{"recipe": "Pina Colada Cake II", "ingredient": ["white cake mix", "milk", "pina colada mix", "frozen", "coconut"]}
+{"recipe": "Seven-Up\u2122  Sheet Cake", "ingredient": ["yellow cake mix", "instant vanilla mix", "eggs", "vegetable oil", "lemon-lime carbonated beverage", "white sugar", "all-purpose flour", "eggs", "butter", "pineapple juice", "coconut"]}
+{"recipe": "Caramel Pound Cake", "ingredient": ["dark brown sugar", "white sugar", "all-purpose flour", "powder", "butter", "shortening", "eggs", "milk", "vanilla extract", "chopped pecans", "white sugar", "brown sugar", "butter", "milk", "vanilla extract"]}
+{"recipe": "Pumpkin Roll I", "ingredient": ["eggs", "white sugar", "solid pack pumpkin puree", "lemon juice", "all-purpose flour", "powder", "salt", "ground cinnamon", "ground ginger", "chopped pecans", "confectioners sugar", "cream cheese", "butter", "confectioners sugar", "vanilla extract", "confectioners sugar"]}
+{"recipe": "Easy Moravian Cake", "ingredient": ["all-purpose flour", "powder", "shortening", "white sugar", "eggs", "milk", "butter", "brown sugar", "ground cinnamon"]}
+{"recipe": "BaumKuchen", "ingredient": ["unsalted butter", "confectioners sugar", "cornstarch", "almond paste", "vanilla extract", "salt", "egg yolks", "egg whites", "white sugar", "all-purpose flour", "semisweet chocolate", "vegetable oil"]}
+{"recipe": "Coconut Cake II", "ingredient": ["Coconut Cake", "white sugar", "shortening", "egg yolks", "vanilla extract", "coconut", "all-purpose flour", "powder", "milk room temperature", "egg whites", "White Frosting", "all-purpose flour", "milk", "white sugar", "butter room temperature", "shortening", "vanilla extract"]}
+{"recipe": "Electric Frosting", "ingredient": ["butter", "heavy cream", "confectioners sugar"]}
+{"recipe": "Donna's Famous Cheesecake", "ingredient": ["graham cracker crumbs", "butter", "cream cheese", "milk", "eggs", "sour cream", "vanilla extract"]}
+{"recipe": "Dried Cherry Cake", "ingredient": ["dried cherries", "hot water", "almond extract", "all-purpose flour", "powder", "salt", "white sugar", "vanilla yogurt", "vegetable oil", "egg", "egg white", "chopped pecans", "white sugar"]}
+{"recipe": "Apple Dapple Cake", "ingredient": ["vegetable oil", "butter", "white sugar", "eggs", "all-purpose flour", "soda", "salt", "vanilla extract", "apple peel", "coconut", "raisins", "walnuts", "brown sugar", "butter", "milk"]}
+{"recipe": "Chocolate Peanut Butter Wacky Cake", "ingredient": ["all-purpose flour", "soda", "salt", "unsweetened cocoa powder", "white sugar", "butter", "white vinegar", "warm water", "peanut butter", "brown sugar", "milk", "butter"]}
+{"recipe": "Swiss Chocolate Cake", "ingredient": ["flour", "powder", "soda", "salt", "white sugar", "butter", "milk", "eggs", "unsweetened chocolate", "vanilla extract", "red food coloring"]}
+{"recipe": "Chocolate Torte Frosting", "ingredient": ["eggs", "white sugar", "unsweetened chocolate", "butter"]}
+{"recipe": "Mayonnaise Cake  II", "ingredient": ["all-purpose flour", "soda", "white sugar", "salt", "water", "mayonnaise", "unsweetened chocolate"]}
+{"recipe": "Key Lime Cheesecake I", "ingredient": ["graham cracker crumbs", "butter", "cream cheese", "white sugar", "cornstarch", "eggs", "lime zest", "key lime juice"]}
+{"recipe": "Rick's Special Buttercream Frosting", "ingredient": ["shortening", "confectioners sugar", "salt", "vanilla extract", "heavy whipping cream"]}
+{"recipe": "Chocolate Mayonnaise Cake I", "ingredient": ["semisweet chocolate", "mayonnaise", "water", "vanilla extract", "eggs", "powder", "soda", "white sugar", "all-purpose flour"]}
+{"recipe": "Sour Cream Coffee Cake I", "ingredient": ["butter", "all-purpose flour", "white sugar", "brown sugar", "eggs", "powder", "soda", "sour cream", "vanilla extract", "ground cinnamon", "brown sugar", "milk", "confectioners sugar", "candy sprinkles"]}
+{"recipe": "Peach Upside Down Cake I", "ingredient": ["butter", "light brown sugar", "ground nutmeg", "peaches", "butter", "white sugar", "egg", "all-purpose flour", "powder", "salt", "milk"]}
+{"recipe": "Chocolate Sauerkraut Cake I", "ingredient": ["shortening", "white sugar", "all-purpose flour", "soda", "powder", "salt", "unsweetened cocoa powder", "eggs", "vanilla extract", "water", "sauerkraut"]}
+{"recipe": "Peach Upside Down Cake II", "ingredient": ["butter", "brown sugar", "canned peaches", ", pitted and halved", "shortening", "white sugar", "egg", "flour", "powder", "salt", "orange zest", "orange juice"]}
+{"recipe": "Texas Tornado Cake", "ingredient": ["white sugar", "eggs", "fruit cocktail", "soda", "all-purpose flour", "brown sugar", "walnuts"]}
+{"recipe": "Fluffy Creamy Frosting", "ingredient": ["shortening", "confectioners sugar", "dry milk powder", "water", "unsweetened chocolate", "salt", "vanilla extract", "egg white"]}
+{"recipe": "Caramel Nougat Cake", "ingredient": ["milk chocolate caramel nougat candy", "butter", "white sugar", "butter", "eggs", "vanilla extract", "buttermilk", "all-purpose flour", "soda", "milk chocolate caramel nougat candy", "butter", "walnuts"]}
+{"recipe": "Caramel Nougat Cake II", "ingredient": ["flour", "powder", "salt", "shortening", "white sugar", "vanilla extract", "milk", "egg whites", "milk chocolate caramel nougat bars"]}
+{"recipe": "Chocolate Caramel Nut Cake", "ingredient": ["German chocolate cake mix", "semisweet chocolate chips", "milk", "caramels", "butter", "walnuts"]}
+{"recipe": "Caramel Nougat Cake III", "ingredient": ["milk chocolate caramel nougat candy", "unsalted butter", "white sugar", "eggs", "buttermilk", "all-purpose flour", "soda", "vanilla extract", "chopped pecans"]}
+{"recipe": "Chocolate Caramel Nut Cake II", "ingredient": ["eggs", "soda", "size bars chocolate-coated caramel-peanut nougat candy", "salt", "unsalted butter", "water", "white sugar", "peanut butter", "vanilla extract", "all-purpose flour", "buttermilk"]}
+{"recipe": "Sauerkraut Cake", "ingredient": ["butter", "white sugar", "eggs", "vanilla extract", "all-purpose flour", "powder", "soda", "salt", "unsweetened cocoa powder", "water", "sauerkraut - drained , rinsed and finely chopped", "semisweet chocolate chips", "butter", "sour cream", "vanilla extract", "confectioners sugar", "salt"]}
+{"recipe": "Peter's Cheesecake", "ingredient": ["graham crackers", "cream cheese", "milk", "egg substitute", "lemon juice"]}
+{"recipe": "Sour Cream Chocolate Frosting", "ingredient": ["semisweet chocolate chips", "butter", "sour cream", "vanilla extract", "salt", "confectioners sugar"]}
+{"recipe": "Butter Cake", "ingredient": ["all-purpose flour", "salt", "powder", "butter room temperature", "white sugar", "eggs room temperature", "vanilla extract", "milk room temperature"]}
+{"recipe": "Gooey Butter Cake I", "ingredient": ["yellow cake mix", "eggs", "butter", "confectioners sugar", "cream cheese"]}
+{"recipe": "Mary Oppenhiemer's Butter Cake", "ingredient": ["white sugar", "unsalted butter", "eggs", "salt", "soda", "vanilla extract", "all-purpose flour", "buttermilk", "brown sugar", "butter", "milk", "vanilla extract"]}
+{"recipe": "Flourless Chocolate Roll", "ingredient": ["semisweet chocolate", "strong coffee", "eggs", "white sugar", "white sugar", "vanilla extract", "unsweetened cocoa powder"]}
+{"recipe": "No-Bake Holiday Fruitcake", "ingredient": ["graham crackers", "red candied cherries", "green cherries", "candied pineapple", "milk", "chopped pecans"]}
+{"recipe": "Gingerbread II", "ingredient": ["butter", "brown sugar", "egg", "molasses", "all-purpose flour", "soda", "ground ginger", "ground cinnamon", "buttermilk", "white sugar", "cornstarch", "warm water", "butter", "lemon zest", "lemon"]}
+{"recipe": "Deep Chocolate Raspberry Cake", "ingredient": ["semi-sweet chocolate", "unsweetened chocolate", "eggs", "all-purpose flour", "butter room temperature", "white sugar", "vanilla extract", "semisweet chocolate", "heavy whipping cream", "frozen raspberries", "seedless raspberry preserves"]}
+{"recipe": "Dump Cake IV", "ingredient": ["cherry pie filling", "pineapple", "yellow cake mix", "butter"]}
+{"recipe": "Sponge Cake Tiramisu", "ingredient": ["mascarpone cheese", "heavy whipping cream", "confectioners sugar", "coffee-flavored liqueur", "instant coffee granules", "vanilla extract", "cake", "unsweetened cocoa powder"]}
+{"recipe": "Rhubarb Cake I", "ingredient": ["butter", "white sugar", "egg", "vanilla extract", "all-purpose flour", "soda", "salt", "buttermilk", "rhubarb", "all-purpose flour", "butter", "ground cinnamon", "brown sugar"]}
+{"recipe": "Hot Milk Sponge Cake I", "ingredient": ["Cake", "all-purpose flour", "powder", "eggs", "white sugar", "milk", "butter", "Topping", "brown sugar", "butter room temperature", "coconut", "walnuts", "milk"]}
+{"recipe": "Lady Baltimore Frosting", "ingredient": ["white sugar", "water", "corn syrup", "salt", "egg whites", "cream tartar", "vanilla extract"]}
+{"recipe": "Orange Chiffon Cake", "ingredient": ["flour", "white sugar", "powder", "salt", "egg yolks", "vegetable oil", "orange juice", "orange zest", "vanilla extract", "egg whites", "cream tartar"]}
+{"recipe": "Lady Baltimore Cake", "ingredient": ["butter", "white sugar", "vanilla extract", "all-purpose flour", "powder", "salt", "milk", "egg whites", "white sugar", "Lady Baltimore Frosting", "raisins", "chopped pecans", "candied cherries", "vanilla extract"]}
+{"recipe": "Graham Cracker Cake I", "ingredient": ["graham cracker crumbs", "ground pecans", "flour", "powder", "salt", "unsalted butter", "light brown sugar", "egg yolks room temperature", "vanilla extract", "milk lukewarm", "egg whites room temperature", "white sugar", "white sugar", "unsalted butter", "dark brown sugar", "heavy whipping cream", "confectioners sugar", "chopped pecans"]}
+{"recipe": "Carrot Cheesecake with Crumb Crust", "ingredient": ["carrots inch pieces", "ground graham cracker crumbs", "gingersnap cookie crumbs", "ground pecans", "white sugar", "unsalted butter", "brown sugar", "lemon juice", "orange zest", "fresh ginger root", "ground cinnamon", "ground mace", "ground allspice", "cream cheese", "eggs", "chopped pecans"]}
+{"recipe": "Crazy Cake", "ingredient": ["all-purpose flour", "white sugar", "salt", "soda", "unsweetened cocoa powder", "vegetable oil", "white vinegar", "vanilla extract", "cold water"]}
+{"recipe": "Grandma's Chocolate Marvel Cake", "ingredient": ["all-purpose flour", "unsweetened cocoa powder", "white sugar", "soda", "powder", "salt", "nonfat milk", "pureed prunes food", "vanilla extract", "egg whites", "strong coffee"]}
+{"recipe": "Party Frosting", "ingredient": ["light brown sugar", "egg whites", "strong coffee", "cream tartar", "vanilla extract"]}
+{"recipe": "Cinnamon Swirl Bundt Coffee Cake", "ingredient": ["Coffee Cake", "butter room temperature", "white sugar", "eggs", "vanilla extract", "sour cream", "all-purpose flour", "soda", "powder", "walnuts", "ground cinnamon", "white sugar"]}
+{"recipe": "Chocolate Rum Cake", "ingredient": ["chocolate cake mix", "instant chocolate pudding mix", "eggs", "water", "vegetable oil", "white rum", "walnuts", "butter", "white sugar", "white rum", "water"]}
+{"recipe": "Kentucky Butter Cake", "ingredient": ["unbleached all-purpose flour", "white sugar", "salt", "powder", "soda", "buttermilk", "butter", "vanilla extract", "eggs", "white sugar", "butter", "water", "vanilla extract"]}
+{"recipe": "Miami Beach Cake", "ingredient": ["semisweet chocolate chips", "butter", "chopped pecans", "all-purpose flour", "soda", "salt", "butter", "white sugar", "eggs", "vanilla extract", "buttermilk", "heavy whipping cream", "white sugar", "coconut"]}
+{"recipe": "Rhubarb Stir Cake", "ingredient": ["butter", "brown sugar", "egg", "vanilla extract", "all-purpose flour", "soda", "salt", "sour cream", "rhubarb", "white sugar", "ground nutmeg"]}
+{"recipe": "Rivel Kuchen", "ingredient": ["active dry yeast", "warm water", "white sugar", "milk", "white sugar", "shortening", "salt", "eggs", "all-purpose flour", "white sugar", "water", "all-purpose flour", "milk", "ground allspice", "all-purpose flour", "butter", "white sugar", "ground cinnamon"]}
+{"recipe": "Tunnel of Fudge Cake III", "ingredient": ["butter", "eggs", "white sugar", "all-purpose flour", "chocolate fudge frosting", "walnuts"]}
+{"recipe": "Bee Sting Cake (Bienenstich) I", "ingredient": ["active dry yeast", "warm water", "unsalted butter", "white sugar", "eggs room temperature", "egg yolks", "salt", "warm milk", "vanilla extract", "sour cream room temperature", "all-purpose flour", "unsalted butter", "light brown sugar", "unsalted butter", "heavy whipping cream", "honey", "lemon juice", "almonds", "pastry cream"]}
+{"recipe": "Decorator Frosting I", "ingredient": ["shortening", "confectioners sugar", "milk", "almond extract"]}
+{"recipe": "Honey Cake I", "ingredient": ["eggs", "white sugar", "honey", "vegetable oil", "all-purpose flour", "salt", "powder", "soda", "ground cloves", "ground allspice", "instant coffee granules", "hot water"]}
+{"recipe": "White Cake Frosting I", "ingredient": ["shortening", "water", "salt", "clear imitation vanilla extract", "butter", "confectioners sugar"]}
+{"recipe": "Harvey Wallbanger Cake", "ingredient": ["yellow cake mix", "instant vanilla mix", "eggs", "vegetable oil", "ounces Galliano liqueur", "ounces", "orange juice", "confectioners sugar"]}
+{"recipe": "Eggless Milkless Butterless Cake", "ingredient": ["white sugar", "shortening", "ground cinnamon", "ground nutmeg", "ground allspice", "salt", "raisins", "water", "soda", "all-purpose flour", "powder"]}
+{"recipe": "Fabulously Sweet Pear Cake", "ingredient": ["pears", "white sugar", "brown sugar", "chopped pecans", "vegetable oil", "eggs", "all-purpose flour", "salt", "soda", "vanilla extract"]}
+{"recipe": "Gooey Butter Cake II", "ingredient": ["butter", "yellow cake mix", "eggs", "cream cheese", "almond extract", "confectioners sugar"]}
+{"recipe": "Buttermilk Pound Cake I", "ingredient": ["shortening", "white sugar", "eggs", "buttermilk", "all-purpose flour", "powder", "soda", "lemon extract"]}
+{"recipe": "Zucchini Cake I", "ingredient": ["Cake", "all-purpose flour", "white sugar", "salt", "soda", "powder", "ground cinnamon", "vanilla extract", "eggs", "vegetable oil", "zucchini", "Frosting", "cream cheese room temperature", "butter room temperature", "confectioners sugar", "vanilla extract"]}
+{"recipe": "Peanut Butter Cake II", "ingredient": ["creamy peanut butter", "butter", "eggs", "butter cake mix", "water", "peanut butter", "butter", "confectioners sugar", "heavy cream"]}
+{"recipe": "Peanut Butter Frosting", "ingredient": ["butter", "creamy peanut butter", "confectioners sugar", "cream"]}
+{"recipe": "Sachertorte", "ingredient": ["semisweet chocolate", "white sugar", "butter", "eggs", "all-purpose flour", "butter", "semisweet chocolate", "strong coffee", "confectioners sugar", "vanilla extract", "apricot preserves"]}
+{"recipe": "Chocolate Chip Date Nut Cake", "ingredient": ["dates", "soda", "water", "white sugar", "all-purpose flour", "mayonnaise", "salt", "brown sugar", "walnuts", "semisweet chocolate chips"]}
+{"recipe": "Zucchini Cake II", "ingredient": ["all-purpose flour", "soda", "salt", "powder", "ground cinnamon", "eggs", "vegetable oil", "white sugar", "zucchini", "vanilla extract", "walnuts"]}
+{"recipe": "Spanish Bar Cake", "ingredient": ["water", "raisins", "shortening", "all-purpose flour", "white sugar", "soda", "ground cloves", "ground nutmeg", "ground cinnamon", "ground allspice", "salt", "eggs", "walnuts"]}
+{"recipe": "Coco-Cola Cake I", "ingredient": ["butter", "unsweetened cocoa powder", "cola-flavored beverage", "all-purpose flour", "white sugar", "soda", "buttermilk", "eggs", "vanilla extract", "miniature marshmallows"]}
+{"recipe": "Coco-Cola Cake II", "ingredient": ["all-purpose flour", "eggs", "white sugar", "soda", "vanilla extract", "butter", "miniature marshmallows", "unsweetened cocoa powder", "cola-flavored beverage", "buttermilk", "butter", "unsweetened cocoa powder", "cola-flavored beverage", "confectioners sugar", "chopped pecans"]}
+{"recipe": "Sock it to Me Cake I", "ingredient": ["yellow cake mix", "white sugar", "vegetable oil", "eggs", "chopped pecans", "vanilla extract", "sour cream", "brown sugar", "ground cinnamon"]}
+{"recipe": "Sock it to Me Cake II", "ingredient": ["butter cake mix", "eggs", "sour cream", "vanilla extract", "white sugar", "vegetable oil", "chopped pecans", "butter", "white sugar", "buttermilk", "soda", "ground cinnamon", "brown sugar"]}
+{"recipe": "Caramel Frosting I", "ingredient": ["butter", "milk", "brown sugar", "confectioners sugar", "vanilla extract"]}
+{"recipe": "Sock it to Me Cake III", "ingredient": ["butter cake mix", "sour cream", "vegetable oil", "ground cinnamon", "brown sugar", "chopped pecans", "white sugar", "confectioners sugar", "milk", "eggs", "water"]}
+{"recipe": "Caramel Frosting II", "ingredient": ["white sugar", "all-purpose flour", "milk", "butter", "vanilla extract"]}
+{"recipe": "Strawberry Angels' Cake", "ingredient": ["food cake mix", "heavy whipping cream", "confectioners sugar", "unsweetened cocoa powder", "fresh strawberries"]}
+{"recipe": "Jamaica Cake", "ingredient": ["white sugar", "vegetable oil", "chopped pecans", "all-purpose flour", "bananas", "eggs", "pineapple juice", "vanilla extract", "salt", "soda"]}
+{"recipe": "Fudgey Peanut Butter Chip Muffins", "ingredient": ["applesauce", "quick cooking oats", "butter", "brown sugar", "egg", "vanilla extract", "Dutch process cocoa powder", "soda", "ground cinnamon", "peanut butter chips", "confectioners sugar", "white sugar", "all-purpose flour"]}
+{"recipe": "Butter Brickle Cake", "ingredient": ["all-purpose flour", "white sugar", "powder", "salt", "milk", "butter", "vanilla extract", "egg whites", "butter", "confectioners sugar", "milk", "hot water", "vanilla extract"]}
+{"recipe": "Graham Cracker Cake II", "ingredient": ["butter", "white sugar", "eggs", "graham cracker crumbs", "powder", "milk", "coconut", "chopped pecans", "butter", "cream cheese", "confectioners sugar", "pineapple"]}
+{"recipe": "Pistachio Nut Cake I", "ingredient": ["chopped pecans", "white sugar", "ground cinnamon", "yellow cake mix", "instant pistachio mix", "eggs", "sour cream", "vegetable oil", "vanilla extract"]}
+{"recipe": "Microwave Mississippi Mud Cake I", "ingredient": ["butter", "white sugar", "unsweetened cocoa powder", "eggs", "vanilla extract", "all-purpose flour", "walnuts", "salt", "miniature marshmallows", "butter", "milk", "unsweetened cocoa powder", "vanilla extract", "confectioners sugar"]}
+{"recipe": "Better Than Sex Cake II", "ingredient": ["devil food cake mix", "milk", "caramel ice cream topping", "chocolate toffee", "frozen"]}
+{"recipe": "Best Chocolate Cake", "ingredient": ["butter", "shortening", "water", "unsweetened cocoa powder", "all-purpose flour", "white sugar", "milk", "white vinegar", "eggs", "soda", "vanilla extract", "butter", "milk", "unsweetened cocoa powder", "confectioners sugar", "vanilla extract"]}
+{"recipe": "Cherry Nut Cake II", "ingredient": ["butter", "all-purpose flour", "chopped pecans", "candied cherries", "powder", "vanilla extract", "white sugar", "eggs", "pineapple", "golden raisins", "salt", "Golden Delicious apple"]}
+{"recipe": "Daffodil Cake", "ingredient": ["egg whites", "cream tartar", "salt", "white sugar", "flour", "egg yolks", "orange extract", "flour", "vanilla extract"]}
+{"recipe": "Carrot and Walnut Cake", "ingredient": ["all-purpose flour", "vegetable oil", "confectioners sugar", "walnuts", "carrots", "milk", "eggs", "soda", "vanilla extract", "powder", "ground cinnamon", "ground nutmeg", "ground cardamom"]}
+{"recipe": "Poppy Seed Cake I", "ingredient": ["poppy seeds", "water", "butter", "white sugar", "nonfat dry milk powder", "all-purpose flour", "powder", "egg whites"]}
+{"recipe": "Almond Custard Filling", "ingredient": ["nonfat dry milk powder", "cornstarch", "white sugar", "water", "egg yolks", "almond extract"]}
+{"recipe": "Rum Cake II", "ingredient": ["butter", "white sugar", "eggs", "buttermilk", "vanilla extract", "all-purpose flour", "powder", "soda", "salt", "rum extract", "butter", "white sugar", "rum"]}
+{"recipe": "Easter Lamb Cake I", "ingredient": ["butter", "white sugar", "water", "all-purpose flour", "powder", "vanilla extract", "egg whites", "salt"]}
+{"recipe": "Seven-Up\u00ae Cake II", "ingredient": ["butter", "white sugar", "eggs", "all-purpose flour", "lemon extract", "lemon-lime carbonated beverage"]}
+{"recipe": "Honey Cake II", "ingredient": ["Cake", "all-purpose flour", "salt", "powder", "soda", "ground cinnamon", "ground allspice", "eggs", "white sugar", "vegetable oil", "honey", "strong coffee", "almonds", "raisins", "slivered almonds", "Glaze", "honey", "lemon juice", "water", "lemon zest"]}
+{"recipe": "Mocha Cake II", "ingredient": ["toasts", "coffee liqueur", "water", "non-instant chocolate pudding mix", "non-instant vanilla mix", "milk", "frozen", "almond slices"]}
+{"recipe": "Easy Dump Cake", "ingredient": ["yellow cake mix", "instant chocolate pudding mix", "eggs", "vegetable oil", "white sugar", "water", "sour cream", "semisweet chocolate chips"]}
+{"recipe": "Blueberry Dump Cake", "ingredient": ["yellow cake mix", "fresh blueberries", "white sugar", "butter", "ground cinnamon"]}
+{"recipe": "Poppy Seed Torte with Orange Glaze", "ingredient": ["Cake", "all-purpose flour", "poppy seeds", "powder", "salt", "ground mace", "unsalted butter", "white sugar", "eggs", "orange zest", "vanilla extract", "Filling", "confectioners sugar", "unsalted butter", "egg yolks", "vanilla extract", "Glaze", "orange juice", "white sugar", "cornstarch", "orange zest"]}
+{"recipe": "Mississippi Mud Cake II", "ingredient": ["butter", "unsweetened cocoa powder", "white sugar", "eggs", "all-purpose flour", "powder", "salt", "walnuts", "vanilla extract", "marshmallow creme", "milk", "confectioners sugar", "unsweetened cocoa powder"]}
+{"recipe": "Mississippi Mud Cake I", "ingredient": ["white sugar", "butter", "coconut", "eggs", "unsweetened cocoa powder", "chopped pecans", "all-purpose flour", "powder", "vanilla extract", "marshmallow creme", "confectioners sugar", "milk"]}
+{"recipe": "New York Cheesecake II", "ingredient": ["cream cheese", "white sugar", "eggs", "vanilla extract", "cornstarch", "sour cream", "graham cracker crumbs", "butter", "white sugar"]}
+{"recipe": "New York Cheesecake I", "ingredient": ["ground graham cracker crumbs", "walnuts", "ground cinnamon", "butter", "eggs", "cream cheese", "white sugar", "salt", "vanilla extract", "almond extract", "sour cream"]}
+{"recipe": "Orange Cream Cake I", "ingredient": ["orange cake mix", "orange Jell-O\u00ae mix", "instant vanilla mix", "milk", "vanilla extract", "frozen"]}
+{"recipe": "Chocolate Chip-Amaretto Pound Cake", "ingredient": ["eggs", "devil food cake mix", "vegetable oil", "water", "almond extract", "semisweet chocolate chips", "confectioners sugar"]}
+{"recipe": "Butternut Spice Cake", "ingredient": ["butternuts", "flour", "soda", "ground cinnamon", "ground allspice", "ground nutmeg", "salt", "butter", "brown sugar", "eggs", "buttermilk"]}
+{"recipe": "Kelly's Apple Cocoa Cake", "ingredient": ["eggs", "white sugar", "butter", "water", "all-purpose flour", "unsweetened cocoa powder", "soda", "ground cinnamon", "ground allspice", "semisweet chocolate chips", "green apples", "vanilla extract"]}
+{"recipe": "Mafioso Chocolate Cake", "ingredient": ["Dutch process cocoa powder", "boiling water", "soda", "sour cream", "butter", "white sugar", "flour", "egg whites", "vanilla extract", "butter", "Dutch process cocoa powder", "confectioners sugar", "milk", "vanilla extract"]}
+{"recipe": "Buttery Cinnamon Cake", "ingredient": ["all-purpose flour", "powder", "ground cinnamon", "salt", "shortening", "white sugar", "vanilla extract", "eggs", "milk", "white sugar", "butter", "water", "vanilla extract", "ground cinnamon"]}
+{"recipe": "Mini Cinnamon Cakes", "ingredient": ["fat buttermilk mix", "nonfat milk", "white sugar", "ground cinnamon", "chocolate syrup", "margarine"]}
+{"recipe": "Heavenly Cake", "ingredient": ["yellow cake mix", "instant vanilla mix", "eggs", "sour cream", "German sweet chocolate", "semisweet chocolate chips"]}
+{"recipe": "Special Buttercream Frosting", "ingredient": ["shortening", "confectioners sugar", "salt", "clear imitation vanilla extract", "ounces heavy cream"]}
+{"recipe": "Apple Chiffon Cake", "ingredient": ["egg whites", "cream tartar", "white sugar", "flour", "powder", "salt", "ground cinnamon", "brown sugar", "vegetable oil", "egg yolks", "applesauce"]}
+{"recipe": "Orange Nut Raisin Cake", "ingredient": ["all-purpose flour", "white sugar", "butter", "salt", "powder", "walnuts", "eggs", "raisins", "orange juice", "vanilla extract"]}
+{"recipe": "Barbadian Plain Cake", "ingredient": ["white sugar", "butter", "powder", "all-purpose flour", "eggs", "vanilla extract", "almond extract", "milk"]}
+{"recipe": "Cheesecake Supreme", "ingredient": ["graham cracker crumbs", "white sugar", "butter", "cream cheese", "eggs", "egg yolks", "white sugar", "all-purpose flour", "heavy whipping cream"]}
+{"recipe": "Honey Bun Cake I", "ingredient": ["yellow cake mix", "vegetable oil", "eggs", "sour cream", "brown sugar", "ground cinnamon", "confectioners sugar", "milk", "vanilla extract"]}
+{"recipe": "Dr Pepper\u00ae Cake", "ingredient": ["all-purpose flour", "white sugar", "Dr. Pepper soft drink", "unsweetened cocoa powder", "eggs", "soda", "vanilla extract", "butter", "buttermilk", "miniature marshmallows", "butter", "brown sugar", "peanut butter", "milk", "unsalted dry-roasted peanuts"]}
+{"recipe": "Amaretto Cheesecake I", "ingredient": ["graham cracker crumbs", "white sugar", "butter", "cream cheese", "white sugar", "cornstarch", "sour cream", "vanilla extract", "amaretto liqueur", "salt", "eggs"]}
+{"recipe": "Pineapple Cake II", "ingredient": ["all-purpose flour", "soda", "eggs", "white sugar", "salt", "pineapple juice", "butter", "white sugar", "milk", "vanilla extract"]}
+{"recipe": "Buttery Milk Syrup", "ingredient": ["butter", "white sugar", "milk", "vanilla extract"]}
+{"recipe": "Paris-Brest", "ingredient": ["all-purpose flour", "eggs", "milk", "water", "salt", "unsalted butter", "almonds", "pastry cream", "heavy cream", "vanilla extract", "confectioners sugar"]}
+{"recipe": "Pastry Cream", "ingredient": ["milk", "white sugar", "vanilla bean lengthwise", "egg yolks", "all-purpose flour", "unsalted butter", "salt"]}
+{"recipe": "Banana Butter Icing", "ingredient": ["butter", "bananas", "lemon juice", "vanilla extract", "confectioners sugar"]}
+{"recipe": "Lemon Cream Cheese Frosting", "ingredient": ["cream cheese", "butter", "lemon juice", "lemon zest", "vanilla extract", "confectioners sugar"]}
+{"recipe": "Creamy Frosting", "ingredient": ["milk", "all-purpose flour", "butter", "white sugar", "vanilla extract"]}
+{"recipe": "Seven Minute Frosting I", "ingredient": ["egg whites", "white sugar", "cold water", "light corn syrup", "vanilla extract"]}
+{"recipe": "Marshmallow Icing", "ingredient": ["egg whites", "white sugar", "cold water", "light corn syrup", "vanilla extract", "miniature marshmallows"]}
+{"recipe": "Seafoam Icing", "ingredient": ["egg whites", "brown sugar", "cold water", "light corn syrup", "maple extract"]}
+{"recipe": "Poppy Seed Chiffon", "ingredient": ["milk", "poppy seeds", "flour", "white sugar", "powder", "salt", "vegetable oil", "eggs", "vanilla extract", "lemon extract", "cream tartar"]}
+{"recipe": "Caramel Frosting III", "ingredient": ["brown sugar", "salt", "butter", "milk", "vanilla extract", "cream"]}
+{"recipe": "Cone Cupcakes", "ingredient": ["butter", "white sugar", "eggs", "vanilla extract", "all-purpose flour", "powder", "salt", "milk", "ice cream cones"]}
+{"recipe": "Graduation Cake", "ingredient": ["flour", "powder", "salt", "egg whites", "white sugar", "shortening", "white sugar", "milk", "vanilla extract", "butter", "confectioners sugar", "vanilla extract", "salt", "milk"]}
+{"recipe": "Sour Cream Mocha Cake", "ingredient": ["semisweet chocolate chips", "sour cream room temperature", "vegetable oil", "eggs", "white sugar", "all-purpose flour", "soda", "salt", "instant coffee powder", "warm water", "walnuts"]}
+{"recipe": "Too Much Chocolate Cake", "ingredient": ["devil food cake mix", "instant chocolate pudding mix", "sour cream", "vegetable oil", "eggs", "warm water", "semisweet chocolate chips"]}
+{"recipe": "Orange Sunshine Cake", "ingredient": ["yellow cake mix", "eggs", "instant vanilla mix", "vegetable oil", "orange extract", "mandarin orange segments", "frozen", "pineapple"]}
+{"recipe": "Rainbow Cake", "ingredient": ["eggs room temperature", "white sugar", "all-purpose flour", "powder", "salt", "hot milk", "butter", "vanilla extract", "red food coloring", "green food coloring", "yellow food coloring", "egg white", "apple", "white sugar", "salt", "frozen strawberries"]}
+{"recipe": "Popcorn Cake I", "ingredient": ["butter", "marshmallows", "popcorn", "small gumdrops", "chocolate peanuts", "candy-coated chocolate pieces"]}
+{"recipe": "Hummingbird Cake I", "ingredient": ["all-purpose flour", "white sugar", "soda", "salt", "ground cinnamon", "vegetable oil", "eggs", "pineapple juice", "bananas", "chopped pecans", "vanilla extract"]}
+{"recipe": "Battenburg Cake", "ingredient": ["butter", "white sugar", "eggs", "vanilla extract", "all-purpose flour", "powder", "salt", "red food coloring", "apricot preserves", "ground almonds", "confectioners sugar", "egg room temperature", "lemon juice", "almond extract"]}
+{"recipe": "Groom's Cake", "ingredient": ["raisins", "golden raisins", "currants", "citron", "candied lemon peel", "candied orange peel", "all-purpose flour", "ground cinnamon", "ground allspice", "ground mace", "ground nutmeg", "butter", "brown sugar", "eggs", "brandy", "semisweet chocolate", "molasses", "soda", "hot water"]}
+{"recipe": "Bridal Shower Cake", "ingredient": ["butter", "white sugar", "flour", "powder", "salt", "milk", "vanilla extract", "egg whites"]}
+{"recipe": "Easter Party Cake", "ingredient": ["butter", "shortening", "white sugar", "flour", "powder", "milk", "vanilla extract", "almond extract", "egg whites stiffly beaten", "white sugar", "water", "vanilla extract", "cream tartar", "egg whites", "red food coloring", "candy-coated milk chocolate eggs", "coconut", "green food coloring"]}
+{"recipe": "White Wedding Cake", "ingredient": ["flour", "powder", "salt", "white sugar", "egg whites", "white sugar", "shortening", "milk", "orange extract", "almond extract"]}
+{"recipe": "Ornamental Icing", "ingredient": ["butter", "salt", "confectioners sugar", "egg whites", "heavy whipping cream", "vanilla extract"]}
+{"recipe": "Pie Cake", "ingredient": ["white sugar", "all-purpose flour", "salt", "soda", "ground cinnamon", "vegetable oil", "eggs", "walnuts", "cherry pie filling"]}
+{"recipe": "Lemon Sponge Cake I", "ingredient": ["flour", "salt", "powder", "eggs", "white sugar", "lemon juice", "lemon extract", "hot milk"]}
+{"recipe": "Mocha Icing", "ingredient": ["unsweetened cocoa powder", "strong hot coffee", "confectioners sugar", "butter", "salt", "vanilla extract", "walnuts"]}
+{"recipe": "Apricot Filling and Frosting for Angel Food Cakes", "ingredient": ["unflavored gelatin", "cold water", "dried apricots", "lemon juice", "confectioners sugar", "salt", "heavy cream"]}
+{"recipe": "Snowy Boiled Icing", "ingredient": ["white sugar", "water", "salt", "white vinegar", "egg whites", "vanilla extract"]}
+{"recipe": "Lemon Orange Filling", "ingredient": ["white sugar", "all-purpose flour", "water", "egg", "egg yolk", "butter", "lemon juice", "orange juice"]}
+{"recipe": "Anniversary Cake", "ingredient": ["flour", "powder", "salt", "egg whites", "white sugar", "shortening", "milk", "vanilla extract"]}
+{"recipe": "Tomato Soup Cake I", "ingredient": ["tomato soup", "soda", "white sugar", "egg", "butter", "salt", "ground cinnamon", "ground cloves", "self-rising flour", "raisins"]}
+{"recipe": "Pistachio Cake II", "ingredient": ["white cake mix", "vegetable oil", "lemon-lime carbonated beverage", "eggs", "instant pistachio mix", "mix", "milk"]}
+{"recipe": "Toffee Bar Coffee Cake", "ingredient": ["all-purpose flour", "white sugar", "brown sugar", "butter", "milk", "powder", "vanilla extract", "chocolate toffee bars", "egg", "unsalted dry-roasted peanuts"]}
+{"recipe": "Amaretto Cheesecake II", "ingredient": ["cream cheese", "white sugar", "cornstarch", "eggs", "sour cream", "butter", "vanilla extract", "orange extract", "lemon juice", "almond extract", "ounces liqueur", "macaroon cookies", "butter"]}
+{"recipe": "Spiced Banana Cake", "ingredient": ["butter", "light brown sugar", "white sugar", "ground allspice", "ground nutmeg", "eggs", "vanilla extract", "all-purpose flour", "oats", "soda", "powder", "salt", "sour cream", "bananas"]}
+{"recipe": "Irish Cream Cheesecake", "ingredient": ["graham cracker crumbs", "white sugar", "butter", "cream cheese", "white sugar", "vanilla extract", "sour cream", "Irish cream liqueur", "eggs", "sour cream", "white sugar"]}
+{"recipe": "Allspice Cream Cheese Frosting", "ingredient": ["cream cheese", "butter", "ground allspice", "confectioners sugar", "vanilla extract", "milk"]}
+{"recipe": "Genoise", "ingredient": ["flour", "white sugar", "salt", "unsalted butter", "eggs", "white sugar", "vanilla extract"]}
+{"recipe": "Aunt Johnnie's Pound Cake", "ingredient": ["shortening", "butter", "white sugar", "eggs", "almond extract", "milk", "powder", "flour"]}
+{"recipe": "Sour Cream Coffee Cake II", "ingredient": ["white sugar", "butter", "eggs", "all-purpose flour", "powder", "soda", "sour cream", "walnuts", "white sugar", "ground cinnamon"]}
+{"recipe": "Yellow Pound Cake", "ingredient": ["white sugar", "butter", "eggs", "milk", "vanilla extract", "flour"]}
+{"recipe": "Absolutely Delicious 'Scratch' Cake!", "ingredient": ["yellow cake mix", "ricotta cheese", "eggs", "vanilla extract", "ground cinnamon", "frozen"]}
+{"recipe": "White Velvet Cake I", "ingredient": ["shortening", "white sugar", "all-purpose flour", "powder", "salt", "milk", "egg whites", "vanilla extract", "all-purpose flour", "milk", "coconut milk", "white sugar", "vanilla extract", "coconut", "water"]}
+{"recipe": "Whipped Cream Icing I", "ingredient": ["unflavored gelatin", "cold water", "heavy whipping cream", "confectioners sugar", "clear imitation vanilla extract"]}
+{"recipe": "Cream Cheese Pound Cake II", "ingredient": ["cream cheese", "butter", "white sugar", "egg yolks", "butter extract", "all-purpose flour", "salt", "powder", "egg whites"]}
+{"recipe": "Peanut Butter and Chocolate Candy Cake", "ingredient": ["eggs", "vanilla extract", "salt", "white sugar", "all-purpose flour", "milk", "powder", "butter", "peanut butter", "semisweet chocolate chips"]}
+{"recipe": "Honey Comb Coffee Cake", "ingredient": ["all-purpose flour", "white sugar", "unsalted butter", "milk", "eggs", "powder", "almond extract", "orange extract", "unsalted butter", "chopped pecans", "white sugar", "ground nutmeg", "milk", "orange extract", "honey"]}
+{"recipe": "Mint Buttercream Frosting With Dark Chocolate Glaze", "ingredient": ["confectioners sugar", "butter", "salt", "mint extract", "milk", "unsweetened chocolate", "butter"]}
+{"recipe": "Chocolate Mint Mayonnaise Cake", "ingredient": ["unsweetened cocoa powder", "white sugar", "all-purpose flour", "soda", "salt", "water", "mayonnaise", "vanilla extract", "chocolate thin mints", "unsweetened cocoa powder", "white sugar", "milk", "butter", "salt", "vanilla extract"]}
+{"recipe": "Sad Cake", "ingredient": ["biscuit mix", "brown sugar", "eggs", "vegetable oil", "coconut", "chopped pecans", "vanilla extract"]}
+{"recipe": "Raspberry and Strawberry Buckle", "ingredient": ["butter", "white sugar", "egg", "all-purpose flour", "powder", "salt", "plain yogurt", "fresh strawberries", "fresh raspberries", "white sugar", "all-purpose flour", "ground cinnamon", "butter"]}
+{"recipe": "Hot Fudge Pudding Cake I", "ingredient": ["mix", "white sugar", "unsweetened cocoa powder", "walnuts", "milk", "vanilla extract", "brown sugar", "unsweetened cocoa powder", "boiling water"]}
+{"recipe": "No Bake Fruitcake", "ingredient": ["candied cherries", "chopped pecans", "milk", "coconut milk", "coconut", "raisins", "vanilla extract", "vanilla wafers"]}
+{"recipe": "Caramel Nougat Cake IV", "ingredient": ["milk chocolate caramel nougat candy", "butter margarine", "white sugar", "eggs", "all-purpose flour", "soda", "buttermilk", "chopped pecans", "white sugar", "milk", "semisweet chocolate chips", "butter", "marshmallow creme"]}
+{"recipe": "Chocolate Marshmallow Icing", "ingredient": ["white sugar", "milk", "semisweet chocolate chips", "butter", "marshmallow creme"]}
+{"recipe": "Peanut Candy Bar Cake", "ingredient": ["yellow cake mix", "butter", "miniature marshmallows", "light corn syrup", "egg", "vanilla extract", "peanut butter chips", "peanuts", "crisp rice cereal", "butter"]}
+{"recipe": "Blackberry Wine Cake I", "ingredient": ["white cake mix", "blackberry Jell-O\u00ae", "eggs", "vegetable oil", "blackberry wine", "chopped pecans", "confectioners sugar", "butter"]}
+{"recipe": "Banana Nut Cake", "ingredient": ["eggs", "soda", "buttermilk", "butter", "white sugar", "vanilla extract", "all-purpose flour", "bananas", "chopped pecans", "Icing", "butter", "confectioners sugar", "heavy whipping cream", "pecan halves"]}
+{"recipe": "Honey Bun Cake II", "ingredient": ["yellow cake mix", "vegetable oil", "eggs", "white sugar", "sour cream", "raisins", "walnuts", "light brown sugar", "ground cinnamon", "confectioners sugar", "butter", "milk"]}
+{"recipe": "Chocolate Lovers' Favorite Cake", "ingredient": ["devil food cake mix", "instant chocolate pudding mix", "sour cream", "butter", "eggs", "almond extract", "semisweet chocolate chips"]}
+{"recipe": "Lane Cake Filling", "ingredient": ["butter", "white sugar", "egg yolks", "water", "brandy flavoring", "chopped pecans", "raisins", "candied cherries", "coconut"]}
+{"recipe": "Lane Cake", "ingredient": ["butter", "white sugar", "vanilla extract", "all-purpose flour", "powder", "salt", "milk", "egg whites", "butter", "white sugar", "egg yolks", "water", "brandy flavoring", "chopped pecans", "raisins", "candied cherries", "coconut"]}
+{"recipe": "Apple Cake I", "ingredient": ["eggs", "vegetable oil", "white sugar", "all-purpose flour", "ground cinnamon", "soda", "salt", "vanilla extract", "apple peel"]}
+{"recipe": "Chocolate Chocolate Chip Dream Cake", "ingredient": ["chocolate cake mix", "non-instant chocolate pudding mix", "eggs", "semisweet chocolate chips"]}
+{"recipe": "Very Special Tomato Spice Cake", "ingredient": ["all-purpose flour", "white sugar", "powder", "ground cinnamon", "ground nutmeg", "ground cloves", "ground allspice", "salt", "tomato sauce", "soda", "eggs", "vegetable oil", "walnuts", "golden raisins", "orange juice", "confectioners sugar"]}
+{"recipe": "Spintz Cake", "ingredient": ["all-purpose flour", "powder", "soda", "salt", "unsweetened cocoa powder", "white sugar", "eggs", "vegetable oil", "milk", "vanilla extract", "strong hot coffee", "smooth peanut butter", "butter", "confectioners sugar", "vanilla extract", "heavy cream", "confectioners sugar", "unsalted butter", "unsweetened cocoa powder", "egg white", "vanilla extract", "salt", "heavy cream"]}
+{"recipe": "Dutch Apple Cake", "ingredient": ["shortening", "white sugar", "egg", "vanilla extract", "all-purpose flour", "powder", "salt", "milk", "peeled eighths", "white sugar", "ground cinnamon"]}
+{"recipe": "Apple Bundt Cake", "ingredient": ["apples", "white sugar", "ground cinnamon", "all-purpose flour", "powder", "salt", "white sugar", "vegetable oil", "orange juice", "vanilla extract", "eggs", "walnuts", "confectioners sugar"]}
+{"recipe": "Cornstarch Cake", "ingredient": ["shortening", "white sugar", "eggs", "cornstarch", "pastry flour", "powder", "salt", "milk", "vanilla extract"]}
+{"recipe": "Old Fashioned Pineapple Upside-Down Cake", "ingredient": ["eggs", "butter", "light brown sugar", "pineapple", "maraschino cherries", "flour", "powder", "salt", "white sugar", "butter", "almond extract"]}
+{"recipe": "White Mountain Cake", "ingredient": ["shortening", "white sugar", "flour", "salt", "powder", "milk", "egg whites", "vanilla extract", "almond extract"]}
+{"recipe": "White Mountain Frosting", "ingredient": ["white sugar", "water", "cream tartar", "egg whites", "salt", "vanilla extract"]}
+{"recipe": "Whipped Cream Cake I", "ingredient": ["heavy whipping cream", "white sugar", "eggs", "flour", "salt", "powder", "vanilla extract"]}
+{"recipe": "Maple Walnut Frosting", "ingredient": ["egg whites", "brown sugar", "maple syrup", "cold water", "cream tartar", "walnuts"]}
+{"recipe": "Almond Paste", "ingredient": ["almonds", "confectioners sugar", "egg whites", "almond extract"]}
+{"recipe": "Martha Washington's Cake", "ingredient": ["golden raisins", "currants", "orange zest", "candied lemon peel", "citron", "angelica", "red cherries", "green cherries", "brandy", "all-purpose flour", "ground mace", "ground nutmeg", "butter", "white sugar", "eggs", "fresh lemon juice", "sherry", "sherry"]}
+{"recipe": "Gold Cake", "ingredient": ["butter", "white sugar", "egg yolks", "vanilla extract", "all-purpose flour", "powder", "salt", "milk"]}
+{"recipe": "White Cream Cake", "ingredient": ["white chocolate", "flour", "powder", "salt", "unsalted butter", "white sugar", "milk", "vanilla extract"]}
+{"recipe": "Chocolate Chip Cookie Dough Cheesecake", "ingredient": ["Crust", "chocolate wafer cookies", "white sugar", "butter", "Cake", "cream cheese chunks", "white sugar", "white sugar", "sour cream", "eggs", "vanilla extract", "Cookie Dough", "butter", "sugar", "white sugar", "water", "vanilla extract", "semisweet chocolate chips", "all-purpose flour", "Topping", "sour cream", "white sugar", "vanilla extract"]}
+{"recipe": "Granny Cake I", "ingredient": ["eggs", "pineapple juice", "all-purpose flour", "white sugar", "soda", "salt", "vanilla extract", "light brown sugar", "walnuts", "butter", "white sugar", "milk", "vanilla extract"]}
+{"recipe": "Banana Angel Food Cake", "ingredient": ["egg whites", "cream tartar", "powder", "vanilla extract", "ground cinnamon", "oats", "bananas", "flour", "confectioners sugar", "salt"]}
+{"recipe": "Sour Cream Torte", "ingredient": ["all-purpose flour", "white sugar", "butter", "egg", "sour cream", "confectioners sugar", "walnuts", "vanilla extract"]}
+{"recipe": "Screw Pine Cake", "ingredient": ["white sugar", "egg yolks", "eggs", "all-purpose flour", "butter", "coconut milk", "pandan paste", "green food coloring", "ovalette", "salt"]}
+{"recipe": "Halloween Layer Cake", "ingredient": ["flour", "soda", "salt", "white sugar", "shortening", "buttermilk", "egg whites", "unsweetened chocolate", "butter", "butter", "orange zest", "lemon zest", "salt", "egg yolk", "confectioners sugar", "orange juice", "lemon juice"]}
+{"recipe": "Butter Cream Frosting I", "ingredient": ["butter", "salt", "confectioners sugar", "egg yolk", "vanilla extract", "milk"]}
+{"recipe": "Golden Orange Frosting", "ingredient": ["butter", "orange zest", "lemon zest", "salt", "egg yolk", "confectioners sugar", "orange juice", "lemon juice"]}
+{"recipe": "Philly Cheesecake", "ingredient": ["butter", "graham cracker crumbs", "cream cheese", "white sugar", "eggs", "all-purpose flour", "vanilla extract", "salt", "heavy whipping cream"]}
+{"recipe": "Gob Cake", "ingredient": ["all-purpose flour", "white sugar", "soda", "unsweetened cocoa powder", "salt", "vegetable oil", "white vinegar", "vanilla extract", "water", "butter", "shortening", "milk", "vanilla extract", "white sugar"]}
+{"recipe": "One - Two - Three - Four Cake I", "ingredient": ["butter", "white sugar", "all-purpose flour", "eggs", "plain yogurt", "cream tartar", "soda", "vanilla extract", "lemon zest"]}
+{"recipe": "Sauerkraut Surprise Cake", "ingredient": ["butter", "white sugar", "eggs", "vanilla extract", "all-purpose flour", "powder", "soda", "salt", "unsweetened cocoa powder", "water", "sauerkraut", "semisweet chocolate chips", "butter", "sour cream", "confectioners sugar"]}
+{"recipe": "German Christmas Gingerbread", "ingredient": ["butter", "brown sugar", "eggs", "honey", "orange liqueur", "sour cream", "orange juice", "all-purpose flour", "whole wheat flour", "powder", "ground ginger", "ground cinnamon", "ground nutmeg", "ground cloves", "raisins", "almonds"]}
+{"recipe": "Large White Birthday Cake", "ingredient": ["flour", "powder", "salt", "shortening", "white sugar", "egg yolk", "vanilla extract", "milk"]}
+{"recipe": "Chocolate Buttermilk Cake", "ingredient": ["semisweet chocolate chips", "water", "flour", "soda", "salt", "butter", "vanilla extract", "white sugar", "eggs", "buttermilk", "semisweet chocolate chips", "honey", "water", "salt", "heavy whipping cream"]}
+{"recipe": "Fluffy Boiled Icing", "ingredient": ["white sugar", "water", "light corn syrup", "salt", "egg whites", "vanilla extract", "confectioners sugar"]}
+{"recipe": "Double Chocolate Cake II", "ingredient": ["vegetable oil", "semi-sweet chocolate", "egg", "white sugar", "milk", "all-purpose flour", "salt", "vanilla extract", "soda", "semisweet chocolate chips", "walnuts"]}
+{"recipe": "Spice Cake I", "ingredient": ["all-purpose flour", "powder", "soda", "salt", "ground nutmeg", "ground cinnamon", "ground ginger", "ground cloves", "white sugar", "honey", "vegetable oil", "strong coffee room temperature", "egg"]}
+{"recipe": "Chocolate Buttercream", "ingredient": ["bittersweet chocolate", "unsalted butter", "salt", "eggs", "confectioners sugar", "vanilla extract"]}
+{"recipe": "Dobos Torte", "ingredient": ["egg whites", "egg yolks", "white sugar", "milk", "lemon zest", "salt", "vanilla extract", "all-purpose flour", "shortening", "white sugar", "Chocolate Buttercream"]}
+{"recipe": "Poor Man's Cake I", "ingredient": ["raisins", "water", "cold water", "shortening", "white sugar", "ground cinnamon", "ground nutmeg", "ground allspice", "salt", "soda", "all-purpose flour"]}
+{"recipe": "Almond Lemon Cake", "ingredient": ["egg whites", "cream tartar", "white sugar", "butter", "lemon zest", "lemon juice", "sour cream", "vanilla extract", "all-purpose flour", "powder", "salt", "almonds"]}
+{"recipe": "Orange Pecan Cake", "ingredient": ["butter", "white sugar", "brown sugar", "eggs", "vanilla extract", "sour cream", "orange zest", "all-purpose flour", "powder", "soda", "salt", "chopped pecans", "orange juice", "brandy-based orange liqueur"]}
+{"recipe": "Chocaroon Cake", "ingredient": ["egg whites", "salt", "white sugar", "all-purpose flour", "coconut", "chocolate cake mix", "instant chocolate pudding mix", "eggs", "egg yolks", "water", "vegetable oil"]}
+{"recipe": "Citrus Carrot Cake", "ingredient": ["butter", "white sugar", "brown sugar", "eggs", "orange zest", "lemon zest", "orange juice", "fresh lemon juice", "carrots", "all-purpose flour", "whole wheat flour", "powder", "ground cinnamon", "salt", "walnuts", "raisins"]}
+{"recipe": "Funnel Cakes I", "ingredient": ["eggs", "milk", "all-purpose flour", "powder", "salt", "vegetable oil", "confectioners sugar"]}
+{"recipe": "Tomato Soup Cake II", "ingredient": ["flour", "white sugar", "soda", "powder", "ground allspice", "ground cinnamon", "ground cloves", "tomato soup", "shortening", "eggs", "water"]}
+{"recipe": "Old Hermit Cake", "ingredient": ["butter", "brown sugar", "eggs", "lemon", "vanilla extract", "all-purpose flour", "powder", "ground cinnamon", "salt", "dates", "walnuts"]}
+{"recipe": "Deep Dark Chocolate Peppermint Cake", "ingredient": ["flour", "salt", "unsweetened chocolate", "butter", "white sugar", "egg yolks", "milk", "vanilla extract", "soda", "Seven-Minute Frosting", "peppermint hard candies", "red food coloring"]}
+{"recipe": "Butterfly Frosting", "ingredient": ["butter", "confectioners sugar", "egg white", "cream", "vanilla extract", "salt", "red food coloring"]}
+{"recipe": "Lord Baltimore Cake", "ingredient": ["flour", "powder", "salt", "butter", "white sugar", "egg yolks", "milk", "vanilla extract", "macaroon cookies", "chopped pecans", "almonds", "cherries", "lemon juice", "orange zest"]}
+{"recipe": "Chocolate Icebox Cake", "ingredient": ["German sweet chocolate", "water", "egg yolks", "confectioners sugar", "heavy whipping cream", "egg whites", "ladyfingers"]}
+{"recipe": "Orange Cream Cake II", "ingredient": ["prepared pound cake", "orange sherbet", "heavy whipping cream", "white sugar", "vanilla extract"]}
