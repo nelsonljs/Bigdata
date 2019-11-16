@@ -3,7 +3,7 @@ import my_functions
 import pandas as pd
 
 N = 100 #read first 50 lines to sandbox
-with open('allrecipes-recipes.json') as json_file:
+with open('data/allrecipes_small.json') as json_file:
     head = [next(json_file) for x in range(N)]
 
 with open('measurements.txt') as file:
@@ -81,3 +81,25 @@ mydf3.to_csv('Recipe_Methods_Graph.csv')
 #        json.dump(item, outfile)
 #        outfile.write('\n')
 
+###(update by zhou)
+
+#pick only nouns
+#word_tokenize
+from nltk.tokenize import word_tokenize
+words=[]
+for i in mydf2['Ingredients']:
+        words.extend(word_tokenize(i))
+# pick the noun
+nltk.download('averaged_perceptron_tagger')
+nltk.download('universal_tagset')
+from nltk.tag import pos_tag
+pos_tag(words,tagset='universal')
+AN=[]
+for a,b in pos_tag(words,tagset='universal'):
+    if b=="NOUN":
+        AN.append(a)
+#match the words
+text_new_df = mydf2['Ingredients'].apply(lambda x: " ".join(x for x in x.split() if x in AN))
+mydf2['Ingredients']=text_new_df
+
+mydf2.to_csv('Recipe_Ingredients_Graph_new.csv')
