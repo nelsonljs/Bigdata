@@ -1,0 +1,101 @@
+"","X","Recipe","Average.Review","Review.Count","Prep.Time","isVegan","serves","isNuts","cooking_methods","calories"
+"1",0,"Basil, Roasted Peppers and Monterey Jack Cornbread",4.32,46,80,FALSE,"2-3 pax",TRUE,"grill",1500
+"2",1,"Crispy Cheese Twists",4.18,44,0,TRUE,">7 pax",TRUE,"deep-fry",1200
+"3",2,"Mom's Yeast Rolls",3.65,168,0,TRUE,"4-6 pax",FALSE,"bake",1300
+"4",3,"Sweet Potato Bread I",4.7,344,0,FALSE,"2-3 pax",TRUE,"deep-fry",1500
+"5",4,"Orange Buns",4.71,6,65,TRUE,"2-3 pax",FALSE,"deep-fry",900
+"6",5,"Cornish Splits",4.33,88,0,TRUE,">7 pax",TRUE,"deep-fry",1400
+"7",6,"Jalapeno Cheese Bread",4.33,86,0,FALSE,">7 pax",FALSE,"grill",900
+"8",7,"Dee's Health Bread",4.81,133,0,TRUE,"4-6 pax",FALSE,"deep-fry",400
+"9",8,"Oatmeal Bread I",4.59,29,75,TRUE,"4-6 pax",FALSE,"grill",400
+"10",9,"Strawberry Bread I",3.95,36,0,TRUE,">7 pax",TRUE,"bake",1100
+"11",10,"Sun Dried Tomato and Asiago Cheese Bread",4.57,47,0,FALSE,"2-3 pax",TRUE,"bake",800
+"12",11,"Hawaiian Sweet Bread",4.19,40,0,FALSE,"4-6 pax",TRUE,"deep-fry",900
+"13",12,"The Best Corn Bread You'll Ever Eat",3.58,68,35,FALSE,"2-3 pax",TRUE,"deep-fry",1300
+"14",13,"No Knead Refrigerator Rolls",4.36,41,0,TRUE,">7 pax",FALSE,"deep-fry",200
+"15",14,"Sourdough Starter I",4.59,94,10,FALSE,">7 pax",FALSE,"bake",1400
+"16",15,"Sourdough Bread I",4.49,198,0,TRUE,">7 pax",FALSE,"deep-fry",400
+"17",16,"Dilly Bread",4.59,47,65,TRUE,"2-3 pax",TRUE,"bake",1100
+"18",17,"Pumpkin Bread I",4.59,135,75,FALSE,">7 pax",FALSE,"deep-fry",900
+"19",18,"Sy's Challah",4.64,77,0,FALSE,"4-6 pax",FALSE,"grill",1500
+"20",19,"Onion Bread I",4.5,21,0,TRUE,">7 pax",TRUE,"deep-fry",1300
+"21",20,"Grandma VanDoren's White Bread",4.78,765,0,FALSE,"2-3 pax",TRUE,"bake",900
+"22",21,"Italian Bread I",3.97,22,0,FALSE,"4-6 pax",TRUE,"deep-fry",600
+"23",22,"Sunday Dinner Rolls",4.48,155,0,TRUE,"2-3 pax",TRUE,"grill",200
+"24",23,"Banana Wheat Bread",4.57,168,0,FALSE,"2-3 pax",TRUE,"grill",1500
+"25",24,"Banana Bread",4.68,887,75,FALSE,">7 pax",FALSE,"bake",1500
+"26",25,"Candied Fruit Bread",4.56,8,0,FALSE,"4-6 pax",TRUE,"grill",1000
+"27",26,"Nut and Fruit Bread",4.67,6,0,TRUE,"4-6 pax",TRUE,"grill",1500
+"28",27,"Mother's Banana Bread",4.45,219,75,FALSE,">7 pax",FALSE,"deep-fry",1300
+"29",28,"Pumpernickel Bread I",3.83,13,0,TRUE,"2-3 pax",FALSE,"deep-fry",1500
+"30",29,"Buttermilk Bread I",3.79,37,0,TRUE,"4-6 pax",FALSE,"deep-fry",300
+"31",30,"Sun Dried Tomato Focaccia",4.36,46,0,TRUE,">7 pax",TRUE,"grill",400
+"32",31,"Michell Jenny's Challah",4.73,76,185,TRUE,"4-6 pax",TRUE,"deep-fry",1500
+"33",32,"Potato Bread I",4.11,14,0,FALSE,"2-3 pax",FALSE,"deep-fry",300
+"34",33,"Delicious Pumpkin Bread",4.75,537,70,TRUE,">7 pax",FALSE,"deep-fry",1500
+"35",34,"Mom's Zucchini Bread",4.76,6304,80,TRUE,"2-3 pax",TRUE,"deep-fry",1400
+"36",35,"Cinnamon Cranraisin Bread",4.62,102,0,TRUE,"4-6 pax",FALSE,"grill",1000
+"37",36,"Molasses-Oat Bran Bread",3.88,14,0,FALSE,"4-6 pax",TRUE,"grill",100
+"38",37,"Fabulous Homemade Bread",4.75,507,0,TRUE,">7 pax",TRUE,"bake",400
+"39",38,"Persimmon Bread I",4.6,84,0,TRUE,">7 pax",FALSE,"deep-fry",1300
+"40",39,"Cinnamon Carrot Bread",4.17,91,0,FALSE,">7 pax",TRUE,"bake",700
+"41",40,"Strawberry Bread II",4.29,16,0,TRUE,"4-6 pax",FALSE,"bake",1300
+"42",41,"Alienated Blueberry Muffins",3.97,292,40,FALSE,"2-3 pax",FALSE,"bake",900
+"43",42,"Yummy Lemon Bread",4.43,25,0,TRUE,"4-6 pax",TRUE,"bake",400
+"44",43,"Nick's Favorite Cherry Pecan Bread",4.36,26,0,TRUE,">7 pax",TRUE,"grill",500
+"45",44,"Swedish Rye Bread I",4.55,28,0,TRUE,"4-6 pax",TRUE,"bake",500
+"46",45,"Bran Muffins I",4.59,49,0,TRUE,">7 pax",FALSE,"deep-fry",400
+"47",46,"Zucchini Walnut Bread",4.48,56,0,FALSE,">7 pax",FALSE,"bake",700
+"48",47,"Apricot Nut Bread",3.83,11,0,FALSE,"4-6 pax",FALSE,"deep-fry",1300
+"49",48,"Babka I",4.79,13,85,TRUE,"2-3 pax",FALSE,"deep-fry",100
+"50",49,"Brazilian Banana Bread",4.14,16,60,FALSE,">7 pax",TRUE,"grill",800
+"51",50,"Easy Banana Bread",4.72,559,90,FALSE,">7 pax",FALSE,"bake",400
+"52",51,"Banana Oat Muffins",4.48,1005,35,TRUE,">7 pax",TRUE,"deep-fry",1400
+"53",52,"Canadian Doughnuts",4.2,23,0,FALSE,">7 pax",TRUE,"grill",900
+"54",53,"Beer Bread I",4.52,691,0,FALSE,"4-6 pax",TRUE,"deep-fry",1400
+"55",54,"Beer Biscuits",4.06,103,0,FALSE,"2-3 pax",TRUE,"grill",1100
+"56",55,"Cardamom Bread",3.76,13,0,TRUE,"2-3 pax",TRUE,"bake",800
+"57",56,"Three C Bread",4,3,0,FALSE,">7 pax",FALSE,"bake",1500
+"58",57,"Grandma Cornish's Whole Wheat Potato Bread",4.14,21,0,TRUE,"4-6 pax",TRUE,"bake",1200
+"59",58,"Chocolate Bread",3.71,14,0,TRUE,">7 pax",FALSE,"deep-fry",100
+"60",59,"Strawberry Rhubarb Muffins",3.83,6,0,FALSE,"2-3 pax",TRUE,"grill",100
+"61",60,"Poppy Seed Bread I",4.48,19,0,TRUE,"4-6 pax",FALSE,"bake",600
+"62",61,"Zucchini Bread",4.5,239,100,TRUE,"2-3 pax",TRUE,"bake",600
+"63",62,"Honey Wheat Bread I",4.77,592,60,FALSE,"4-6 pax",TRUE,"bake",1300
+"64",63,"Honey White Bread",4.57,34,0,FALSE,">7 pax",FALSE,"deep-fry",200
+"65",64,"Mom's Hazelnut Special",2.5,4,0,TRUE,">7 pax",TRUE,"bake",300
+"66",65,"Quick Lemon Poppy Seed Bread",4.73,117,0,TRUE,"2-3 pax",TRUE,"grill",1300
+"67",66,"Maple Zucchini Bread",4.45,16,0,TRUE,"2-3 pax",FALSE,"deep-fry",1000
+"68",67,"Chocolate Chip Orange Zucchini Bread",4.68,365,0,FALSE,"4-6 pax",TRUE,"bake",1100
+"69",68,"Chocolate Chip Pumpkin Bread",4.73,596,90,TRUE,"2-3 pax",FALSE,"grill",1400
+"70",69,"Red Pepper Biscuits",4.36,31,0,TRUE,">7 pax",TRUE,"bake",300
+"71",70,"Chocolate Wave Zucchini Bread",4.62,199,0,TRUE,"4-6 pax",FALSE,"bake",800
+"72",71,"Wheat and Barley Bread",4.46,12,115,FALSE,"4-6 pax",TRUE,"grill",400
+"73",72,"Tomato Bread I",4.63,7,0,FALSE,">7 pax",FALSE,"deep-fry",1100
+"74",73,"Zucchini Bread II",4.51,185,0,FALSE,">7 pax",FALSE,"grill",800
+"75",74,"Mall Pretzels",4.61,1131,50,TRUE,">7 pax",TRUE,"deep-fry",500
+"76",75,"Soft Pretzels I",3.93,66,0,FALSE,"4-6 pax",TRUE,"bake",300
+"77",76,"Sweet Potato Rolls",4.6,197,0,TRUE,"4-6 pax",FALSE,"grill",1400
+"78",77,"Tea Biscuits",4.43,346,0,FALSE,">7 pax",FALSE,"bake",700
+"79",78,"Cheddar Biscuits",4.64,430,35,TRUE,"2-3 pax",TRUE,"bake",1000
+"80",79,"Cottage Dill Bread",4.55,83,0,TRUE,"2-3 pax",TRUE,"deep-fry",200
+"81",80,"English Muffin Loaves",4.61,58,0,FALSE,">7 pax",FALSE,"grill",900
+"82",81,"Parmesan Focaccia Bread",4.59,53,0,FALSE,"2-3 pax",FALSE,"deep-fry",1000
+"83",82,"Darbey Bread",4.19,30,0,FALSE,"2-3 pax",FALSE,"bake",700
+"84",83,"Nonfat Sour Cream Cake Bread",4.44,7,0,FALSE,"4-6 pax",FALSE,"bake",1000
+"85",84,"Coconut Bread I",3.94,13,65,FALSE,"2-3 pax",FALSE,"deep-fry",1400
+"86",85,"Irish Soda Bread I",4.63,262,70,FALSE,">7 pax",FALSE,"grill",600
+"87",86,"Ciabatta",4.57,197,40,FALSE,"4-6 pax",FALSE,"deep-fry",1500
+"88",87,"Lower Fat Banana Nut Bread",4.13,17,0,TRUE,"2-3 pax",TRUE,"grill",600
+"89",88,"Orange Nut Bread",3.73,10,60,TRUE,"4-6 pax",FALSE,"bake",1400
+"90",89,"Poppy Seed Bread II",4.67,12,80,FALSE,"2-3 pax",TRUE,"deep-fry",700
+"91",90,"Oatmeal Chocolate Chip Muffins",4.19,476,45,FALSE,"4-6 pax",FALSE,"grill",100
+"92",91,"Lower Fat Banana Bread I",4.67,377,75,TRUE,">7 pax",TRUE,"grill",1000
+"93",92,"Sourdough Bread II",3.57,11,130,TRUE,">7 pax",TRUE,"grill",500
+"94",93,"Parmesan Herb Bread",4.6,39,70,TRUE,"2-3 pax",FALSE,"deep-fry",200
+"95",94,"Simple Banana Bread",3.95,78,80,FALSE,"2-3 pax",FALSE,"bake",700
+"96",95,"Unbelievable Rolls",4.44,657,45,TRUE,"4-6 pax",FALSE,"deep-fry",1300
+"97",96,"Pecan Sticky Buns",4.34,29,60,FALSE,">7 pax",TRUE,"deep-fry",800
+"98",97,"Challah I",4.61,481,70,FALSE,"2-3 pax",FALSE,"deep-fry",200
+"99",98,"Tasty Buns",4.68,410,35,FALSE,"4-6 pax",TRUE,"grill",1500
+"100",99,"Breakfast Muffins",4.01,108,40,FALSE,">7 pax",FALSE,"bake",100
