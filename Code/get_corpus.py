@@ -9,18 +9,20 @@ path = 'C:/Users/nelso/Documents/Data Science/Python/Scripts/Firefox Scraper/gec
 driver = Firefox(executable_path=path)
 #driver.get('https://www.enchantedlearning.com/wordlist/measurement.shtml')
 driver.get('https://www.enchantedlearning.com/wordlist/cooking.shtml')
+#driver.get('https://www.d.umn.edu/~alphanu/cookery/glossary_cooking.html')
 sleep(5) #this lets the website load first
 
 mywords = []
 webitem = driver.find_elements_by_class_name('wordlist-item')
+#webitem = driver.find_elements_by_tag_name('b')
+
 for item in webitem:
     mywords.append(item.text)
 
 driver.quit()
 
-#print(mywords)
+print(mywords)
 
-with open('cookingmethods.txt', 'w') as filehandle:
-    for listitem in mywords:
-        filehandle.write('%s\n' % listitem)
-
+#with open('cookingmethods2.txt', 'w') as filehandle:
+#    for listitem in mywords:
+#        filehandle.write('%s\n' % listitem)

@@ -46,13 +46,13 @@
 44,Swedish Rye Bread I,compress fresh yeast
 45,Bran Muffins I,raisin bran cereal
 46,Zucchini Walnut Bread,chopped walnut
-47,Apricot Nut Bread,) apricot half
+47,Apricot Nut Bread,apricot half
 48,Babka I,milk
 49,Brazilian Banana Bread,margarine
 50,Easy Banana Bread,ripe banana
 51,Banana Oat Muffins,unbleached all-purpose flour
 52,Canadian Doughnuts,white sugar
-53,Beer Bread I,) bottle beer
+53,Beer Bread I,bottle beer
 54,Beer Biscuits,all-purpose flour
 55,Cardamom Bread,egg
 56,Three C Bread,egg
@@ -70,33 +70,33 @@
 68,Chocolate Chip Pumpkin Bread,white sugar
 69,Red Pepper Biscuits,baking mix
 70,Chocolate Wave Zucchini Bread,shorten
-71,Wheat and Barley Bread,. grape-nuts™ )
+71,Wheat and Barley Bread,barley nugget cereal
 72,Tomato Bread I,tomato juice
 73,Zucchini Bread II,egg
 74,Mall Pretzels,active dry yeast
-75,Soft Pretzels I,c )
+75,Soft Pretzels I,warm water
 76,Sweet Potato Rolls,active dry yeast
 77,Tea Biscuits,all-purpose flour
 78,Cheddar Biscuits,biscuit baking mix
-79,Cottage Dill Bread,c )
+79,Cottage Dill Bread,warm water
 80,English Muffin Loaves,active dry yeast
-81,Parmesan Focaccia Bread,c )
+81,Parmesan Focaccia Bread,warm water
 82,Darbey Bread,frozen bread dough
 83,Nonfat Sour Cream Cake Bread,free sour cream
 84,Coconut Bread I,butter
 85,Irish Soda Bread I,all-purpose flour
-86,Ciabatta,biga ) :
+86,Ciabatta,sponge :
 87,Lower Fat Banana Nut Bread,free sour cream
 88,Orange Nut Bread,grate orange zest
 89,Poppy Seed Bread II,all-purpose flour
 90,Oatmeal Chocolate Chip Muffins,quick cooking oat
 91,Lower Fat Banana Bread I,white sugar
 92,Sourdough Bread II,active dry yeast
-93,Parmesan Herb Bread,c )
+93,Parmesan Herb Bread,warm water
 94,Simple Banana Bread,ripe banana
 95,Unbelievable Rolls,milk
 96,Pecan Sticky Buns,active dry yeast
-97,Challah I,c )
+97,Challah I,warm water
 98,Tasty Buns,all-purpose flour
 99,Breakfast Muffins,all-purpose flour
 100,"Basil, Roasted Peppers and Monterey Jack Cornbread",chopped onion
@@ -151,7 +151,7 @@
 149,Brazilian Banana Bread,white sugar
 150,Easy Banana Bread,egg
 151,Banana Oat Muffins,roll oat
-152,Canadian Doughnuts,c )
+152,Canadian Doughnuts,warm water
 153,Beer Bread I,self-rising flour
 154,Beer Biscuits,baking powder
 155,Cardamom Bread,water
@@ -167,7 +167,7 @@
 165,Quick Lemon Poppy Seed Bread,egg
 166,Maple Zucchini Bread,vegetable oil
 167,Chocolate Chip Orange Zucchini Bread,white sugar
-168,Chocolate Chip Pumpkin Bread,) pumpkin puree
+168,Chocolate Chip Pumpkin Bread,pumpkin puree
 169,Red Pepper Biscuits,red pepper flake
 170,Chocolate Wave Zucchini Bread,white sugar
 171,Wheat and Barley Bread,buttermilk
@@ -191,11 +191,11 @@
 189,Poppy Seed Bread II,salt
 190,Oatmeal Chocolate Chip Muffins,milk
 191,Lower Fat Banana Bread I,margarine
-192,Sourdough Bread II,c )
+192,Sourdough Bread II,warm water
 193,Parmesan Herb Bread,margarine
 194,Simple Banana Bread,white sugar
 195,Unbelievable Rolls,water
-196,Pecan Sticky Buns,c )
+196,Pecan Sticky Buns,warm water
 197,Challah I,active dry yeast
 198,Tasty Buns,package dry yeast
 199,Breakfast Muffins,white sugar
@@ -257,11 +257,11 @@
 255,Cardamom Bread,evaporate skim milk
 256,Three C Bread,milk
 257,Grandma Cornish's Whole Wheat Potato Bread,salt
-258,Chocolate Bread,c )
+258,Chocolate Bread,warm water
 259,Strawberry Rhubarb Muffins,brown rice flour
 260,Poppy Seed Bread I,all-purpose flour
 261,Zucchini Bread,white sugar
-262,Honey Wheat Bread I,c )
+262,Honey Wheat Bread I,warm water
 263,Honey White Bread,honey
 264,Mom's Hazelnut Special,whole wheat flour
 265,Quick Lemon Poppy Seed Bread,vegetable oil
@@ -285,7 +285,7 @@
 283,Nonfat Sour Cream Cake Bread,light brown sugar
 284,Coconut Bread I,egg
 285,Irish Soda Bread I,baking soda
-286,Ciabatta,c )
+286,Ciabatta,warm water
 287,Lower Fat Banana Nut Bread,chopped walnut
 288,Orange Nut Bread,hot water
 289,Poppy Seed Bread II,baking powder
@@ -347,7 +347,7 @@
 345,Bran Muffins I,shorten
 346,Zucchini Walnut Bread,vegetable oil
 347,Apricot Nut Bread,egg
-348,Babka I,c )
+348,Babka I,warm water
 349,Brazilian Banana Bread,all-purpose flour
 350,Easy Banana Bread,white sugar
 351,Banana Oat Muffins,baking powder
@@ -360,9 +360,9 @@
 359,Strawberry Rhubarb Muffins,baking powder
 360,Poppy Seed Bread I,egg
 361,Zucchini Bread,vegetable oil
-362,Honey Wheat Bread I,) evaporate milk
+362,Honey Wheat Bread I,evaporate milk
 363,Honey White Bread,bread flour
-364,Mom's Hazelnut Special,( optional )
+364,Mom's Hazelnut Special,bread flour
 365,Quick Lemon Poppy Seed Bread,lemon pudding mix
 366,Maple Zucchini Bread,white sugar
 367,Chocolate Chip Orange Zucchini Bread,vanilla extract
@@ -372,9 +372,9 @@
 371,Wheat and Barley Bread,white sugar
 372,Tomato Bread I,vegetable oil
 373,Zucchini Bread II,grate zucchini
-374,Mall Pretzels,c )
+374,Mall Pretzels,warm water
 375,Soft Pretzels I,salt
-376,Sweet Potato Rolls,c )
+376,Sweet Potato Rolls,warm water
 377,Tea Biscuits,shorten
 378,Cheddar Biscuits,garlic powder
 379,Cottage Dill Bread,bread flour
@@ -385,7 +385,7 @@
 384,Coconut Bread I,coconut extract
 385,Irish Soda Bread I,baking powder
 386,Ciabatta,warm water
-387,Lower Fat Banana Nut Bread,( optional )
+387,Lower Fat Banana Nut Bread,raisin
 388,Orange Nut Bread,melt shorten
 389,Poppy Seed Bread II,egg
 390,Oatmeal Chocolate Chip Muffins,vegetable oil
@@ -410,7 +410,7 @@
 409,Strawberry Bread I,baking soda
 410,Sun Dried Tomato and Asiago Cheese Bread,instant powder milk
 411,Hawaiian Sweet Bread,dry milk powder
-412,The Best Corn Bread You'll Ever Eat,) cream-style corn
+412,The Best Corn Bread You'll Ever Eat,cream-style corn
 413,No Knead Refrigerator Rolls,shorten
 415,Sourdough Bread I,corn oil
 416,Dilly Bread,margarine
@@ -449,7 +449,7 @@
 449,Brazilian Banana Bread,baking powder
 450,Easy Banana Bread,vanilla extract
 451,Banana Oat Muffins,baking soda
-452,Canadian Doughnuts,c )
+452,Canadian Doughnuts,warm water
 454,Beer Biscuits,beer
 455,Cardamom Bread,canola oil
 456,Three C Bread,white sugar
@@ -460,7 +460,7 @@
 461,Zucchini Bread,grate zucchini
 462,Honey Wheat Bread I,water
 463,Honey White Bread,salt
-464,Mom's Hazelnut Special,c )
+464,Mom's Hazelnut Special,warm water
 465,Quick Lemon Poppy Seed Bread,water
 466,Maple Zucchini Bread,maple flavor extract
 467,Chocolate Chip Orange Zucchini Bread,grate zucchini
@@ -596,7 +596,7 @@
 604,Orange Buns,egg
 606,Jalapeno Cheese Bread,active dry yeast
 607,Dee's Health Bread,vegetable oil
-608,Oatmeal Bread I,c )
+608,Oatmeal Bread I,lukewarm water
 609,Strawberry Bread I,vegetable oil
 610,Sun Dried Tomato and Asiago Cheese Bread,bread flour
 611,Hawaiian Sweet Bread,active dry yeast
@@ -654,7 +654,7 @@
 671,Wheat and Barley Bread,all-purpose flour
 672,Tomato Bread I,chopped green onion
 673,Zucchini Bread II,ground cinnamon
-674,Mall Pretzels,c )
+674,Mall Pretzels,warm water
 675,Soft Pretzels I,water
 676,Sweet Potato Rolls,egg
 678,Cheddar Biscuits,garlic salt
@@ -746,17 +746,17 @@
 783,Nonfat Sour Cream Cake Bread,active dry yeast
 784,Coconut Bread I,confectioner ' sugar
 785,Irish Soda Bread I,raisin
-786,Ciabatta,c )
+786,Ciabatta,warm milk
 787,Lower Fat Banana Nut Bread,reduce fat margarine
 788,Orange Nut Bread,salt
 789,Poppy Seed Bread II,poppy seed
 790,Oatmeal Chocolate Chip Muffins,all-purpose flour
 791,Lower Fat Banana Bread I,salt
-792,Sourdough Bread II,c )
+792,Sourdough Bread II,warm water
 793,Parmesan Herb Bread,salt
 795,Unbelievable Rolls,margarine
 796,Pecan Sticky Buns,baking powder
-797,Challah I,( optional )
+797,Challah I,poppy seed
 799,Breakfast Muffins,fresh blueberry
 800,"Basil, Roasted Peppers and Monterey Jack Cornbread",buttermilk
 803,Sweet Potato Bread I,water
@@ -768,7 +768,7 @@
 811,Hawaiian Sweet Bread,lemon extract
 816,Dilly Bread,salt
 817,Pumpkin Bread I,egg
-818,Sy's Challah,( optional )
+818,Sy's Challah,poppy seed
 821,Italian Bread I,sharp cheddar cheese
 822,Sunday Dinner Rolls,all-purpose flour
 823,Banana Wheat Bread,vanilla extract
@@ -798,7 +798,7 @@
 852,Canadian Doughnuts,whole wheat flour
 855,Cardamom Bread,active dry yeast
 856,Three C Bread,salt
-857,Grandma Cornish's Whole Wheat Potato Bread,c )
+857,Grandma Cornish's Whole Wheat Potato Bread,warm water
 859,Strawberry Rhubarb Muffins,honey
 860,Poppy Seed Bread I,milk
 861,Zucchini Bread,baking powder
@@ -832,7 +832,7 @@
 910,Sun Dried Tomato and Asiago Cheese Bread,grate asiago cheese
 911,Hawaiian Sweet Bread,egg
 916,Dilly Bread,baking soda
-917,Pumpkin Bread I,) pumpkin puree
+917,Pumpkin Bread I,pumpkin puree
 921,Italian Bread I,chopped green onion
 923,Banana Wheat Bread,chopped pecan
 925,Candied Fruit Bread,chopped blanch almond
@@ -849,7 +849,7 @@
 943,Nick's Favorite Cherry Pecan Bread,chopped pecan
 945,Bran Muffins I,salt
 946,Zucchini Walnut Bread,grate zucchini
-948,Babka I,( optional )
+948,Babka I,orange liqueur
 949,Brazilian Banana Bread,ground cinnamon
 951,Banana Oat Muffins,vanilla extract
 952,Canadian Doughnuts,lemon juice
@@ -878,14 +878,14 @@
 1000,"Basil, Roasted Peppers and Monterey Jack Cornbread",shred pepperjack cheese
 1003,Sweet Potato Bread I,chopped pecan
 1007,Dee's Health Bread,flax seed
-1010,Sun Dried Tomato and Asiago Cheese Bread,( optional )
+1010,Sun Dried Tomato and Asiago Cheese Bread,dry basil
 1011,Hawaiian Sweet Bread,margarine
 1016,Dilly Bread,egg
 1017,Pumpkin Bread I,water
 1021,Italian Bread I,egg
 1025,Candied Fruit Bread,chopped pecan
 1030,Sun Dried Tomato Focaccia,dry rosemary
-1033,Delicious Pumpkin Bread,( optional )
+1033,Delicious Pumpkin Bread,chopped walnut
 1034,Mom's Zucchini Bread,chopped walnut
 1035,Cinnamon Cranraisin Bread,sweeten dry cranberry
 1037,Fabulous Homemade Bread,bread flour
@@ -915,7 +915,7 @@
 1107,Dee's Health Bread,crack wheat
 1110,Sun Dried Tomato and Asiago Cheese Bread,ground black pepper
 1116,Dilly Bread,all-purpose flour
-1117,Pumpkin Bread I,( optional )
+1117,Pumpkin Bread I,chopped walnut
 1121,Italian Bread I,buttermilk
 1125,Candied Fruit Bread,milk
 1130,Sun Dried Tomato Focaccia,garlic salt
@@ -927,7 +927,7 @@
 1159,Strawberry Rhubarb Muffins,chopped strawberry
 1166,Maple Zucchini Bread,chopped walnut
 1167,Chocolate Chip Orange Zucchini Bread,salt
-1168,Chocolate Chip Pumpkin Bread,( optional )
+1168,Chocolate Chip Pumpkin Bread,chopped walnut
 1170,Chocolate Wave Zucchini Bread,chopped walnut
 1173,Zucchini Bread II,chopped walnut
 1186,Ciabatta,salt
