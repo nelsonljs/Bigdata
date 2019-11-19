@@ -1,3 +1,8 @@
+#Load packages
+install.packages("pacman", dependencies = TRUE)
+library(pacman)
+pacman::p_load(DBI, rJava, RJDBC)
+
 pacman::p_load(neo4r, magrittr, dplyr, tidyverse, r2d3, readr)
 #devtools::install_github("nicolewhite/RNeo4j") #RNeo4j
 
@@ -61,5 +66,4 @@ con$get_relationships()
 query = "Babka I"
 paste("MATCH (r:Recipe {name:'", query, "'})-[:CONTAINS]->(Ingredients) RETURN Ingredients.name LIMIT 25", sep = "") %>%
   call_neo4j(con, type = "row", output = "r")
-
 
