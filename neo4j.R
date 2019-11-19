@@ -1,4 +1,4 @@
-pacman::p_load(neo4r, magrittr, dplyr, tidyverse, r2d3, readr, shiny)
+pacman::p_load(neo4r, magrittr, dplyr, tidyverse, r2d3, readr)
 #devtools::install_github("nicolewhite/RNeo4j") #RNeo4j
 
 #Connect to neo4j
@@ -14,13 +14,19 @@ ifelse(con$ping(),
 
 #Load csv
 path = 'C:/Users/KE/Desktop/RI.csv'
-df = read.csv(path)
+df = read.csv(path, stringsAsFactors = FALSE)
+
 
 #Search query
 query = c("salt", "sugar")
 
 df %>%
   filter(Ingredients %in% query)
+
+df %>%
+  #filter(Ingredients %in% query) %>%
+  arrange(Ingredients) %>%
+  summarize_at(vars(starts_with("string")))
 
 
 #To delete existing graph
