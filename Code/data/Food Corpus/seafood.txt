@@ -1,0 +1,118 @@
+abalone
+anchovy
+Balmain bug (Australian)
+banana prawn (Australian)
+barramundi
+bass
+blackfish
+bloater
+blue cod
+bonito
+bream
+brill
+butterfish
+callop
+carp
+catfish
+clam
+clappy-doo or clabby-doo (Scottish)
+cockle
+coalfish or saithe
+cockle
+cod
+codling
+crab
+dab
+dogfish
+dorado
+Dover sole
+Dublin Bay prawn
+eel
+flounder
+gemfish
+grayling
+Greenland halibut
+haddock
+hake
+halibut
+herring
+huss
+jewfish
+John Dory
+kahawai or Australian salmon
+kingfish
+king prawn
+kipper
+langoustine
+lemon sole
+ling
+lobster
+lumpfish
+mackerel
+marron
+megrim
+monkfish
+Moreton Bay bug or shovel-nosed lobster (Australian)
+morwong
+mud crab
+mullet
+mulloway
+mussel
+nannygai
+Norway lobster
+octopus
+oyster
+parrotfish
+perch
+pike
+pilchard or (Austral. informal) pillie
+pipi
+plaice
+pollack
+pomfret
+pout
+prawn
+queenie or queen scallop
+rainbow trout
+redfish
+red snapper
+roach
+rockfish
+salmon
+sardine
+scallop or scollop
+school prawn (Australian)
+sea cucumber
+shad
+shark
+shrimp
+sild
+skate
+skipjack tuna
+snapper
+snoek
+snook
+sockeye or red salmon
+sole
+sprat
+squid
+swordfish
+tarakihi or terakihi
+teraglin
+tiger prawn
+tilefish
+trevally (Australian, New Zealand)
+trout
+tuna or tunny
+turbot
+wahoo
+whelk
+whitebait
+whiting
+winkle
+witch
+wolffish
+yabby or yabbie (Australian)
+yellow belly (Australian)
+zander
+seafood
