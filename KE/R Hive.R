@@ -1,6 +1,12 @@
+#Load packages
+install.packages("pacman", dependencies = TRUE)
+library(pacman)
+pacman::p_load(DBI, rJava, RJDBC)
+
 library("DBI")
 library("rJava")
 library("RJDBC")
+
 hive.class.path = list.files(path=c("/usr/lib/hive/lib"), pattern="jar", full.names=T);
 hadoop.lib.path = list.files(path=c("/usr/lib/hive/lib"), pattern="jar", full.names=T);
 
@@ -15,5 +21,7 @@ url.dbc <-paste0("jdbc:hive2://quickstart.cloudera:10000/default");
 
 conn <- dbConnect(drv, url.dbc, "", "");dbListTables(conn);
 
-dbGetQuery(conn, "select * from food");
+df <- dbGetQuery(conn, "select * from food.food")
+colnames(df) = c("Recipe", "Ingredient"); df
+
 
