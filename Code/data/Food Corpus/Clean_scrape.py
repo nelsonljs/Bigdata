@@ -50,12 +50,13 @@ def clean_web(text):
 def extract_list(lis):
     output = []
     for li in lis:
+        li = li.lower()
         trans_li = clean_web(li)
         if (type(trans_li)==list):
             for trans in trans_li:
                 output.append(trans)
         else:
-            output.append(li)
+            output.append(trans_li)
     return output
 
 text_names = ["cheeses.txt", "common.txt", "fruits.txt",
