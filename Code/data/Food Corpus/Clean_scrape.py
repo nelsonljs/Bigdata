@@ -76,8 +76,53 @@ for file_name in text_names:
 
 ingredient_set = list(set(ingredient_corpus))
 
-with open("Overall.txt", "w") as final_file:
-    for ing in ingredient_set:
-        final_file.write(ing)
-        final_file.write("\n")
+#with open("Overall.txt", "w") as final_file:
+#    for ing in ingredient_set:
+#        final_file.write(ing)
+#        final_file.write("\n")
+        
+
+#testing of the functions
+test = ['1/2 cup unsalted red pepper, chilled and cubed', '1 cup chopped onion', '1 3/4 cups cornmeal']
+
+output = []            
+for item in test:
+    temp_output = []
+    for set_tracker in range(len(ingredient_set)):
+        check = bool(re.search(ingredient_set[set_tracker], item))
+        if (check == True):    
+            temp_output.append(ingredient_set[set_tracker])
+    if (len(temp_output) != 0):
+        output.append(temp_output[[len(i) for i in temp_output].index(max([len(i) for i in temp_output]))])
+            
+            
+def extractIngredient(li, ingredient_set):
+    output = []
+    for item in li:
+        temp_output = []
+        for set_tracker in range(len(ingredient_set)):
+            check = bool(re.search(ingredient_set[set_tracker], item))
+            if (check == True):    
+                temp_output.append(ingredient_set[set_tracker])
+        if (len(temp_output) != 0):
+            temp_counter = 0
+            temp_tracker = 0
+            for temp in range(len(temp_output)):
+                count_temp = len(temp_output[temp])
+                if (count_temp > temp_counter):
+                    temp_tracker = temp
+                    temp_counter = count_temp
+            output.append(temp_output[temp_tracker])
+#            output.append(temp_output[[len(i) for i in temp_output].index(max([len(i) for i in temp_output]))])
+    return output
+
+sample = ['1/2 cup unsalted butter, chilled and cubed', '1 cup chopped onion', '1 3/4 cups cornmeal', '1 1/4 cups all-purpose flour', '1/4 cup white sugar', '1 tablespoon baking powder', '1 1/2 teaspoons salt', '1/2 teaspoon baking soda', '1 1/2 cups buttermilk', '3 eggs', '1 1/2 cups shredded pepperjack cheese', '1 1/3 cups frozen corn kernels, thawed and drained', '2 ounces roasted marinated red pepper, drained and chopped', '1/2 cup chopped fresh basil']
+s2 = ["red pepper", "blue lobster"]
+
+test = extractIngredient(sample, ingredient_set)
+print(test)
+
+    
+
+
 
