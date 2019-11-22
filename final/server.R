@@ -10,24 +10,19 @@ pacman::p_load(tidyverse, shiny, shinyjs, stringr, DT, visNetwork, rjson, sergea
 
 #setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-
-
 ####----Connection to Drill database----####
 ##Connection configuration##
 db_conn <- src_drill("localhost")
 
-
 ####----Retrieval of data----####
 ##Retrieve from local file
 #tbl(db_conn, "dfs.`/home/centos/BigData/03_ingestion/recipes*.json`")
-
 
 ##Retrieve all from hdfs
 # db_results <- tbl(db_conn,
 #                   "hdfs.food.`recipes*.json`") %>%
 #   as.data.frame()%>%
 #   head()
-
 
 ##Retrieve all from Drill database in HDFS
 db_food <- tbl(db_conn,
@@ -46,7 +41,6 @@ ing_results <- db_Ing %>%
   mutate(ingredients = strsplit(as.character(ingredients), ",")) %>% 
   unnest(ingredients) #%>%
 #distinct()
-
 
 ##Display list all ingredients
 # IoTpantry = as.data.frame(c('egg','basil','lobster','poppy seed','mustard','apple','blueberry','prawn','fish')) %>%
@@ -231,6 +225,7 @@ function(input, output, session) {
                       inputId = "main",
                       selected = "User Selection")
   }) #Button on the Recommendations page.
+  
   observeEvent(c(input$randomRecipe, input$updateRecipes), {
     rvs$myrecipes = recipes_id %>% 
       pull(title) %>% 
@@ -241,6 +236,39 @@ function(input, output, session) {
   }) #Randomise input. This is for testing.
   
   observeEvent(input$updateRecipes, {
+    vegetarian_label = 0
+    nut_label = 1
+    lactose = 1
+    seafood = 1
+    if (input$isVegan) {
+      vegetarian_label = 1
+    }
+    if (input$isNuts) {
+      nut_label = 0
+    }
+    if (input$isDairy) {
+      lactose = 0
+    }
+    if (input$isSeafood) {
+      seafood = 0
+    }
+    # ####----Retrieval from database----####
+    # # query_star = 4.5
+    # # 
+    # # query = str_replace_all(
+    # #   string = (paste0('SELECT * FROM `Recipe` 
+    # #                 GROUP BY title 
+    # #                 HAVING time_scraped=MAX(time_scraped) 
+    # #                 AND rating_stars >', query_star,
+    # #                 'AND vegetarian_label >=', vegetarian_label,
+    # #                 'AND nut_label <=', nut_label,
+    # #                 'AND lactose <=', lactose,
+    # #                 'AND seafood <=', seafood)),
+    # #   pattern = "\n",
+    # #   replacement = "")
+    # 
+    # 
+    # # results <- sqldf(x = query)
     
     db_food <- tbl(db_conn,
                    "hdfs.food.`Recipe`") %>%
