@@ -42,15 +42,14 @@ db_Ing <- tbl(db_conn,
 
 names(db_Ing)[names(db_Ing) == "Ingredient"] <- "ingredients"
 
-
 #recipes_id = read.csv("small_sample.csv", header = TRUE, stringsAsFactors = FALSE) %>%
 recipes_id = db_food #%>%
 #select(-X)
 recipeList = recipes_id %>% pull(title)
 
+Ingredientslist = read.delim("Overall_Master.txt", stringsAsFactors = FALSE, header = FALSE) %>%
+  `colnames<-`('Ingredients')
 
-flavourslist = read.delim("herbs.txt", stringsAsFactors = FALSE, header = FALSE) %>%
-  `colnames<-`('Flavours')
 ######
 fluidPage(theme = "bootstrap.css",
           
@@ -87,7 +86,17 @@ fluidPage(theme = "bootstrap.css",
                                                                             HTML('Use Ingredients in your pantry'))),
                                                         br(),
                                                         div(DT::dataTableOutput('IOTTable'),
-                                                            style = "height:200px; overflow-y: scroll;")
+                                                            style = "height:200px; overflow-y: scroll;"),
+                                                        selectizeInput("IngredientsInput",
+                                                                       label = "",
+                                                                       choices = Ingredientslist,
+                                                                       selected = NULL,
+                                                                       options = list(
+                                                                         maxOptions = 5,
+                                                                         maxItems = 2,
+                                                                         placeholder = 'Pick up to two Ingredients you want to cook with, eg. Cinnamon, Pork, ...',
+                                                                         onInitialize = I('function() { this.setValue(""); }')
+                                                                       ))
                                                       ))
                                         ),
                                         column(5,
@@ -135,24 +144,6 @@ fluidPage(theme = "bootstrap.css",
                                                actionButton("randomRecipe", "Change Recipes (Randomise)", class = "btn btn-outline-danger"))),
                                       br(),
                                       
-                                      fluidRow(
-                                        column(12,
-                                               wellPanel(
-                                                 h4(print("Flavours you like")),
-                                                 #this is the middle row with Flavour Selection buttons
-                                                 selectizeInput("FlavoursInput",
-                                                                label = "",
-                                                                choices = flavourslist,
-                                                                selected = NULL,
-                                                                options = list(
-                                                                  maxOptions = 5,
-                                                                  maxItems = 3,
-                                                                  placeholder = 'Type a Flavour you want to search Recipes for. e.g Italian, Fruits',
-                                                                  onInitialize = I('function() { this.setValue(""); }')
-                                                                ))
-                                               )
-                                        )
-                                      ),
                                       fluidRow(
                                         column(12,
                                                wellPanel(

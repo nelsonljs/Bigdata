@@ -41,7 +41,6 @@ db_Ing <- tbl(db_conn,
 
 names(db_Ing)[names(db_Ing) == "Ingredient"] <- "ingredients"
 
-
 ing_results <- db_Ing %>%
   select(ingredients) %>%
   mutate(ingredients = strsplit(as.character(ingredients), ",")) %>% 
@@ -53,14 +52,8 @@ ing_results <- db_Ing %>%
 # IoTpantry = as.data.frame(c('egg','basil','lobster','poppy seed','mustard','apple','blueberry','prawn','fish')) %>%
 #   `colnames<-`('Ingredients')
 
-IoTpantry = db_Ing %>%
-  dplyr::select(ingredients) %>%
-  dplyr::group_by(ingredients) %>%
-  dplyr::summarize(count = n()) %>% 
-  dplyr::arrange(desc(count), ingredients) %>% #Sorted by most common then alphabetical
-  dplyr::select(ingredients) %>%
-  `colnames<-`('Ingredients')
-
+IoTpantry = as.data.frame(c('blueberry','basil','lobster','poppy seed','mustard','apple')) %>%
+  `colnames<-`('Pantry')
 
 #recipes_id = read.csv("small_sample.csv", header = TRUE, stringsAsFactors = FALSE) %>%
 recipes_id = db_food #%>%
@@ -118,33 +111,27 @@ updaterecipes = function(input) {
                  "hdfs.food.`Recipe`") %>%
     as.data.frame() 
   
-  recipes_id = db_food
+  dt = db_food
   
   #recipes_id = read.csv("labelled_df.csv", as.is = TRUE)
-  mylabels = c('vegetarian_label','nut_label','lactose','seafood')
-  
-  veggie = 0
-  nuts = 1
-  dairy = 1
-  hasseafood = 1
-  
+
   if (input$isVegan) {
-    veggie = 1
+    dt = dt %>%
+      filter(vegetarian_label == 1)
   }
   if (input$isNuts) {
-    nuts = 0
+    dt = dt %>%
+      filter(nut_label == 0)
   }
   if (input$isDairy) {
-    dairy = 0
+    dt = dt %>%
+      filter(lactose == 0)
   }
   if (input$isSeafood) {
-    hasseafood = 0
+    dt = dt %>%
+      filter(seafood == 0)
   }
-  recipes_id = recipes_id %>%
-    filter(vegetarian_label >= veggie) %>%
-    filter(nut_label <= nuts) %>%
-    filter(lactose <= dairy) %>%
-    filter(seafood <= hasseafood)
+  return(dt)
 }
 
 function(input, output, session) {
@@ -229,6 +216,16 @@ function(input, output, session) {
     rvs$recipeInstructions = stuff[[4]]
   })
   
+  observeEvent(input$useIOT, {
+    if (input$useIOT) {
+      shinyjs::show("IOTTable")
+      shinyjs::disable("IngredientsInput")
+    }
+    else {
+      shinyjs::hide("IOTTable")
+      shinyjs::enable("IngredientsInput")}
+  })
+  
   observeEvent(input$Return, {
     updateTabsetPanel(session,
                       inputId = "main",
@@ -301,6 +298,11 @@ function(input, output, session) {
   output$img = renderText(rvs$recipeimg)
   output$instructions = DT::renderDataTable(rvs$recipeInstructions)
   output$ingredients = DT::renderDataTable(rvs$recipeIngredients)
+  
+  output$IOTTable = DT::renderDataTable(IoTpantry, rownames = FALSE,
+                                        class = "table-borderless",
+                                        options = list(dom = 't',
+                                                       paging = FALSE))
   
   output$mygraph = renderVisNetwork({
     # minimal example
