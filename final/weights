@@ -1,0 +1,4 @@
+LOAD CSV WITH HEADERS FROM "file:\\graphUnioned.csv" AS csvLine 
+MERGE (s:Node {value:csvLine.s}) 
+MERGE (o:Node {value:csvLine.o}) 
+MERGE (s)-[:REL {weight: toFloat(csvLine.p)}]->(o);
