@@ -35,7 +35,7 @@ plot(g2, edge.arrow.size=.5, vertex.label.color="black")
 #nodes is a dataframe with columns: id, label, group, value (size), shape, title, color, shadow
 mynodes = data.frame(id = 1:length(unique(myvect)),
                    label = unique(myvect))
-nodes = nodes %>%
+nodes = mynodes %>%
   mutate(group = case_when(label %in% mydf$Recipe ~ "Recipe",
                            TRUE ~ "Ingredient")) %>%
   mutate(value = case_when(group == "Recipe" ~ 2,
