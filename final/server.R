@@ -30,6 +30,9 @@ db_food <- tbl(db_conn,
   as.data.frame() 
 
 
+flavourslist = read.delim("Overall_Master.txt", stringsAsFactors = FALSE, header = FALSE) %>%
+  `colnames<-`('Ingredients')
+
 db_Ing <- tbl(db_conn,
               "hdfs.food.`Ing`") %>%
   as.data.frame() 
@@ -46,7 +49,9 @@ ing_results <- db_Ing %>%
 # IoTpantry = as.data.frame(c('egg','basil','lobster','poppy seed','mustard','apple','blueberry','prawn','fish')) %>%
 #   `colnames<-`('Ingredients')
 
-IoTpantry = as.data.frame(c('blueberry','basil','lobster','poppy seed','mustard','apple')) %>%
+IoTpantry = as.data.frame(c('apple','parsley','mint', 'sugar', 'salt')) %>%
+  
+#IoTpantry = as.data.frame(c('blueberry','basil','lobster','poppy seed','mustard','apple')) %>%
   `colnames<-`('Pantry')
 
 #recipes_id = read.csv("small_sample.csv", header = TRUE, stringsAsFactors = FALSE) %>%
@@ -334,10 +339,42 @@ function(input, output, session) {
   
   output$mygraph = renderVisNetwork({
     # minimal example
-    nodes <- data.frame(id = 1:5)
-    edges <- data.frame(from = c(1,2,1,2), to = c(1,3,2,5))
+    mydf = recipes_id %>%
+      filter(title %in% rvs$myrecipes) %>%
+      select(title,ingredients)
     
-    visNetwork(nodes, edges)
+    myedges = data.frame(from = character(),
+                         to = character())
+    
+    ingredients = recipes_id %>%
+      filter(title %in% rvs$myrecipes) %>%
+      pull(ingredients)
+    for (i in 1:6) {
+      a = str_match(mydf[i,2], flavourslist$Ingredients)
+      for (j in a[!is.na(a)]) {
+        myedges = rbind(myedges, data.frame(from = mydf[i,1], to = j))
+      }
+    }
+    myedges[,1] = as.character(myedges[,1])
+    myedges[,2] = as.character(myedges[,2])
+    nodes <- data.frame(id = as.character(unique(myedges %>% gather() %>% pull(value))),
+                        label = as.character(unique(myedges %>% gather() %>% pull(value))))
+    
+    nodes[,"id"] = as.character(nodes[,"id"]) 
+    nodes = nodes %>%
+      mutate(group = case_when(label %in% mydf$title ~ "Recipe",
+                               TRUE ~ "Ingredient")) %>%
+      mutate(value = case_when(group == "Recipe" ~ 2,
+                               TRUE ~ 1),
+             shape = case_when(group == "Recipe" ~ "square",
+                               TRUE ~ "circle"),
+             title = label,
+             color = case_when(group == "Recipe" ~ "darkblue",
+                               TRUE ~ "yellow"),
+             shadow = case_when(group == "Recipe" ~ TRUE,
+                                TRUE ~ FALSE))
+    
+    visNetwork(nodes, myedges)
   })
   output$test = renderText(input$RecipeButton)
 }

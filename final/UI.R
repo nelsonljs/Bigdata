@@ -1,6 +1,6 @@
 ####----Install packages----####
 #install.packages("pacman")
-pacman::p_load(dplyr, shiny, shinythemes, shinyjs, shinycssloaders, DT, visNetwork, sergeant, tidyverse, sqldf,  shinyWidgets)
+pacman::p_load(dplyr, shiny, shinythemes, shinyjs, shinycssloaders, DT, visNetwork, sergeant, tidyverse)
 
 # library(dplyr)
 # library(shiny)
@@ -45,13 +45,17 @@ names(db_Ing)[names(db_Ing) == "Ingredient"] <- "ingredients"
 #recipes_id = read.csv("small_sample.csv", header = TRUE, stringsAsFactors = FALSE) %>%
 recipes_id = db_food #%>%
 #select(-X)
-recipeList = recipes_id %>% pull(title)
+recipeList = recipes_id %>% pull(title) %>% sort()
+
+# Ingredientslist = as.data.frame(c('salt', 'sugar', 'pepper')) %>%
+#   `colnames<-`('Ingredients')
+
 
 Ingredientslist = read.delim("Overall_Master.txt", stringsAsFactors = FALSE, header = FALSE) %>%
   `colnames<-`('Ingredients')
 
 ######
-fluidPage(theme = "bootstrap.css",
+fluidPage(theme = "bootstrap.css", #theme = shinytheme("yeti"), # yeti 
           
           br(),
           titlePanel("Recipes Recommender"),
@@ -231,8 +235,7 @@ fluidPage(theme = "bootstrap.css",
                                 )),
                       tabPanel("Relational Analysis",
                                br(),
-                               visNetworkOutput("mygraph"),
-                               verbatimTextOutput("myquery")
+                               visNetworkOutput("mygraph", width = "1000px", height = "800px")
                       )
            )
 )
