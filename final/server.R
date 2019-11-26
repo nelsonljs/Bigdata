@@ -1,7 +1,3 @@
-####----Install packages----####
-#install.packages("pacman")
-pacman::p_load(tidyverse, shiny, shinyjs, stringr, DT, visNetwork, rjson, sergeant)
-
 #install.packages('rsconnect')
 #to deploy the app
 #library(rsconnect)
@@ -9,82 +5,65 @@ pacman::p_load(tidyverse, shiny, shinyjs, stringr, DT, visNetwork, rjson, sergea
 #terminateApp()
 
 #setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+library(pacman)
+pacman::p_load(tidyverse, shiny, shinyjs, stringr, DT, visNetwork, RSQLite, sergeant)
 
-####----Connection to Drill database----####
-##Connection configuration##
-db_conn <- src_drill("localhost")
+find_ing = function(mystr, mylist) {
+  for (item in mylist) {
+    print(item)
+  }
+}
 
-####----Retrieval of data----####
-##Retrieve from local file
-#tbl(db_conn, "dfs.`/home/centos/BigData/03_ingestion/recipes*.json`")
+##### THIS CSV IS TO SIMULATE DRILL TABLE, COMMENT THIS OUT IF USING ACTUAL DRILL TABLE.
+#mydbconn = dbConnect(RSQLite::SQLite(), "Recipes.db")
+#dbListFields(mydbconn,'Recipes_ID')
 
-##Retrieve all from hdfs
-# db_results <- tbl(db_conn,
-#                   "hdfs.food.`recipes*.json`") %>%
-#   as.data.frame()%>%
-#   head()
-
-##Retrieve all from Drill database in HDFS
-db_food <- tbl(db_conn,
-               "hdfs.food.`Recipe`") %>%
-  as.data.frame() 
+##### INSERT DRILL QUERY HERE
+# I will take a sample of 1000 as a base.
+#myrecipes = dbGetQuery(mydbconn, "SELECT * FROM RIGraph ")
+mydbconn = drill_connection("localhost")
 
 
-flavourslist = read.delim("Overall_Master.txt", stringsAsFactors = FALSE, header = FALSE) %>%
-  `colnames<-`('Ingredients')
-
-db_Ing <- tbl(db_conn,
-              "hdfs.food.`Ing`") %>%
-  as.data.frame() 
-
-names(db_Ing)[names(db_Ing) == "Ingredient"] <- "ingredients"
-
-ing_results <- db_Ing %>%
-  select(ingredients) %>%
-  mutate(ingredients = strsplit(as.character(ingredients), ",")) %>% 
-  unnest(ingredients) #%>%
-#distinct()
-
-##Display list all ingredients
-# IoTpantry = as.data.frame(c('egg','basil','lobster','poppy seed','mustard','apple','blueberry','prawn','fish')) %>%
-#   `colnames<-`('Ingredients')
-
-IoTpantry = as.data.frame(c('apple','parsley','mint', 'sugar', 'salt')) %>%
+myrecipes <- drill_query(mydbconn,
+                 "SELECT * FROM hdfs.food.`Recipe` LIMIT 1000") %>%
+as.data.frame() 
   
-#IoTpantry = as.data.frame(c('blueberry','basil','lobster','poppy seed','mustard','apple')) %>%
-  `colnames<-`('Pantry')
+recList = myrecipes$ID
 
-#recipes_id = read.csv("small_sample.csv", header = TRUE, stringsAsFactors = FALSE) %>%
-recipes_id = db_food #%>%
-#select(-X)
-# recipes_ingredients = read.csv('Recipe_Ingredients_Graph.csv', as.is = TRUE) #This is for graph recommendations
-# recipes_ingredients = recipes_ingredients %>%
-#   select(-X)
+query <- paste0("SELECT * FROM hdfs.food.`Ing` WHERE CAST (ID AS INT) IN (", paste0(recList, collapse = ","), ");")
+#RIGraph = dbGetQuery(mydbconn, query)
+
+RIGraph = drill_query(mydbconn, query) %>%
+  as.data.frame() 
+
+
+flavourslist = unique(RIGraph$Ingredient)
+# SELECT * FROM datatable LIMIT 1000 ...(MORE DRILL STUFF)
 #####
 
 cleanstr = function(mystr) {
   #split string from python.
   mystr = str_replace(mystr, '\\[','')
   mystr = str_replace(mystr, '\\]','')
-  str_split(mystr,'\', ')
+  str_extract_all(mystr, "'(.*?)'")
 }
 
 updatePage = function(chosenRecipe) {
-  myDT = recipes_id %>%
-    filter(title == chosenRecipe)
+  myDT = myrecipes %>%
+    filter(ID == chosenRecipe)
   
   recipetable = DT::datatable(
       myDT %>%
-        select(title, description, rating_stars, review_count, url) %>%
-        `colnames<-`(c('Recipe','Description','Average Rating','Number of Ratings','URL')) %>%
+        select(title, description, rating_stars, review_count, url, total_time_minutes) %>%
+        `colnames<-`(c('Recipe','Description','Average Rating','Number of Ratings','URL', 'Preparation Time')) %>%
         gather("Properties",""),
       class = "table-primary",
       options = list(dom = 't',
                      pageLength = 10),
       rownames = FALSE
     )
-  recipeimg = c('<img src="',recipes_id %>%
-                               filter(title == chosenRecipe) %>% pull(photo_url),'"width="380" height="300">')
+  recipeimg = c('<img src="', myrecipes %>%
+                               filter(ID == chosenRecipe) %>% pull(photo_url),'"width="380" height="300">')
   
   recipeInstructions = DT::datatable(
       as.data.frame(cleanstr(myDT %>% pull(instructions))) %>%
@@ -102,53 +81,95 @@ updatePage = function(chosenRecipe) {
 }
 
 updaterecipes = function(input) {
-  ###### DRILL QUERY 
-  db_conn <- src_drill("localhost")
+  #default labels
+  veggie = 0
+  hasnuts = 1
+  hasdairy = 1
+  hasseafood = 1
+  ######
   
-  ##Retrieve all from Drill database in HDFS
-  db_food <- tbl(db_conn,
-                 "hdfs.food.`Recipe`") %>%
-    as.data.frame() 
-  
-  dt = db_food
-  
-  #recipes_id = read.csv("labelled_df.csv", as.is = TRUE)
-
   if (input$isVegan) {
-    dt = dt %>%
-      filter(vegetarian_label == 1)
+    veggie = 1
   }
   if (input$isNuts) {
-    dt = dt %>%
-      filter(nut_label == 0)
+    hasnuts = 0
   }
   if (input$isDairy) {
-    dt = dt %>%
-      filter(lactose == 0)
+    hasdairy = 0
   }
   if (input$isSeafood) {
-    dt = dt %>%
-      filter(seafood == 0)
+    hasseafood = 0
   }
-  return(dt)
+  ##### USE DRILL QUERY TO OBTAIN UPDATED LIST FROM MAIN TABLE
+  # SELECT * FROM datatable WHERE VEGETARIAN >= veggie LIMIT 1000, blah blah
+  ######
+  # myrecipes <<- dbGetQuery(mydbconn, 'SELECT * FROM Recipes_ID 
+  #                    WHERE vegetarian_label >= ? AND 
+  #                    nut_label <= ? AND
+  #                    lactose <= ? AND
+  #                    seafood <= ? LIMIT 1000', params = c(veggie, hasnuts, hasdairy, hasseafood))
+  
+  
+  search_query = paste0('SELECT * FROM hdfs.food.`Recipe` WHERE',
+                        ' vegetarian_label >= ', veggie,
+                        ' AND nut_label <= ', hasnuts,
+                        ' AND lactose <= ', hasdairy,
+                        ' AND seafood <= ', hasseafood,
+                        ';')
+  
+  myrecipes <<- drill_query(mydbconn, search_query)
+  
+  recList = myrecipes$ID
+  query <- paste0("SELECT * FROM hdfs.food.`Ing` WHERE CAST (ID AS INT) IN (", paste0(recList, collapse = ","), ")")
+  
+  #RIGraph <<- dbGetQuery(mydbconn, query)
+  RIGraph <<- drill_query(mydbconn, query)
+  flavourslist <<- unique(RIGraph$Ingredient)
+  
 }
 
 function(input, output, session) {
   rvs = reactiveValues(recipes = NULL,
                        ingredients = NULL,
-                       myrecipes = c('Zucchini Walnut Bread','Orange Buns','Dilly Bread',
-                                     'Babka I',"Grandma Cornish's Whole Wheat Potato Bread","Honey White Bread"),
+                       recrecipes = myrecipes %>% sample_n(6) %>% pull(ID),
                        recipetable = NULL,
                        recipeimg = NULL,
                        recipeIngredients = NULL,
-                       recipeInstructions = NULL)
+                       recipeInstructions = NULL,
+                       IoTpantry = as.data.frame(c('blueberry','basil','lobster','poppy seed','mustard','apple')) %>%
+                         `colnames<-`('Pantry'),
+                       recIngredient = "salmon",
+                       recIngredient2 = "basil")
 ######
 # When the Apply button is clicked, Compute the graph
+  observeEvent(input$updateRecipes, {
+    shinyjs::enable('selectRecipe1')
+    shinyjs::enable('selectRecipe2')
+    shinyjs::enable('selectRecipe3')
+    shinyjs::enable('selectRecipe4')
+    shinyjs::enable('selectRecipe5')
+    shinyjs::enable('selectRecipe6')
+    
+    updaterecipes(input)
+    updateSelectInput(session, 'ManualSelect', choices = c('', myrecipes$title))
+    rvs$recrecipes = myrecipes$ID %>%
+      sample(6)
+    output$test = renderText(nrow(myrecipes))
+    updateSelectizeInput(session,
+                         inputId = "IngredientsInput",
+                         choices = flavourslist,
+                         selected = "",
+                         options = list()
+    )
+    output$recommendationText = NULL
+    output$recommendationText2 = NULL
+  }) #Update recipes button
+  
   observeEvent(input$selectRecipe1, {
     updateTabsetPanel(session,
                       inputId = "main",
                       selected = "Recommendations")
-    stuff = updatePage(rvs$myrecipes[1])
+    stuff = updatePage(rvs$recrecipes[1])
     rvs$recipetable = stuff[[1]]
     rvs$recipeimg = stuff[[2]]
     rvs$recipeIngredients = stuff[[3]]
@@ -158,7 +179,7 @@ function(input, output, session) {
     updateTabsetPanel(session,
                       inputId = "main",
                       selected = "Recommendations")
-    stuff = updatePage(rvs$myrecipes[2])
+    stuff = updatePage(rvs$recrecipes[2])
     rvs$recipetable = stuff[[1]]
     rvs$recipeimg = stuff[[2]]
     rvs$recipeIngredients = stuff[[3]]
@@ -168,7 +189,7 @@ function(input, output, session) {
     updateTabsetPanel(session,
                       inputId = "main",
                       selected = "Recommendations")
-    stuff = updatePage(rvs$myrecipes[3])
+    stuff = updatePage(rvs$recrecipes[3])
     rvs$recipetable = stuff[[1]]
     rvs$recipeimg = stuff[[2]]
     rvs$recipeIngredients = stuff[[3]]
@@ -178,7 +199,7 @@ function(input, output, session) {
     updateTabsetPanel(session,
                       inputId = "main",
                       selected = "Recommendations")
-    stuff = updatePage(rvs$myrecipes[4])
+    stuff = updatePage(rvs$recrecipes[4])
     rvs$recipetable = stuff[[1]]
     rvs$recipeimg = stuff[[2]]
     rvs$recipeIngredients = stuff[[3]]
@@ -188,7 +209,7 @@ function(input, output, session) {
     updateTabsetPanel(session,
                       inputId = "main",
                       selected = "Recommendations")
-    stuff = updatePage(rvs$myrecipes[5])
+    stuff = updatePage(rvs$recrecipes[5])
     rvs$recipetable = stuff[[1]]
     rvs$recipeimg = stuff[[2]]
     rvs$recipeIngredients = stuff[[3]]
@@ -198,7 +219,7 @@ function(input, output, session) {
     updateTabsetPanel(session,
                       inputId = "main",
                       selected = "Recommendations")
-    stuff = updatePage(rvs$myrecipes[6])
+    stuff = updatePage(rvs$recrecipes[6])
     rvs$recipetable = stuff[[1]]
     rvs$recipeimg = stuff[[2]]
     rvs$recipeIngredients = stuff[[3]]
@@ -208,7 +229,7 @@ function(input, output, session) {
     updateTabsetPanel(session,
                       inputId = "main",
                       selected = "Recommendations")
-    stuff = updatePage(input$ManualSelect)
+    stuff = updatePage(myrecipes %>% filter(title == input$ManualSelect) %>% pull(ID))
     rvs$recipetable = stuff[[1]]
     rvs$recipeimg = stuff[[2]]
     rvs$recipeIngredients = stuff[[3]]
@@ -231,126 +252,118 @@ function(input, output, session) {
                       selected = "User Selection")
   }) #Button on the Recommendations page.
   
-  observeEvent(c(input$randomRecipe, input$updateRecipes), {
-    rvs$myrecipes = recipes_id %>% 
-      pull(title) %>% 
-      sample(6)
-    updateTabsetPanel(session,
-                      inputId = "main",
-                      selected = "User Selection")
+  observeEvent(input$getRecommendations, { #GetRecommendations based on the ingredients he picked.
+    shinyjs::enable('selectRecipe1')
+    shinyjs::enable('selectRecipe2')
+    shinyjs::enable('selectRecipe3')
+    shinyjs::enable('selectRecipe4')
+    shinyjs::enable('selectRecipe5')
+    shinyjs::enable('selectRecipe6')
+    
+    availablerecipes = RIGraph %>%
+      filter(Ingredient %in% input$IngredientsInput) %>%
+      pull(ID)
+    
+    rvs$recrecipes = sample(availablerecipes)[1:6]
+    output$recommendationText = renderText({c('<p style="font-size: 14px; color: royalblue; white-space: normal;">',
+                                              input$IngredientsInput[1], 'is often cooked with', rvs$recIngredient, '</p>')})
+    if (length(input$IngredientsInput) > 1) {
+      output$recommendationText2 = renderText({c('<p style="font-size: 14px; color: royalblue; white-space: normal;">',
+                                                 input$IngredientsInput[2], 'is often cooked with',rvs$recIngredient2, '</p>')})
+    }
+    if (is.na(rvs$recrecipes[2])) {
+      shinyjs::disable("selectRecipe2")
+    }
+    if (is.na(rvs$recrecipes[3])) {
+      shinyjs::disable("selectRecipe3")
+    }
+    if (is.na(rvs$recrecipes[4])) {
+      shinyjs::disable("selectRecipe4")
+    }
+    if (is.na(rvs$recrecipes[5])) {
+      shinyjs::disable("selectRecipe5")
+    }
+    if (is.na(rvs$recrecipes[6])) {
+      shinyjs::disable("selectRecipe6")
+    }
+
   }) #Randomise input. This is for testing.
   
-  observeEvent(input$updateRecipes, {
-    vegetarian_label = 0
-    nut_label = 1
-    lactose = 1
-    seafood = 1
-    if (input$isVegan) {
-      vegetarian_label = 1
-    }
-    if (input$isNuts) {
-      nut_label = 0
-    }
-    if (input$isDairy) {
-      lactose = 0
-    }
-    if (input$isSeafood) {
-      seafood = 0
-    }
-    # ####----Retrieval from database----####
-    # # query_star = 4.5
-    # # 
-    # # query = str_replace_all(
-    # #   string = (paste0('SELECT * FROM `Recipe` 
-    # #                 GROUP BY title 
-    # #                 HAVING time_scraped=MAX(time_scraped) 
-    # #                 AND rating_stars >', query_star,
-    # #                 'AND vegetarian_label >=', vegetarian_label,
-    # #                 'AND nut_label <=', nut_label,
-    # #                 'AND lactose <=', lactose,
-    # #                 'AND seafood <=', seafood)),
-    # #   pattern = "\n",
-    # #   replacement = "")
-    # 
-    # 
-    # # results <- sqldf(x = query)
+  observeEvent(input$randomRecipe, {
+    shinyjs::enable('selectRecipe1')
+    shinyjs::enable('selectRecipe2')
+    shinyjs::enable('selectRecipe3')
+    shinyjs::enable('selectRecipe4')
+    shinyjs::enable('selectRecipe5')
+    shinyjs::enable('selectRecipe6')
     
-    db_food <- tbl(db_conn,
-                   "hdfs.food.`Recipe`") %>%
-      as.data.frame() 
-    
-    recipes_id = db_food
-    
-    # recipes_id <<- read.csv("small_sample.csv", header = TRUE, stringsAsFactors = FALSE) %>%
-    #   select(-X)
-    
-    ######
-    recipes_id = updaterecipes(input)
-    updateSelectInput(session, 'ManualSelect', choices = c('',recipes_id %>% pull(title)))
-  }) #Update recipes button
+    rvs$recrecipes = myrecipes$ID %>%
+      sample(6)
+    updateSelectizeInput(session,
+                         inputId = "IngredientsInput",
+                         selected = "",
+                         options = list()
+                         )
+    output$recommendationText = NULL
+    output$recommendationText2 = NULL
+  }) #Randomise input. This is for testing.
+
   
   observeEvent(input$Reset, {
     shinyjs::reset("selection-panel")
   })   #when the Reset button is clicked, remove all input values
-  output$IOTTable = DT::renderDataTable(IoTpantry, rownames = FALSE,
-                                        class = "table-success",
-                                        options = list(dom = 't',
-                                                       paging = FALSE))
 
-  output$myquery = renderText(paste("SELECT * FROM hdfs.food.`Recipe` WHERE",
-                                    "MIN RATING >", input$MinRecipeRating, ",",
-                                    "MIN RATING COUNT >", input$MinRatingCount, ",",
-                                    "ISVEGAN is", input$isVegan, ",",
-                                    "ISNUTS is", !input$isNuts, ",",
-                                    "ISSEAFOOD is", !input$isSeafood, ",",
-                                    "ISBAKE is", !input$isBake, ",",
-                                    "ISDEEPFRY is", !input$isDeepfry, ","
-                              ))
-  
-  output$imgurl1 = renderText({c('<img src="',recipes_id %>%
-                                   filter(title == rvs$myrecipes[1]) %>% pull(photo_url),'"width="150" height="150">')}) #Update the pictures of all recipes.
-  output$imgurl2 = renderText({c('<img src="',recipes_id %>%
-                                   filter(title == rvs$myrecipes[2]) %>% pull(photo_url),'"width="150" height="150">')})
-  output$imgurl3 = renderText({c('<img src="',recipes_id %>%
-                                   filter(title == rvs$myrecipes[3]) %>% pull(photo_url),'"width="150" height="150">')})
-  output$imgurl4 = renderText({c('<img src="',recipes_id %>%
-                                   filter(title == rvs$myrecipes[4]) %>% pull(photo_url),'"width="150" height="150">')})
-  output$imgurl5 = renderText({c('<img src="',recipes_id %>%
-                                   filter(title == rvs$myrecipes[5]) %>% pull(photo_url),'"width="150" height="150">')})
-  output$imgurl6 = renderText({c('<img src="',recipes_id %>%
-                                   filter(title == rvs$myrecipes[6]) %>% pull(photo_url),'"width="150" height="150">')})
+  output$imgurl1 = renderText({c('<img src="',myrecipes %>%
+                                   filter(ID == rvs$recrecipes[1]) %>% pull(photo_url),'"width="150" height="150">')}) #Update the pictures of all recipes.
+  output$imgurl2 = renderText({c('<img src="',myrecipes %>%
+                                   filter(ID == rvs$recrecipes[2]) %>% pull(photo_url),'"width="150" height="150">')})
+  output$imgurl3 = renderText({c('<img src="',myrecipes %>%
+                                   filter(ID == rvs$recrecipes[3]) %>% pull(photo_url),'"width="150" height="150">')})
+  output$imgurl4 = renderText({c('<img src="',myrecipes %>%
+                                   filter(ID == rvs$recrecipes[4]) %>% pull(photo_url),'"width="150" height="150">')})
+  output$imgurl5 = renderText({c('<img src="',myrecipes %>%
+                                   filter(ID == rvs$recrecipes[5]) %>% pull(photo_url),'"width="150" height="150">')})
+  output$imgurl6 = renderText({c('<img src="',myrecipes %>%
+                                   filter(ID == rvs$recrecipes[6]) %>% pull(photo_url),'"width="150" height="150">')})
 
-  output$recipename1 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',rvs$myrecipes[1], '</p>')})
-  output$recipename2 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',rvs$myrecipes[2], '</p>')})
-  output$recipename3 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',rvs$myrecipes[3], '</p>')})
-  output$recipename4 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',rvs$myrecipes[4], '</p>')})
-  output$recipename5 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',rvs$myrecipes[5], '</p>')})
-  output$recipename6 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',rvs$myrecipes[6], '</p>')})
+  output$recipename1 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',myrecipes %>%
+                                       filter(ID == rvs$recrecipes[1]) %>% pull(title), '</p>')})
+  output$recipename2 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',myrecipes %>%
+                                       filter(ID == rvs$recrecipes[2]) %>% pull(title), '</p>')})
+  output$recipename3 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',myrecipes %>%
+                                       filter(ID == rvs$recrecipes[3]) %>% pull(title), '</p>')})
+  output$recipename4 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',myrecipes %>%
+                                       filter(ID == rvs$recrecipes[4]) %>% pull(title), '</p>')})
+  output$recipename5 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',myrecipes %>%
+                                       filter(ID == rvs$recrecipes[5]) %>% pull(title), '</p>')})
+  output$recipename6 = renderText({c('<p style="font-size: 14px; width: 150px; white-space: normal;">',myrecipes %>%
+                                       filter(ID == rvs$recrecipes[6]) %>% pull(title), '</p>')})
   
   output$recipetable = DT::renderDataTable(rvs$recipetable)
   output$img = renderText(rvs$recipeimg)
   output$instructions = DT::renderDataTable(rvs$recipeInstructions)
   output$ingredients = DT::renderDataTable(rvs$recipeIngredients)
+  output$recommendationText = NULL
+  output$recommendationText2 = NULL
   
-  output$IOTTable = DT::renderDataTable(IoTpantry, rownames = FALSE,
+  output$IOTTable = DT::renderDataTable(rvs$IoTpantry, rownames = FALSE,
                                         class = "table-borderless",
                                         options = list(dom = 't',
                                                        paging = FALSE))
-  
   output$mygraph = renderVisNetwork({
     # minimal example
-    mydf = recipes_id %>%
-      filter(title %in% rvs$myrecipes) %>%
+    mydf = myrecipes %>%
+      filter(ID %in% rvs$recrecipes) %>%
       select(title,ingredients)
     
     myedges = data.frame(from = character(),
                          to = character())
     
-    ingredients = recipes_id %>%
-      filter(title %in% rvs$myrecipes) %>%
+    ingredients = myrecipes %>%
+      filter(ID %in% rvs$recrecipes) %>%
       pull(ingredients)
     for (i in 1:6) {
-      a = str_match(mydf[i,2], flavourslist$Ingredients)
+      a = str_match(mydf[i,2],flavourslist)
       for (j in a[!is.na(a)]) {
         myedges = rbind(myedges, data.frame(from = mydf[i,1], to = j))
       }
@@ -376,81 +389,6 @@ function(input, output, session) {
     
     visNetwork(nodes, myedges)
   })
-  output$test = renderText(input$RecipeButton)
+  output$test = renderText(nrow(myrecipes))
 }
 
-# 
-# #Load packages
-# #install.packages("pacman", dependencies = TRUE)
-# library(pacman)
-# pacman::p_load(DBI, rJava, RJDBC)
-# 
-# pacman::p_load(neo4r, magrittr, dplyr, tidyverse, r2d3, readr)
-# #devtools::install_github("nicolewhite/RNeo4j") #RNeo4j
-# 
-# #Connect to neo4j
-# con <- neo4j_api$new(
-#   url = "http://localhost:7474", #11009", #7474
-#   user = "food", 
-#   password = "food"
-# )
-# 
-# #Return connection status
-# ifelse(con$ping(), 
-#        "Connected to neo4j")
-# 
-# #Search query
-# query = c("salt", "sugar")
-# 
-# db_Ing %>%
-#   filter(ingredients %in% query)
-# 
-# 
-# #To delete existing graph
-# "MATCH (n) DETACH DELETE (n)" %>%
-#   call_neo4j(con)
-# 
-# #Load graph to neo4j
-# neo_csv_path = paste0('file:///home/centos/BigData/02_cleaning/', list.files("/home/centos/BigData/02_cleaning", pattern="Ing*", all.files=FALSE, full.names=FALSE))
-# 
-# neo_query =
-#   paste("MERGE (r:recipe {name:row.Recipe})",
-#         "MERGE (i:ingredient {name:row.Ingredient})",
-#         "MERGE (r)-[:CONTAINS]-(i)",
-#         "RETURN r, i", sep = " ")
-# 
-# load_csv(url = neo_csv_path, con = con, header = TRUE, periodic_commit = 50, as = "row", on_load = neo_query)
-# 
-# 
-# #con$get_labels()
-# #con$get_relationships()
-# 
-# 
-# df_neo <- paste("MATCH (n) RETURN n", sep = "") %>%
-#   call_neo4j(con, type = "row", output = "r") %>%
-#   as.data.frame()
-# 
-# df_neo <- as.data.frame(df_neo)
-# 
-# # query = "Babka I"
-# # paste("MATCH (r:Recipe {name:'", query, "'})-[:CONTAINS]->(Ingredient) RETURN Ingredient.name LIMIT 25", sep = "") %>%
-# #   call_neo4j(con, type = "row", output = "r")
-# 
-# 
-# 
-# 
-# 
-# 
-# ####----Retrieval from database----####
-# # query_star = 4.5
-# # 
-# # query = str_replace_all(
-# #   string = (paste0('SELECT * FROM `Recipe` 
-# #                 GROUP BY title 
-# #                 HAVING time_scraped=MAX(time_scraped) 
-# #                 AND rating_stars >', query_star)),
-# #   pattern = "\n",
-# #   replacement = "")
-# 
-# 
-# # results <- sqldf(x = query)

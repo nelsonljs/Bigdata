@@ -1,61 +1,30 @@
-####----Install packages----####
-#install.packages("pacman")
-pacman::p_load(dplyr, shiny, shinythemes, shinyjs, shinycssloaders, DT, visNetwork, sergeant, tidyverse)
+library(dplyr)
+library(shiny)
+library(shinythemes)
+library(shinyjs)
+library(shinycssloaders)
+library(DT)
+library(visNetwork)
 
-# library(dplyr)
-# library(shiny)
-# library(shinythemes)
-# library(shinyjs)
-# library(shinycssloaders)
-# library(DT)
-# library(visNetwork)
-
+##### THIS CSV IS TO SIMULATE DRILL TABLE, COMMENT THIS OUT IF USING ACTUAL DRILL TABLE.
+mydbconn = drill_connection("localhost")
 
 
+myrecipes <- drill_query(mydbconn,
+                         "SELECT * FROM hdfs.food.`Recipe` LIMIT 1000") %>%
+  as.data.frame() #%>%
+recList = myrecipes$ID
 
-####----Connection to Drill database----####
-##Connection configuration##
-db_conn <- src_drill("localhost")
+query <- paste0("SELECT * FROM hdfs.food.`Ing` WHERE CAST (ID AS INT) IN (", paste0(recList, collapse = ","), ");")
+#RIGraph = dbGetQuery(mydbconn, query)
 
-
-####----Retrieval of data----####
-##Retrieve from local file
-#tbl(db_conn, "dfs.`/home/centos/BigData/03_ingestion/recipes*.json`")
-
-
-##Retrieve all from hdfs
-# db_results <- tbl(db_conn,
-#                   "hdfs.food.`recipes*.json`") %>%
-#   as.data.frame()%>%
-#   head()
-
-
-##Retrieve all from Drill database in HDFS
-db_food <- tbl(db_conn,
-                  "hdfs.food.`Recipe`") %>%
+RIGraph = drill_query(mydbconn, query) %>%
   as.data.frame() 
-
-
-db_Ing <- tbl(db_conn,
-                  "hdfs.food.`Ing`") %>%
-  as.data.frame() 
-
-names(db_Ing)[names(db_Ing) == "Ingredient"] <- "ingredients"
-
-#recipes_id = read.csv("small_sample.csv", header = TRUE, stringsAsFactors = FALSE) %>%
-recipes_id = db_food #%>%
-#select(-X)
-recipeList = recipes_id %>% pull(title) %>% sort()
-
-# Ingredientslist = as.data.frame(c('salt', 'sugar', 'pepper')) %>%
-#   `colnames<-`('Ingredients')
-
-
-Ingredientslist = read.delim("Overall_Master.txt", stringsAsFactors = FALSE, header = FALSE) %>%
-  `colnames<-`('Ingredients')
+flavourslist = unique(RIGraph$Ingredient)
+# SELECT * FROM datatable LIMIT 1000 ...(MORE DRILL STUFF)
 
 ######
-fluidPage(theme = "bootstrap.css", #theme = shinytheme("yeti"), # yeti 
+fluidPage(theme = "bootstrap.css",
           
           br(),
           titlePanel("Recipes Recommender"),
@@ -64,7 +33,6 @@ fluidPage(theme = "bootstrap.css", #theme = shinytheme("yeti"), # yeti
           
           useShinyjs(),
           inlineCSS(list("table" = "font-size: 12px")),
-          id = "selection-panel",
           
           ######
           # First tab
@@ -74,93 +42,112 @@ fluidPage(theme = "bootstrap.css", #theme = shinytheme("yeti"), # yeti
                                br(),
                                column(6,
                                       fluidRow(
-                                        column(7,
-                                               column(12,
-                                                      wellPanel(
-                                                        #this is the top left panel,
-                                                        h3(print("Pantry IoT")),
-                                                        br(),
-                                                        tags$div(class = 'custom-checkbox',
-                                                                 tags$input(type = 'checkbox',
-                                                                            class ="custom-control-input",
-                                                                            id = 'useIOT'),
-                                                                 tags$label(class = "custom-control-label",
-                                                                            style = "font-size:12px",
-                                                                            'for' = "useIOT",
-                                                                            HTML('Use Ingredients in your pantry'))),
-                                                        br(),
-                                                        div(DT::dataTableOutput('IOTTable'),
-                                                            style = "height:200px; overflow-y: scroll;"),
-                                                        selectizeInput("IngredientsInput",
-                                                                       label = "",
-                                                                       choices = Ingredientslist,
-                                                                       selected = NULL,
-                                                                       options = list(
-                                                                         maxOptions = 5,
-                                                                         maxItems = 2,
-                                                                         placeholder = 'Pick up to two Ingredients you want to cook with, eg. Cinnamon, Pork, ...',
-                                                                         onInitialize = I('function() { this.setValue(""); }')
-                                                                       ))
-                                                      ))
-                                        ),
-                                        column(5,
+                                        column(12,
                                                #this is the top right panel
-                                               wellPanel(
-                                                 h4(print("Recipe Tags")),
-                                                 tags$div(class = 'custom-switch',
-                                                          tags$input(type = 'checkbox',
-                                                                     class ="custom-control-input",
-                                                                     id = 'isVegan'),
-                                                          tags$label(class = "custom-control-label",
-                                                                     style = "font-size:12px",
-                                                                     'for' = "isVegan",
-                                                                     HTML('Vegetarian Only'))),
-                                                 tags$div(class = 'custom-switch',
-                                                          tags$input(type = 'checkbox',
-                                                                     class ="custom-control-input",
-                                                                     id = 'isNuts'),
-                                                          tags$label(class = "custom-control-label",
-                                                                     style = "font-size:12px",
-                                                                     'for' = "isNuts",
-                                                                     HTML('No Nut Allergen'))),
-                                                 tags$div(class = 'custom-switch',
-                                                          tags$input(type = 'checkbox',
-                                                                     class ="custom-control-input",
-                                                                     id = 'isDairy'),
-                                                          tags$label(class = "custom-control-label",
-                                                                     style = "font-size:12px",
-                                                                     'for' = "isDairy",
-                                                                     HTML('No Dairy Products'))),
-                                                 tags$div(class = 'custom-switch',
-                                                          tags$input(type = 'checkbox',
-                                                                     class ="custom-control-input",
-                                                                     id = 'isSeafood'),
-                                                          tags$label(class = "custom-control-label",
-                                                                     style = "font-size:12px",
-                                                                     'for' = "isSeafood",
-                                                                     HTML('No Seafood-allergens')))
+                                               h3(print("1. Recipe Tags")),
+                                               br(),
+                                               h4(HTML("<b>Pick relevant tags for the recipes you want.</b>")),
+                                               column(3,
+                                                      tags$div(class = 'custom-switch',
+                                                               tags$input(type = 'checkbox',
+                                                                          class ="custom-control-input",
+                                                                          id = 'isVegan'),
+                                                               tags$label(class = "custom-control-label",
+                                                                          style = "font-size:12px",
+                                                                          'for' = "isVegan",
+                                                                          HTML('Vegetarian Only')))
+                                               ),
+                                               column(3,
+                                                      tags$div(class = 'custom-switch',
+                                                               tags$input(type = 'checkbox',
+                                                                          class ="custom-control-input",
+                                                                          id = 'isNuts'),
+                                                               tags$label(class = "custom-control-label",
+                                                                          style = "font-size:12px",
+                                                                          'for' = "isNuts",
+                                                                          HTML('No Nut Allergen')))
+                                               ),
+                                               column(3,
+                                                      tags$div(class = 'custom-switch',
+                                                               tags$input(type = 'checkbox',
+                                                                          class ="custom-control-input",
+                                                                          id = 'isDairy'),
+                                                               tags$label(class = "custom-control-label",
+                                                                          style = "font-size:12px",
+                                                                          'for' = "isDairy",
+                                                                          HTML('No Dairy Products')))
+                                               ),
+                                               column(3,
+                                                      tags$div(class = 'custom-switch',
+                                                               tags$input(type = 'checkbox',
+                                                                          class ="custom-control-input",
+                                                                          id = 'isSeafood'),
+                                                               tags$label(class = "custom-control-label",
+                                                                          style = "font-size:12px",
+                                                                          'for' = "isSeafood",
+                                                                          HTML('No Seafood-allergens')))
                                                )
                                         )),
                                       fluidRow(
-                                        column(6,
-                                               actionButton("updateRecipes", "Update Recipes", class = "btn btn-outline-primary")),
-                                        column(6,
-                                               actionButton("randomRecipe", "Change Recipes (Randomise)", class = "btn btn-outline-danger"))),
+                                        column(12,
+                                               actionButton("updateRecipes", "Update Recipes", class = "btn btn-outline-primary"),
+                                               verbatimTextOutput("test"))),
+                                      fluidRow(
+                                        column(12,
+                                               br(),
+                                               wellPanel(
+                                                 id = "ingredient-panel",
+                                                 #this is the top left panel,
+                                                 h3(print("2. Recipe Recommendation based on ingredients!")),
+                                                 br(),
+                                                 h4(HTML("<b>Pick ingredients that you want to cook with!</b>")),
+                                                 h4(HTML("<b>You may also choose to get recipes for the ingredients found in your pantry.</b>")),
+                                                 br(),
+                                                 column(12,
+                                                 tags$div(class = 'custom-checkbox',
+                                                          tags$input(type = 'checkbox',
+                                                                     class ="custom-control-input",
+                                                                     id = 'useIOT'),
+                                                          tags$label(class = "custom-control-label",
+                                                                     style = "font-size:12px",
+                                                                     'for' = "useIOT",
+                                                                     HTML('Use Ingredients in your pantry')))),
+                                                 br(),
+                                                 div(DT::dataTableOutput('IOTTable'),
+                                                     style = "height: 150px; overflow-y: scroll;"),
+                                                 selectizeInput("IngredientsInput",
+                                                                label = "",
+                                                                choices = flavourslist,
+                                                                selected = NULL,
+                                                                options = list(
+                                                                  maxOptions = 5,
+                                                                  maxItems = 2,
+                                                                  placeholder = 'Pick up to two Ingredients you want to cook with, eg. Cinnamon, Pork, ...',
+                                                                  onInitialize = I('function() { this.setValue(""); }')
+                                                                )),
+                                                 fluidRow(
+                                                   column(4,
+                                                          actionButton("getRecommendations", "Get Recommendations", class = "btn btn-outline-primary")),
+                                                   column(4,
+                                                          actionButton("randomRecipe", "Remove Ingredients (Randomise Recipes)", class = "btn btn-outline-danger"))),
+                                                 fluidRow(
+                                                   column(12,
+                                                          br(),
+                                                          htmlOutput("recommendationText"),
+                                                          htmlOutput("recommendationText2")))                                                        
+                                               ))),
+
                                       br(),
-                                      
                                       fluidRow(
                                         column(12,
                                                wellPanel(
                                                  h4(print("Search for a recipe that you fancy!")),
                                                    selectInput(inputId = 'ManualSelect',
                                                                label = '',
-                                                               choices = c('', recipeList),
+                                                               choices = '',
                                                                selected = ''),
                                                  actionButton("RecipeButton", "Go to Selected Recipe", class = "btn btn-outline-info")
-                                               ))),
-                                      fluidRow(
-                                        column(12,
-                                               actionButton("Reset", "Reset Inputs")))
+                                               )))
                                ),
                                column(6,
                                       wellPanel(
