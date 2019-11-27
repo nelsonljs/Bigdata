@@ -1,0 +1,265 @@
+//##############################################
+// Food Recipes
+//###############################################
+
+// load Recipes data
+// ,Recipe,Ingredients
+
+// method2: a faster method is to do each import separately
+// load recipes
+LOAD CSV WITH HEADERS FROM 'file:///C:/Users/nelso/Documents/Masters/EBA5006/Big%20Data%20Project/Recipe_Ingredients_Graph.csv' AS line
+MERGE (r:recipes {name:line.Recipe});
+
+// load ingredients
+LOAD CSV WITH HEADERS FROM 'file:///C:/Users/nelso/Documents/Masters/EBA5006/Big%20Data%20Project/Recipe_Ingredients_Graph.csv' AS line
+MERGE (i:ingredients {name:line.Ingredients});
+
+// for speed we index commonly used nodes
+CREATE INDEX ON :recipes(name);
+CREATE INDEX ON :ingredients(name);
+
+// load edges
+LOAD CSV WITH HEADERS FROM 'file:///C:/Users/nelso/Documents/Masters/EBA5006/Big%20Data%20Project/Recipe_Ingredients_Graph.csv' AS line
+MATCH (r:recipes {name:line.Recipe})
+MATCH (i:ingredients {name:line.Ingredients})
+MERGE (r)-[c:CONTAINS]->(i);
+
+// create an edge if you want to
+MATCH (a:recipe),(b:ingredients) 
+WHERE a.name = "Crispy Cheese Twists" AND b.name = "parmesan cheese" 
+CREATE (a)-[c:CONTAINS]->(b) 
+RETURN c
+
+// show a graph
+MATCH (a:recipes)-[c:CONTAINS]->(b:ingredients) WHERE a.name = "Crispy Cheese Twists"
+RETURN a as recipe, b as ingredients, c as CONTAINS;
+
+//################
+// basic DB stats
+//################
+
+// count recipes
+match(a:recipes) return count(a);
+
+// count ingredients
+match(a:ingredients) return count(a);
+
+// count ratings
+MATCH (a)-[r:CONTAINS]->(b) RETURN count(r);
+
+// count connected components
+// requires graph algorithms to be installed
+CALL algo.unionFind.stream('user', 'hasrated', {})
+YIELD nodeId,setId
+RETURN count(distinct setId) as count_of_components;
+
+
+//#############################
+// set target and get target stats
+//##############################
+
+//set my parameters
+:param recipe1 => "Orange Buns";
+:param recipe2 => "Dilly Bread";
+:param recipe3 => "Sun Dried Tomato and Asiago Cheese Bread";
+:param recipe4 => "Dee's Health Bread";
+:param recipe5 => "Sweet Potato Rolls";
+:param recipe6 => "Canadian Doughnuts";
+:param ingredients1 => "white sugar";
+:param ingredients2 => "salt";
+:param ingredients3 => "active dry yeast";
+:param ingredients4 => "honey" ///
+//////////
+
+:params
+
+// show recipe's connected neighbours
+MATCH (u1:recipes {name:$recipe1})-[r1:CONTAINS]->(i:ingredients)<-[r2:CONTAINS]-(u2:recipes {name:$recipe2})
+RETURN DISTINCT u1, u2, i
+ORDER BY u2;
+
+// match recipes that have multiple ingredients
+
+MATCH (u1:recipes)--(i:ingredients {name:$ingredients1})--(u2:recipes)
+MATCH (u1:recipes)--(i1:ingredients {name:$ingredients2})--(u2:recipes)
+MATCH (u1:recipes)--(i2:ingredients {name:$ingredients3})--(u2:recipes)
+RETURN DISTINCT u1, u2, i, i1, i2 LIMIT 25;
+//ORDER BY u2;
+
+// show ingredient's connected neighbours
+MATCH (u1:ingredients {name:$ingredients1})--(i:recipes)--(u2:ingredients {name:$ingredients4})
+RETURN DISTINCT u1, u2, i
+ORDER BY u2;
+
+// count target's ratings
+MATCH (u:user)-[:hasrated]->(i:item) WHERE u.name = $target
+WITH count(i) as counti
+RETURN counti;
+
+// show target's ratings
+MATCH (u:user)-[r:hasrated]->(i:item) WHERE u.name = $target
+RETURN u as user, i as item, r as rating;
+
+// count target's neighbors
+MATCH (u1:user {name:$target})-[r1:hasrated]->(i:item)<-[r2:hasrated]-(u2:user)
+WITH count(DISTINCT u2) as countn
+RETURN countn;
+
+//get shared ingredients
+match (rec:recipes {name:"Babka I"}) --(ing:ingredients)--(rec2:recipes)
+with rec2, count(*) as c
+where c>2
+match (rec:recipes {name:"Babka I"}) --(ing2:ingredients)--(rec2:recipes)
+return rec, ing2, rec2
+
+#####26 October 2019 
+//To obtain recipes that fits the following condition
+MATCH(r1:recipes)--(i1:ingredients {name:"salt"})
+MATCH(r1:recipes)--(i2:ingredients {name:"butter"})
+MATCH(r1:recipes)--(i3:ingredients {name:"egg"})
+MATCH(r1:recipes)--(i4:ingredients {name:"white sugar"})
+MATCH(r1:recipes)--(ingredients)
+// ** if we want to check out the type of flours used, add this WHERE ingredients.name CONTAINS("flour")
+RETURN r1,ingredients
+
+//###################################################
+//# CODE BELOW IS NOT UPDATED YET
+//###################################################
+
+//#######################################
+//# User-based CF using cosine similarity
+//#######################################
+ 
+// UU step1
+// get & store cosine sims between target & neighbours
+MATCH (u1:user {name:$target})-[r1:hasrated]->(i:item)<-[r2:hasrated]-(u2:user)
+WHERE NOT u1=u2 
+WITH  SUM(r1.rating * r2.rating) AS xyDotProduct,
+      SQRT(REDUCE(xDot = 0.0, a IN COLLECT(r1.rating) | xDot + a^2)) AS xLength,
+      SQRT(REDUCE(yDot = 0.0, b IN COLLECT(r2.rating) | yDot + b^2)) AS yLength,
+      u1, u2
+MERGE (u1)-[s:similarity]-(u2)
+SET s.similarity = xyDotProduct / (xLength * yLength)
+RETURN u1, u2, xyDotProduct / (xLength * yLength) as sim LIMIT 10;
+
+// UU step2
+// make User-based CF recommendations for target
+// Retrieve items that were rated by at least one similar user, but not by target
+MATCH (i:item)<-[r2:hasrated]-(u2:user)
+WHERE NOT (i)<-[:hasrated]-(:user {name:$target})
+// for each item, compute weighted average of their ratings * their similarity to target
+MATCH (:user {name:$target})-[s:similarity]-(u2)
+WHERE s.similarity >= 0
+WITH SUM(tofloat(s.similarity * r2.rating))/tofloat(SUM(s.similarity)) AS score, i
+RETURN DISTINCT i.name, score ORDER BY score DESC LIMIT 10;
+
+//#############################################
+// TESTING BASIC CF
+//#############################################
+
+// set up train/test set
+MERGE (u)-[r:hasrated]->(i)
+SET r.testeg = rand() >= 0.9995 ;  // gets 49 test users
+
+// show test cases
+MATCH (u:user)-[r:hasrated]->(i:item) WHERE r.testeg = true 
+RETURN u.name, r.rating, r.testeg, i.name
+ORDER BY u.name;
+
+// count test cases
+MATCH (u:user)-[r:hasrated]->(i:item)
+WHERE r.testeg = true
+RETURN count(*);
+
+//----------------
+// TEST (part1)
+// calc & store similarities for target<->testusers 
+MATCH (u:user)-[r:hasrated]->(i:item) WHERE r.testeg = true // get testusers
+WITH u as testuser 
+// retrieve all trainset neighbors of the testuser & compute similarity
+MATCH (testuser:user)-[r1:hasrated]->(i:item)<-[r2:hasrated]-(neighbour:user)
+WHERE r1.testeg = false and r2.testeg = false and NOT testuser=neighbour 
+WITH  SUM(r1.rating * r2.rating) AS xyDotProduct,
+      SQRT(REDUCE(xDot = 0.0, a IN COLLECT(r1.rating) | xDot + a^2)) AS xLength,
+      SQRT(REDUCE(yDot = 0.0, b IN COLLECT(r2.rating) | yDot + b^2)) AS yLength, 
+      testuser, neighbour
+MERGE (testuser)-[s:similarity]-(neighbour)
+SET s.similarity = xyDotProduct / (xLength * yLength)
+RETURN DISTINCT testuser, neighbour, s.similarity 
+ORDER BY testuser, neighbour LIMIT 10;
+
+//--------------
+// TEST (part2)
+// calc pred error for each test case
+// get test events (testuser, testitem, rating)
+MATCH (testuser:user)-[r:hasrated]->(i:item) WHERE r.testeg = true
+WITH testuser, i as testitem, r.rating as testrating
+//RETURN DISTINCT testuser, testitem, testrating ORDER BY testuser, testitem;
+
+// get the ratings for the test items for the training users
+MATCH (trainuser:user)-[r:hasrated]->(testitem) WHERE r.testeg = false
+WITH trainuser, r.rating as trainrating, testuser, testitem, testrating
+//RETURN trainuser, trainrating, testuser, testitem, testrating;
+
+// get similarity between testuser and the trainusers 
+MATCH (testuser)-[s:similarity]-(trainuser) WHERE s.similarity >= 0
+//RETURN trainuser, trainrating, testuser, testitem, testrating, s.similarity;
+
+// compute weighted average rating across neighbors for each target/item combo
+WITH testuser, testitem, testrating, SUM(tofloat(s.similarity * trainrating))/tofloat(SUM(s.similarity)) AS predrating
+MERGE (testuser)-[r:hasrated]->(testitem)
+SET r.prederror = ABS(predrating-testrating)
+RETURN testuser, testitem, predrating, testrating, r.prederror as error
+ORDER BY testuser, predrating DESC LIMIT 10;
+
+//----------------
+// TEST (part3)
+// compute MAE for test events
+MATCH (u:user)-[r:hasrated]->(i:item) WHERE r.testeg = true
+RETURN AVG(r.prederror);
+
+//################################################
+// estimating sims based on neighbor's neighbors
+//################################################
+
+:param target => "u300"
+:param testuser => "u932" // is not a neighbor of "u300" 
+
+// verify that no similarity exists
+MATCH (u1:user {name:$target})-[s:similarity]-(u2:user {name:$testuser}) RETURN *;
+
+// Retrieve all neighbors of the target, and compute cosine similarity (code repeated from above)
+MATCH (u1:user {name:$target})-[r1:hasrated]->(i:item)<-[r2:hasrated]-(u2:user)
+WHERE NOT u2=u1 
+WITH  SUM(r1.rating * r2.rating) AS xyDotProduct,
+      SQRT(REDUCE(xDot = 0.0, a IN COLLECT(r1.rating) | xDot + a^2)) AS xLength,
+      SQRT(REDUCE(yDot = 0.0, b IN COLLECT(r2.rating) | yDot + b^2)) AS yLength,
+      u1, u2
+MERGE (u1)-[s:similarity]-(u2)
+SET   s.similarity = xyDotProduct / (xLength * yLength)
+RETURN u1, u2, xyDotProduct / (xLength * yLength) as sim LIMIT 10;
+
+// Retrieve all neighbors of the testuser, and compute cosine similarity
+MATCH (u1:user {name:$testuser})-[r1:hasrated]->(i:item)<-[r2:hasrated]-(u2:user)
+WHERE NOT u2=u1 
+WITH  SUM(r1.rating * r2.rating) AS xyDotProduct,
+      SQRT(REDUCE(xDot = 0.0, a IN COLLECT(r1.rating) | xDot + a^2)) AS xLength,
+      SQRT(REDUCE(yDot = 0.0, b IN COLLECT(r2.rating) | yDot + b^2)) AS yLength,
+      u1, u2
+MERGE (u1)-[s:similarity]-(u2)
+SET   s.similarity = xyDotProduct / (xLength * yLength)
+RETURN u1, u2, xyDotProduct / (xLength * yLength) as sim LIMIT 10;
+
+// compute the individual estimated similarities
+MATCH (u1:user {name:$target})-[s1:similarity]-(u3:user)-[s2:similarity]-(u2:user {name:$testuser}) 
+RETURN u1.name,s1.similarity,u3.name,s2.similarity,u2.name, s1.similarity*s2.similarity;
+
+// compute average estimated similarity
+MATCH (u1:user {name:$target})-[s1:similarity]-(u3:user)-[s2:similarity]-(u2:user {name:$testuser}) 
+RETURN AVG(s1.similarity*s2.similarity);
+
+
+
+
+
+

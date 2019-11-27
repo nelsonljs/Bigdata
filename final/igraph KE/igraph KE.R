@@ -1,15 +1,30 @@
 pacman::p_load(igraph, visNetwork, tidyverse, ggraph, tidygraph, networkD3, lsa)
 
 #df = read.csv("C:/Users/KE/Desktop/Ing.csv", stringsAsFactors = FALSE)
-dfE = read.csv("C:/Users/KE/Desktop/Ing E.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
+dfE = read.csv("C:/Users/KE/Desktop/igraph KE/Ing.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
+
+dfE <- dfE %>%
+  filter(!grepl(pattern = 'John*', Recipe))
 
 
-df1 <- head(dfE, 250)
+df1 <- head(dfE, 100)
 #df1 <- dfE
 
+
+
+df1 %>%
+  filter(Ingredient %in% c('cardamom')) %>%
+  distinct(Recipe) -> Query_Rec; df1 %>%
+  filter(Recipe %in% Query_Rec$Recipe)%>%
+  distinct(Ingredient) -> Query_Ing; df1 %>%
+  filter(Ingredient %in% Query_Ing$Ingredient) %>%
+  distinct(Recipe) %>%
+  count()
+
+
 ####Recipe and Ingredients####
-nodes <- data.frame(id = c(unique(df1$Source), unique(df1$Target)), group = c(rep("Recipe", length(unique(df1$Source))), rep("Ingredients", length(unique(df1$Target)))))
-edges <- data.frame(from = df1$Source, to = df1$Target)
+nodes <- data.frame(id = c(unique(df1$Recipe), unique(df1$Ingredient)), group = c(rep("Recipe", length(unique(df1$Recipe))), rep("Ingredients", length(unique(df1$Ingredient)))))
+edges <- data.frame(from = df1$Recipe, to = df1$Ingredient)
 
 
 g <- graph_from_data_frame(df1, directed = F)
@@ -81,9 +96,14 @@ simpleNetwork(df1, height="100px", width="100px", charge = -100, zoom = T)
 b <- as.data.frame(betweenness(g))
 
 
-plot(edge.betweenness.community(g), g)
 
-plot(leading.eigenvector.community(g), g)
+plot(edge.betweenness.community(g), g, layout = layout_with_dh, vertex.size = 3, vertex.label.dist = 0.5, vertex.label = ifelse(V(g)$name %in% V(g)$name[1:12], V(g)$name, NA))
+
+plot(leading.eigenvector.community(g), g, layout = layout_with_dh, vertex.size = 3, vertex.label.dist = 0.5, vertex.label = ifelse(V(g)$name %in% V(g)$name[1:12], V(g)$name, NA))
+
+plot(walktrap.community(g), g, layout = layout_with_dh, vertex.size = 3, vertex.label.dist = 0.5, vertex.label = ifelse(V(g)$name %in% V(g)$name[1:12], V(g)$name, NA))
+
+
 
 
 
@@ -151,18 +171,36 @@ visNetwork(nodes, edges) %>%
 graph <- graph.data.frame(df1, directed = F)
 graph <- simplify(graph)
 
-gc <- fastgreedy.community(graph)
 gc <- edge.betweenness.community(graph)
+gc <- leading.eigenvector.community(graph)
+gc <- walktrap.community(graph)
+#gc <- fastgreedy.community(graph)
+
 #gc = cluster_optimal(graph)
 modularity(gc)
 #membership(gc)
 
 V(graph)$community <- gc$membership
+V(graph)$name
+
+graph_comm <- as.data.frame(cbind(V(graph)$name, V(graph)$community))
+colnames(graph_comm) <- c("Ingredient", "group")
+
+graph_comm <- full_join(dfE, graph_comm)
+
+
+graph_comm %>%
+  filter(Ingredient == 'cardamom') %>%
+  select(group) %>%
+  distinct() -> Query_Group; graph_comm %>%
+  filter(group == Query_Group$group & Recipe != "NA") %>%
+  distinct(Recipe)
 
 
 nodes1 <- data.frame(id = V(graph)$name, 
-                    title = V(graph)$name, 
-                    group = V(graph)$community)
+                    title = V(graph)$name,
+                    group = V(graph)$community, 
+                    group = c(rep("Recipe", length(unique(df1$Recipe))), rep("Ingredients", length(unique(df1$Ingredient)))))
 
 
 nodes1 <- nodes1[order(nodes1$id, decreasing = F),]
@@ -170,6 +208,7 @@ edges <- get.data.frame(graph, what = "edges")[1:2]
 
 
 visNetwork(nodes1, edges) %>%
+  visGroups(groupname = "Recipe", shape = "triangle") %>%
   visNodes(color = list(highlight = "red")) %>%
   visEdges(color = list(highlight = "red")) %>%
   
@@ -182,3 +221,14 @@ visNetwork(nodes1, edges) %>%
 #visPhysics(stabilization = TRUE)
 #visPhysics(solver = "repulsion")
 #visClusteringByHubsize()
+
+
+centr_degree(graph)
+closeness(graph)
+max(closeness(graph))
+
+library(CINNA)
+
+calculate_centralities(zachary, include = proper_centralities(graph)[1:5])
+
+

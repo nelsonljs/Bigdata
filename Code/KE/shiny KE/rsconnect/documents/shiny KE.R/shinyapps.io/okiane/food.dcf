@@ -1,0 +1,12 @@
+name: food
+title: food
+username:
+account: okiane
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1492246
+bundleId: 2599905
+url: https://okiane.shinyapps.io/food/
+when: 1574152031.23965
+asMultiple: FALSE
+asStatic: FALSE
