@@ -5,6 +5,9 @@ sudo yum install libcurl-devel
 sudo yum install openssl-devel
 
 
+
+
+
 #######################################################################
 #To install R
 sudo yum config-manager --set-enabled PowerTools 
@@ -28,6 +31,27 @@ conda update anaconda
 jupyter-notebook
 
 
+#Install Hive and HBase
+wget
+
+hive --service metastore & hadoop
+
+
+
+#Drill command line
+#sqlline -u jdbc:drill:drillbit=local
+drill-embedded
+
+
+
+#######################################################################
+#To configure rights
+sudo chown centos:centos -R /opt/hadoop
+
+
+ssh-keygen -t rsa (Press enter for each line)
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+chmod og-wx ~/.ssh/authorized_keys
 
 
 #######################################################################
