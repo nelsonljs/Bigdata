@@ -1,0 +1,15 @@
+The codes are presented in Jupyter Notebook format (.ipynb) so that the output can be visualized.
+To generate Python scripts, save the .ipynb files as .py file format from File > Download as > .py
+
+The main scripts are:
+01_source.ipynb
+02_cleaning_allrecipes.ipynb
+03_drill.ipynb
+UI.R
+server.R
+
+
+Alternative scripts for different recipe databases:
+01_source.ipynb retrieves recipes from All Recipes database. For BBC recipe or other recipe database, change the URL accordingly and file path for saving.
+
+02_cleaning_allrecipes.ipynb cleans recipes from All Recipes database. For BBC recipe or other recipe database, the same script can be used (e.g. 02_cleaning_bbc.ipynb), but need to just change the file path for saving.

@@ -1,19 +1,19 @@
 pacman::p_load(igraph, visNetwork, tidyverse, ggraph, tidygraph, networkD3, lsa)
 
 #df = read.csv("C:/Users/KE/Desktop/Ing.csv", stringsAsFactors = FALSE)
-dfE = read.csv("C:/Users/KE/Desktop/igraph KE/Ing.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
+dfE = read.csv("C:/Users/KE/Documents/GitHub/NUS/Bigdata/final/igraph KE/Ing.csv", stringsAsFactors = FALSE, encoding = "UTF-8")
 
 dfE <- dfE %>%
   filter(!grepl(pattern = 'John*', Recipe))
 
 
-df1 <- head(dfE, 100)
-#df1 <- dfE
+#df1 <- head(dfE, 100)
+df1 <- dfE
 
 
 
 df1 %>%
-  filter(Ingredient %in% c('cardamom')) %>%
+  filter(Ingredient %in% c('thyme')) %>%
   distinct(Recipe) -> Query_Rec; df1 %>%
   filter(Recipe %in% Query_Rec$Recipe)%>%
   distinct(Ingredient) -> Query_Ing; df1 %>%
